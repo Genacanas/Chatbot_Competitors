@@ -1,0 +1,466 @@
+[
+  {
+    "source_url": "https://www.tiierisch.de/products/mera-dog-lammknoechli-hundekekse-10kg",
+    "site_domain": "tiierisch.de",
+    "name": "Mera Dog Lammknöchli Hundekekse – 10 kg ofengebacken",
+    "price": 37.99,
+    "id": "483d1a6c-df86-4a13-8978-69d0b3516de6",
+    "scraped_at": "2026-08-13T10:44:40.270014",
+    "sku": null,
+    "brand": "Mera Dog",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "<h2>Mera Dog Lammknöchli – Knusprige Hundekekse mit Lammfleisch</h2>\n<p>Die <strong>Mera Dog Lammknöchli</strong> sind ofenfrisch gebackene Hundekekse mit 1,5 % Lammfleischmehl – ideal als Belohnung und zur Ergänzung der täglichen Futterration. Hergestellt zu 100 % in Deutschland nach Lebensmittelstandard und mit Grünstrom (CO₂-neutral).</p>\n<h3>Vorteile auf einen Blick</h3>\n<ul>\n<li>✔ <strong>Mit echtem Lammfleischmehl</strong> – 1,5 % Lammanteil</li>\n<li>✔ <strong>Ofenfrisch gebacken</strong> – knusprig und aromatisch</li>\n<li>✔ <strong>100 % Made in Germany</strong> – Produktion nach Lebensmittelstandard</li>\n<li>✔ <strong>CO₂-neutral</strong> – Produktion mit Grünstrom</li>\n<li>✔ <strong>Ohne Farb- und Konservierungsstoffe</strong>\n</li>\n<li>✔ <strong>Portionsgröße ca. 4,5 cm</strong> – ideal als Trainingsleckerli</li>\n<li>✔ <strong>Großpackung 10 kg</strong> – wirtschaftlich für den langfristigen Einsatz</li>\n</ul>\n<h3>Zusammensetzung</h3>\n<p>Getreide, Fleisch und tierische Nebenerzeugnisse (1,5 % Lammfleischmehl), Öle und Fette, Mineralstoffe</p>\n<h3>Analytische Bestandteile</h3>\n<p>Rohprotein 16,0 % | Rohfett 6,5 % | Rohfaser 2,0 % | Rohasche 6,0 %</p>\n<h3>Hinweis</h3>\n<p>Als Ergänzungsfuttermittel geeignet. Stets frisches Wasser bereitstellen.</p>",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/a20_3062798c-4834-4dcd-9293-8431d1956233.png?v=1786460399",
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/4025877436901.jpg?v=1780435604"
+    ],
+    "categories": [],
+    "tags": [
+      "Hund",
+      "Hundekekse",
+      "Hundekuchen",
+      "Hundesnack",
+      "Kauknochen",
+      "Leckerli",
+      "Mera Dog",
+      "Meradog",
+      "mwst-7",
+      "Snack"
+    ],
+    "in_stock": true,
+    "raw_data": {
+      "id": 15783646331224,
+      "title": "Mera Dog Lammknöchli Hundekekse – 10 kg ofengebacken",
+      "handle": "mera-dog-lammknoechli-hundekekse-10kg",
+      "body_html": "<h2>Mera Dog Lammknöchli – Knusprige Hundekekse mit Lammfleisch</h2>\n<p>Die <strong>Mera Dog Lammknöchli</strong> sind ofenfrisch gebackene Hundekekse mit 1,5 % Lammfleischmehl – ideal als Belohnung und zur Ergänzung der täglichen Futterration. Hergestellt zu 100 % in Deutschland nach Lebensmittelstandard und mit Grünstrom (CO₂-neutral).</p>\n<h3>Vorteile auf einen Blick</h3>\n<ul>\n<li>✔ <strong>Mit echtem Lammfleischmehl</strong> – 1,5 % Lammanteil</li>\n<li>✔ <strong>Ofenfrisch gebacken</strong> – knusprig und aromatisch</li>\n<li>✔ <strong>100 % Made in Germany</strong> – Produktion nach Lebensmittelstandard</li>\n<li>✔ <strong>CO₂-neutral</strong> – Produktion mit Grünstrom</li>\n<li>✔ <strong>Ohne Farb- und Konservierungsstoffe</strong>\n</li>\n<li>✔ <strong>Portionsgröße ca. 4,5 cm</strong> – ideal als Trainingsleckerli</li>\n<li>✔ <strong>Großpackung 10 kg</strong> – wirtschaftlich für den langfristigen Einsatz</li>\n</ul>\n<h3>Zusammensetzung</h3>\n<p>Getreide, Fleisch und tierische Nebenerzeugnisse (1,5 % Lammfleischmehl), Öle und Fette, Mineralstoffe</p>\n<h3>Analytische Bestandteile</h3>\n<p>Rohprotein 16,0 % | Rohfett 6,5 % | Rohfaser 2,0 % | Rohasche 6,0 %</p>\n<h3>Hinweis</h3>\n<p>Als Ergänzungsfuttermittel geeignet. Stets frisches Wasser bereitstellen.</p>",
+      "published_at": "2026-08-11T16:59:29+02:00",
+      "created_at": "2026-06-01T11:57:40+02:00",
+      "updated_at": "2026-08-13T12:44:03+02:00",
+      "vendor": "Mera Dog",
+      "product_type": "Hundekekse",
+      "tags": [
+        "Hund",
+        "Hundekekse",
+        "Hundekuchen",
+        "Hundesnack",
+        "Kauknochen",
+        "Leckerli",
+        "Mera Dog",
+        "Meradog",
+        "mwst-7",
+        "Snack"
+      ],
+      "variants": [
+        {
+          "id": 57411176989016,
+          "title": "10 kg",
+          "option1": "10 kg",
+          "option2": null,
+          "option3": null,
+          "sku": "HG39116",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 89065609331032,
+            "product_id": 15783646331224,
+            "position": 2,
+            "created_at": "2026-06-02T23:26:41+02:00",
+            "updated_at": "2026-06-02T23:26:44+02:00",
+            "alt": "Mera Dog Lammksnöchli Hundekekse",
+            "width": 1300,
+            "height": 1300,
+            "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/4025877436901.jpg?v=1780435604",
+            "variant_ids": [
+              57411176989016
+            ]
+          },
+          "available": true,
+          "price": "37.99",
+          "grams": 10000,
+          "compare_at_price": "35.99",
+          "position": 1,
+          "product_id": 15783646331224,
+          "created_at": "2026-06-01T11:57:40+02:00",
+          "updated_at": "2026-08-13T12:44:03+02:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 92011127079256,
+          "created_at": "2026-08-11T16:59:55+02:00",
+          "position": 1,
+          "updated_at": "2026-08-11T16:59:59+02:00",
+          "product_id": 15783646331224,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/a20_3062798c-4834-4dcd-9293-8431d1956233.png?v=1786460399",
+          "width": 701,
+          "height": 599
+        },
+        {
+          "id": 89065609331032,
+          "created_at": "2026-06-02T23:26:41+02:00",
+          "position": 2,
+          "updated_at": "2026-06-02T23:26:44+02:00",
+          "product_id": 15783646331224,
+          "variant_ids": [
+            57411176989016
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/4025877436901.jpg?v=1780435604",
+          "width": 1300,
+          "height": 1300
+        }
+      ],
+      "options": [
+        {
+          "name": "Größe",
+          "position": 1,
+          "values": [
+            "10 kg"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_url": "https://www.tiierisch.de/products/smoothiedog-schleckball-inkl-eisform-zum-einfrieren",
+    "site_domain": "tiierisch.de",
+    "name": "Schleckball inkl. Eisform zum Einfrieren",
+    "price": 29.99,
+    "id": "b8ecc7b3-f560-4564-a601-388ba74dda16",
+    "scraped_at": "2026-08-13T10:44:40.270014",
+    "sku": null,
+    "brand": "SmoothieDog",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "<p data-start=\"94\" data-end=\"476\">Entdecke den <strong data-start=\"107\" data-end=\"163\">SmoothieDog Schleckball inkl. Eisform zum Einfrieren</strong> – perfekt für den Sommer!</p>\r\n<p data-start=\"94\" data-end=\"476\">Mit diesem innovativen Schleckball kannst du deinem Hund auf spielerische Weise eine leckere Erfrischung bieten. Einfach die Smoothies in die beiliegende Eisform füllen, einfrieren und in den Schleckball einsetzen – schon hat dein Vierbeiner einen gesunden und spaßigen Schleck-Snack.</p>\r\n<p data-start=\"478\" data-end=\"893\">Der Schleckball ist <strong data-start=\"498\" data-end=\"505\">neu</strong>, sorgt für Abwechslung im Hundealltag und hilft deinem Liebling, sich spielerisch abzukühlen. <br>Ob als sommerlicher Smoothie-Snack, als Beschäftigung oder als gesunde Belohnung – mit dem SmoothieDog Schleckball investierst du in mehr Spaß und Wohlbefinden für deinen Hund.</p>\r\n<p data-start=\"478\" data-end=\"893\">Jetzt online günstig kaufen und von Top-Preisen, Schnäppchen, Sale-Angeboten und attraktiven Rabatten profitieren.</p>",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball1.3.jpg?v=1780453379",
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball3_x1000_y1000.jpg?v=1780453379",
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball4_x1000_y1000.jpg?v=1780453379",
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball5_x1000_y1000.jpg?v=1780453379",
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball1.1.jpg?v=1780453379",
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball2_x1000_y1000.jpg?v=1780453379",
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball1.4.jpg?v=1780453380",
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball_2_x1000_y1000.2.jpg?v=1780453379"
+    ],
+    "categories": [],
+    "tags": [
+      "Abkühlen",
+      "Hund",
+      "mwst-19",
+      "neu",
+      "Schleck",
+      "Schleckball",
+      "Schleckplatte",
+      "Smoothie",
+      "Sommer"
+    ],
+    "in_stock": true,
+    "raw_data": {
+      "id": 15783886750040,
+      "title": "Schleckball inkl. Eisform zum Einfrieren",
+      "handle": "smoothiedog-schleckball-inkl-eisform-zum-einfrieren",
+      "body_html": "<p data-start=\"94\" data-end=\"476\">Entdecke den <strong data-start=\"107\" data-end=\"163\">SmoothieDog Schleckball inkl. Eisform zum Einfrieren</strong> – perfekt für den Sommer!</p>\r\n<p data-start=\"94\" data-end=\"476\">Mit diesem innovativen Schleckball kannst du deinem Hund auf spielerische Weise eine leckere Erfrischung bieten. Einfach die Smoothies in die beiliegende Eisform füllen, einfrieren und in den Schleckball einsetzen – schon hat dein Vierbeiner einen gesunden und spaßigen Schleck-Snack.</p>\r\n<p data-start=\"478\" data-end=\"893\">Der Schleckball ist <strong data-start=\"498\" data-end=\"505\">neu</strong>, sorgt für Abwechslung im Hundealltag und hilft deinem Liebling, sich spielerisch abzukühlen. <br>Ob als sommerlicher Smoothie-Snack, als Beschäftigung oder als gesunde Belohnung – mit dem SmoothieDog Schleckball investierst du in mehr Spaß und Wohlbefinden für deinen Hund.</p>\r\n<p data-start=\"478\" data-end=\"893\">Jetzt online günstig kaufen und von Top-Preisen, Schnäppchen, Sale-Angeboten und attraktiven Rabatten profitieren.</p>",
+      "published_at": "2026-08-10T10:43:41+02:00",
+      "created_at": "2026-06-01T13:06:49+02:00",
+      "updated_at": "2026-08-13T12:44:03+02:00",
+      "vendor": "SmoothieDog",
+      "product_type": "Schleckplatte",
+      "tags": [
+        "Abkühlen",
+        "Hund",
+        "mwst-19",
+        "neu",
+        "Schleck",
+        "Schleckball",
+        "Schleckplatte",
+        "Smoothie",
+        "Sommer"
+      ],
+      "variants": [
+        {
+          "id": 57411946611032,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "SB100",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 89084998386008,
+            "product_id": 15783886750040,
+            "position": 1,
+            "created_at": "2026-06-03T04:22:56+02:00",
+            "updated_at": "2026-06-03T04:22:59+02:00",
+            "alt": "Schleckball inkl. Eisform zum Einfrieren – Durchmesser 9 cm, Höhe 7,5 cm",
+            "width": 1300,
+            "height": 1300,
+            "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball1.3.jpg?v=1780453379",
+            "variant_ids": [
+              57411946611032
+            ]
+          },
+          "available": false,
+          "price": "29.99",
+          "grams": 500,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15783886750040,
+          "created_at": "2026-06-01T13:06:49+02:00",
+          "updated_at": "2026-08-13T12:44:03+02:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 89084998386008,
+          "created_at": "2026-06-03T04:22:56+02:00",
+          "position": 1,
+          "updated_at": "2026-06-03T04:22:59+02:00",
+          "product_id": 15783886750040,
+          "variant_ids": [
+            57411946611032
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball1.3.jpg?v=1780453379",
+          "width": 1300,
+          "height": 1300
+        },
+        {
+          "id": 89084998418776,
+          "created_at": "2026-06-03T04:22:56+02:00",
+          "position": 2,
+          "updated_at": "2026-06-03T04:22:59+02:00",
+          "product_id": 15783886750040,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball3_x1000_y1000.jpg?v=1780453379",
+          "width": 1300,
+          "height": 1300
+        },
+        {
+          "id": 89084998451544,
+          "created_at": "2026-06-03T04:22:56+02:00",
+          "position": 3,
+          "updated_at": "2026-06-03T04:22:59+02:00",
+          "product_id": 15783886750040,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball4_x1000_y1000.jpg?v=1780453379",
+          "width": 1300,
+          "height": 1300
+        },
+        {
+          "id": 89084998484312,
+          "created_at": "2026-06-03T04:22:56+02:00",
+          "position": 4,
+          "updated_at": "2026-06-03T04:22:59+02:00",
+          "product_id": 15783886750040,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball5_x1000_y1000.jpg?v=1780453379",
+          "width": 1300,
+          "height": 1300
+        },
+        {
+          "id": 89084998517080,
+          "created_at": "2026-06-03T04:22:56+02:00",
+          "position": 5,
+          "updated_at": "2026-06-03T04:22:59+02:00",
+          "product_id": 15783886750040,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball1.1.jpg?v=1780453379",
+          "width": 1300,
+          "height": 1300
+        },
+        {
+          "id": 89084998549848,
+          "created_at": "2026-06-03T04:22:56+02:00",
+          "position": 6,
+          "updated_at": "2026-06-03T04:22:59+02:00",
+          "product_id": 15783886750040,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball2_x1000_y1000.jpg?v=1780453379",
+          "width": 1300,
+          "height": 1300
+        },
+        {
+          "id": 89084998582616,
+          "created_at": "2026-06-03T04:22:56+02:00",
+          "position": 7,
+          "updated_at": "2026-06-03T04:23:00+02:00",
+          "product_id": 15783886750040,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball1.4.jpg?v=1780453380",
+          "width": 1300,
+          "height": 1300
+        },
+        {
+          "id": 89084998615384,
+          "created_at": "2026-06-03T04:22:56+02:00",
+          "position": 8,
+          "updated_at": "2026-06-03T04:22:59+02:00",
+          "product_id": 15783886750040,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/Schleckball_2_x1000_y1000.2.jpg?v=1780453379",
+          "width": 1300,
+          "height": 1300
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_url": "https://www.tiierisch.de/products/sommerpaket-hunde-freshe-schnauze-frucht-topping-eisform",
+    "site_domain": "tiierisch.de",
+    "name": "Sommerpaket für Hunde – 5 x 200 g Freshe Schnauze Frucht-Topping + gratis Eisform & Eisstiele",
+    "price": 8.78,
+    "id": "6adf73cb-8fcc-4433-aa4e-db9e1dfe5016",
+    "scraped_at": "2026-08-13T10:44:40.270014",
+    "sku": null,
+    "brand": "Bosch",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "<h2>Sommerpaket für Hunde – <br>Fruchtiger Eisgenuß aus dem Napf</h2>\n<p>Verwöhne deinen Hund an heißen Sommertagen mit dem <strong>Freshe Schnauze Frucht-Topping</strong> – 5 Portionsbeutel à 200 g mit fruchtigem Obstgarten-Mix. Schonend dampfgegart, vegan und ohne Zuckerzusatz – als erfrischendes Topping oder selbstgemachtes Hundeeis.</p>\n<h3>Das steckt drin</h3>\n<ul>\n<li>5 x 200 g Freshe Schnauze Frucht-Topping</li>\n<li>Fruchtiger Obstgarten-Mix mit Äpfeln, Birnen &amp; Blaubeeren</li>\n<li>Vegan &amp; ohne Zuckerzusatz</li>\n<li>Schonend dampfgegart – frisch wie selbst gekocht</li>\n<li>Als Topping oder Hundeeis verwendbar</li>\n<li>Für ausgewachsene Hunde geeignet</li>\n<li><strong>Gratis Hundeeisform &amp; Eisstiele inklusive</strong></li>\n</ul>\n<h3>Warum Freshe Schnauze Frucht-Topping?</h3>\n<p>Äpfel liefern Pektine für eine gesunde Verdauung, saftige Birnen wertvolle Vitamine und Ballaststoffe, und Blaubeeren sind reich an Vitamin E für die Zellfunktion. Eine erfrischende Ergänzung zu jedem Alleinfutter – ob Trockenfutter, Nassfutter oder BARF.</p>",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/s1_08a25feb-0214-40dd-a373-ee5c62829873.png?v=1785754382",
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/s2_863d20c0-4134-4714-92a7-bf561c4fedde.png?v=1785754382",
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/s3_7e335a1c-4755-4883-980e-fa820582bdd9.png?v=1785754382",
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/s4_d485aeaa-dbe8-4aaf-93d5-bd935938c1db.png?v=1785754382",
+      "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/s5_c584a485-6a32-4d3c-923b-1073ad744403.png?v=1785754382"
+    ],
+    "categories": [],
+    "tags": [
+      "Eis",
+      "getreidefrei",
+      "Hund",
+      "mwst-7",
+      "Nassfutter",
+      "NEU",
+      "New",
+      "Pastete",
+      "Schleckmatte",
+      "Sommer",
+      "Topping",
+      "vegan"
+    ],
+    "in_stock": true,
+    "raw_data": {
+      "id": 15910484214104,
+      "title": "Sommerpaket für Hunde – 5 x 200 g Freshe Schnauze Frucht-Topping + gratis Eisform & Eisstiele",
+      "handle": "sommerpaket-hunde-freshe-schnauze-frucht-topping-eisform",
+      "body_html": "<h2>Sommerpaket für Hunde – <br>Fruchtiger Eisgenuß aus dem Napf</h2>\n<p>Verwöhne deinen Hund an heißen Sommertagen mit dem <strong>Freshe Schnauze Frucht-Topping</strong> – 5 Portionsbeutel à 200 g mit fruchtigem Obstgarten-Mix. Schonend dampfgegart, vegan und ohne Zuckerzusatz – als erfrischendes Topping oder selbstgemachtes Hundeeis.</p>\n<h3>Das steckt drin</h3>\n<ul>\n<li>5 x 200 g Freshe Schnauze Frucht-Topping</li>\n<li>Fruchtiger Obstgarten-Mix mit Äpfeln, Birnen &amp; Blaubeeren</li>\n<li>Vegan &amp; ohne Zuckerzusatz</li>\n<li>Schonend dampfgegart – frisch wie selbst gekocht</li>\n<li>Als Topping oder Hundeeis verwendbar</li>\n<li>Für ausgewachsene Hunde geeignet</li>\n<li><strong>Gratis Hundeeisform &amp; Eisstiele inklusive</strong></li>\n</ul>\n<h3>Warum Freshe Schnauze Frucht-Topping?</h3>\n<p>Äpfel liefern Pektine für eine gesunde Verdauung, saftige Birnen wertvolle Vitamine und Ballaststoffe, und Blaubeeren sind reich an Vitamin E für die Zellfunktion. Eine erfrischende Ergänzung zu jedem Alleinfutter – ob Trockenfutter, Nassfutter oder BARF.</p>",
+      "published_at": "2026-08-03T12:54:42+02:00",
+      "created_at": "2026-08-03T12:42:09+02:00",
+      "updated_at": "2026-08-13T12:44:03+02:00",
+      "vendor": "Bosch",
+      "product_type": "Nassfutter",
+      "tags": [
+        "Eis",
+        "getreidefrei",
+        "Hund",
+        "mwst-7",
+        "Nassfutter",
+        "NEU",
+        "New",
+        "Pastete",
+        "Schleckmatte",
+        "Sommer",
+        "Topping",
+        "vegan"
+      ],
+      "variants": [
+        {
+          "id": 57852703244632,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "HG9121272",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "8.78",
+          "grams": 1000,
+          "compare_at_price": "9.75",
+          "position": 1,
+          "product_id": 15910484214104,
+          "created_at": "2026-08-03T12:42:09+02:00",
+          "updated_at": "2026-08-13T12:44:03+02:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 91858384552280,
+          "created_at": "2026-08-03T12:52:59+02:00",
+          "position": 1,
+          "updated_at": "2026-08-03T12:53:02+02:00",
+          "product_id": 15910484214104,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/s1_08a25feb-0214-40dd-a373-ee5c62829873.png?v=1785754382",
+          "width": 730,
+          "height": 627
+        },
+        {
+          "id": 91858384585048,
+          "created_at": "2026-08-03T12:52:59+02:00",
+          "position": 2,
+          "updated_at": "2026-08-03T12:53:02+02:00",
+          "product_id": 15910484214104,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/s2_863d20c0-4134-4714-92a7-bf561c4fedde.png?v=1785754382",
+          "width": 735,
+          "height": 553
+        },
+        {
+          "id": 91858384453976,
+          "created_at": "2026-08-03T12:52:59+02:00",
+          "position": 3,
+          "updated_at": "2026-08-03T12:53:02+02:00",
+          "product_id": 15910484214104,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/s3_7e335a1c-4755-4883-980e-fa820582bdd9.png?v=1785754382",
+          "width": 710,
+          "height": 586
+        },
+        {
+          "id": 91858384486744,
+          "created_at": "2026-08-03T12:52:59+02:00",
+          "position": 4,
+          "updated_at": "2026-08-03T12:53:02+02:00",
+          "product_id": 15910484214104,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/s4_d485aeaa-dbe8-4aaf-93d5-bd935938c1db.png?v=1785754382",
+          "width": 767,
+          "height": 578
+        },
+        {
+          "id": 91858384519512,
+          "created_at": "2026-08-03T12:52:59+02:00",
+          "position": 5,
+          "updated_at": "2026-08-03T12:53:02+02:00",
+          "product_id": 15910484214104,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/s5_c584a485-6a32-4d3c-923b-1073ad744403.png?v=1785754382",
+          "width": 714,
+          "height": 569
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    }
+  }
+]

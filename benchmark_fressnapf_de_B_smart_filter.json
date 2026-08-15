@@ -1,0 +1,60 @@
+{
+    "mode": "B_smart_filter",
+    "domain": "fressnapf.de",
+    "config": {
+        "limit": 50,
+        "browser_workers": 3,
+        "html_max_chars": 25000
+    },
+    "sitemap_stats": {
+        "total_urls_discovered": 37085,
+        "urls_after_filter": 37085,
+        "pattern_derived": null,
+        "pattern_cost_usd": 0.0
+    },
+    "extraction_stats": {
+        "urls_attempted": "unknown",
+        "urls_successful": 50,
+        "total_llm_tokens": 600938,
+        "total_llm_cost_usd": 0.045070349999999995,
+        "execution_time_seconds": 149.84102511405945
+    },
+    "products_preview": [
+        {
+            "name": "Clicker & Target Sticks für Katzen",
+            "price": null,
+            "currency": "EUR",
+            "sku": null,
+            "brand": null,
+            "description": null,
+            "images": [],
+            "in_stock": null,
+            "categories": [
+                "Katzenspielzeug"
+            ],
+            "source_url": "https://www.fressnapf.de/c/katze/katzenspielzeug/clicker-target-sticks/"
+        },
+        {
+            "name": "Supravit Johannisbrot 2 kg Eimer Pferdeleckerli",
+            "price": null,
+            "currency": null,
+            "sku": "2382892",
+            "brand": "Supravit Leckerli",
+            "description": "100 % rein natürliche Fruchtschalen vom Johannisbrotbaum, ohne künstliche Zusätze, besonders schmackhaft.",
+            "images": [
+                "https://media.os.fressnapf.com/products-v2/d/7/8/7/d787e33b71d71e67427ec6ba014fd6cc98cf657d_2382892_0_de_81c5d0f2bb4b44f7b35986208df12978.jpg",
+                "https://media.os.fressnapf.com/products-v2/c/3/1/c/c31cbdaa9a6ff94dc9e351ea45f4fda9ca1bc558_2382892_1_de_8be93ca5b91a431da1f7829cceaaf6a4.jpg",
+                "https://media.os.fressnapf.com/products-v2/f/f/d/4/ffd4e1d5586835c00aa7bad7b6b398d67ca6d67e_2382892_2_de_3d9627adbb9c4de79d510a36e5ef783c.jpg",
+                "https://media.os.fressnapf.com/products-v2/9/9/f/9/99f9dbb8638c5591ddb89892157dc9c68f876f47_2382892_3_de_0f8a37f2678440eb8c6b6eeed59e16a4.jpg",
+                "https://media.os.fressnapf.com/products-v2/7/1/3/4/7134c30078dcabcc3d45ab1ee1160c721d84f60b_2382892_4_de_0d9519271b3248deb915f79633984e6f.jpg",
+                "https://media.os.fressnapf.com/products-v2/6/c/4/3/6c4312561758dc77e919d57cb533191d70d7c758_2382892_5_de_4b29d7d6265a4ed0a1ee7524837f6c8e.jpg",
+                "https://media.os.fressnapf.com/products-v2/c/3/3/8/c33892c6bb7a2335717ea7d84fd1cec706b812c0_2382892_6_de_2d959e8bfd664bc6ba51a5a9485ff094.jpg",
+                "https://media.os.fressnapf.com/products-v2/7/7/5/1/7751d03697f3d9b0ebf05c0654ed7273b46e1ab4_2382892_7_de_6cd65e15d7354f55ac728b7f237bce93.jpg",
+                "https://media.os.fressnapf.com/products-v2/6/7/1/2/67126b463ae3c59f15c4db3ec5949f48e72f8c50_2382892_8_de_817c728b43544c429513e3c95bcbbc89.jpg"
+            ],
+            "in_stock": null,
+            "categories": [],
+            "source_url": "https://www.fressnapf.de/p/supravit-johannisbrot-2-kg-eimer-pferdeleckerli-2382892/"
+        }
+    ]
+}

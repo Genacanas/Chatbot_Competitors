@@ -1,0 +1,96 @@
+[
+  {
+    "source_url": "https://www.vet-concept.com/p/fuer-die-katze-cat-allergy-gans",
+    "site_domain": "vet-concept.com",
+    "name": "Cat Allergy Gans",
+    "price": 23.9,
+    "id": "2e17dee8-2980-4105-814f-d772a4d6df37",
+    "scraped_at": "2026-08-13T10:42:54.202449",
+    "sku": "333015",
+    "brand": "Vet-Concept",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "CAT ALLERGY GANS - Schmackhafte Premiumnahrung für futtersensible Katzen. Alleinfuttermittel für adulte Katzen. Futtersensible Katzen sind in ihrer Ernährung besonders anspruchsvoll. Für bestmögliche Verträglichkeit und den Erhalt ihrer Fitness benötigen sie eine leicht verdauliche, genau ausbalancierte Nahrung mit ausgewählten Zutaten, im Idealfall mit nur einer tierischen Proteinquelle. Die optimale Ernährung berücksichtigt zudem den Bedarf an wertvollen Ballaststoffen für das Darmmikrobiom und einen angepassten Gehalt an essenziellen Fettsäuren. CAT ALLERGY GANS erfüllt die Nährstoffbedürfnisse dieser Katzen, insbesondere durch die Verwendung von einer hochwertigen Proteinquelle und dem Gehalt an lebenswichtiger Linolsäure. Die Rezeptur weist ausgewogene Mineralstoffgehalte auf, um die Harnwegsgesundheit zu unterstützen. Die Krokette fördert durch Form und Struktur die Akzeptanz, die Kautätigkeit und den Zahnpflege-Effekt. CAT ALLERGY GANS ist für Kurz- und Langhaarkatzen zu empfehlen.",
+    "images": [
+      "https://www.vet-concept.com/$WS/vet-concept/websale8_shop-vet-concept/produkte/medien/bilder/gross/Cat-Allergy-Gans-_-33310.webp",
+      "https://www.vet-concept.com/$WS/vet-concept/websale8_shop-vet-concept/produkte/medien/bilder/gross/33310_1.webp"
+    ],
+    "categories": [
+      "FÜR DIE KATZE",
+      "Trockenfutter"
+    ],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {}
+  },
+  {
+    "source_url": "https://www.vet-concept.com/p/fuer-den-hund-hundemenue-sensitive-diet-hirsch?d=1&emcs0=3&emcs1=Startseite&emcs2=&emcs3=M120018",
+    "site_domain": "vet-concept.com",
+    "name": "Hundemenü Sensitive Diet Hirsch",
+    "price": 12.3,
+    "id": "fbdd54b1-00b7-44bf-9990-84d50b8227ae",
+    "scraped_at": "2026-08-13T10:42:54.202449",
+    "sku": "1206-18",
+    "brand": "Vet-Concept",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "Alleinfuttermittel für adulte Hunde. Die Rezeptur wurde unter bewusstem Verzicht auf häufig verwendete Futterstoffe entwickelt. Hirschfleisch gilt als gut verträgliche Eiweißquelle und ist zudem reich an wertvollen Aminosäuren. Mit essenziellen Fettsäuren für eine gesunde Haut und glänzendes Fell. SENSITIVE DIET HIRSCH ist aufgrund der ausgewählten Zutaten für eine Ausschlussfütterung bei futtersensiblen Hunden geeignet.",
+    "images": [
+      "https://www.vet-concept.com/$WS/vet-concept/websale8_shop-vet-concept/produkte/medien/bilder/gross/Hundemenue-Sensitive-Diet-Hirsch-_-1200-18.webp"
+    ],
+    "categories": [
+      "FÜR DEN HUND",
+      "Nassfutter"
+    ],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {}
+  },
+  {
+    "source_url": "https://www.vet-concept.com/p/fuer-den-hund-kaukaese-2-stk",
+    "site_domain": "vet-concept.com",
+    "name": "Kaukäse, 2 Stk.",
+    "price": 11.9,
+    "id": "338fad36-0383-4b11-8c87-ac5a8b14e046",
+    "scraped_at": "2026-08-13T10:42:54.202449",
+    "sku": "6150",
+    "brand": "Vet-Concept",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "DIE ALTERNATIVE FÜR LANGEN KAUSPASS Ein langlebiger Kauartikel aus Käse. Ist das kein Widerspruch? Nicht, wenn es sich dabei um unsere Hartkäse-Stangen handelt. Mit den verschiedenen Größen und Gewichten findet sich für jedes Leckermaul schnell der passende Snack. Ob Ihr Hund nun gerne kaut, schabt oder schleckt - diese attraktiven Käse-Stangen unterstützen die Zahnpflege und bieten ein langes Kauvergnügen. KAUKÄSE Einzelfuttermittel für Hunde Die circa 15-18 cm langen und unterschiedlich dicken Käsestangen laden Hunde zum ausgiebigen Bearbeiten mit Zähnen und Zunge ein. Dank ihrer Festigkeit bleiben die Stangen lange in Form und können je nach Hundegröße und Kauintensität über mehrere Tage angeboten werden. Eine Packung enthält 2 Stücke Kaukäse. Gewicht pro Packung (2 Stück): Größe S: ca. 100 - 120 g Größe M: ca. 160 - 180 g Größe L: ca. 200 - 220 g Zusammensetzung: Käse (100 % Kuhmilch)",
+    "images": [
+      "https://www.vet-concept.com/$WS/vet-concept/produkte/medien/bilder/gross/Kaukaese-2-Stk-_-6150.webp"
+    ],
+    "categories": [
+      "FÜR DEN HUND",
+      "Kauartikel"
+    ],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {}
+  },
+  {
+    "source_url": "https://www.vet-concept.com/p/fuer-den-hund-dog-sana-pferd-mini",
+    "site_domain": "vet-concept.com",
+    "name": "Dog Sana Pferd Mini",
+    "price": 7.5,
+    "id": "f4a0c568-062a-476a-b01a-ba49f5783968",
+    "scraped_at": "2026-08-13T11:21:18.945035",
+    "sku": "94016-1",
+    "brand": "Vet-Concept",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "Diät-Alleinfuttermittel für adulte Hunde kleiner Rassen zur Minderung von Ausgangserzeugnis- und Nährstoffintoleranzerscheinungen. Die Rezeptur enthält nur ausgewählte und zahlenmäßig begrenzte Proteinquellen und ausgewählte Kohlenhydratquellen. Die kleine Krokette sorgt durch Form und Struktur für beste Akzeptanz, fördert die Kautätigkeit und den Zahnpflege-Effekt.",
+    "images": [
+      "https://www.vet-concept.com/$WS/vet-concept/websale8_shop-vet-concept/produkte/medien/bilder/gross/Dog-Sana-Pferd-Mini-_-94101.jpg",
+      "https://www.vet-concept.com/$WS/vet-concept/websale8_shop-vet-concept/produkte/medien/bilder/gross/94101_1.jpg"
+    ],
+    "categories": [
+      "FÜR DEN HUND",
+      "Trockenfutter"
+    ],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {}
+  }
+]

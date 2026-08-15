@@ -1,0 +1,14 @@
+Domain,Platform,Extracted,Time_sec,LLM_Tokens,Emb_Tokens,Cost_USD,Status
+alphazoo.de,shopify,50,45.62,0,5670,0.00011,OK
+aniforte.de,shopify,50,41.22,0,6068,0.00012,OK
+bitiba.de,unknown,0,5.5,0,0,0.0,NO_PRODUCTS
+dehner.de,nextjs,50,190.08,0,5838,0.00012,OK
+fressnapf.de,unknown,50,996.32,2185709,6525,0.16406,OK
+futterhaus.de,ERROR,0,0,0,0,0.0,"ERROR: null value in column ""name"" of relation ""products"""
+kika.lt,shopify,50,41.29,0,8390,0.00017,OK
+koelle-zoo.de,unknown,50,673.76,1557693,5123,0.11693,OK
+petsdeli.de,nextjs,46,202.66,0,3206,6e-05,OK
+tiierisch.de,shopify,50,42.13,0,6902,0.00014,OK
+vet-concept.com,ERROR,0,0,0,0,0.0,"ERROR: null value in column ""name"" of relation ""products"""
+zooplus.de,nextjs,0,258.38,0,0,0.0,NO_PRODUCTS
+zooroyal.de,nextjs,50,138.33,0,5910,0.00012,OK

@@ -1,0 +1,26 @@
+[
+  {
+    "source_url": "https://www.koelle-zoo.de/katze/katzenspielzeug/clicker-target-sticks-fuer-katzen/",
+    "site_domain": "koelle-zoo.de",
+    "name": "Kölle Zoo Geschenkkarte Gutschein 25 €",
+    "price": 25.0,
+    "id": "dd3aaad5-716a-4fa0-af3a-4e2afd50e922",
+    "scraped_at": "2026-08-13T10:48:40.425176",
+    "sku": "22275479",
+    "brand": null,
+    "original_price": null,
+    "currency": "EUR",
+    "description": null,
+    "images": [
+      "https://ecommerce.koelle-zoo.de/media/29/5c/35/1785798982/22275479_1.jpg?ts=1785798982"
+    ],
+    "categories": [
+      "Katze",
+      "Katzenspielzeug",
+      "Clicker & Target Sticks für Katzen"
+    ],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {}
+  }
+]

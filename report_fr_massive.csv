@@ -1,0 +1,10 @@
+Domain,Platform,Extracted,Time_sec,LLM_Tokens,Emb_Tokens,Cost_USD,Status
+zoomalia.com,unknown,0,11.24,0,0,0.0,NO_PRODUCTS
+maxizoo.fr,unknown,608,1101.18,3404543,19510,0.25573,OK
+wanimo.com,shopify,0,7445.72,1027105,0,0.07703,NO_PRODUCTS
+vetostore.com,unknown,0,10.96,0,0,0.0,NO_PRODUCTS
+animalis.com,unknown,612,3721.07,5828210,43138,0.43798,OK
+lacompagniedesanimaux.com,unknown,0,10.99,0,0,0.0,NO_PRODUCTS
+croquetteland.com,unknown,0,10.48,0,0,0.0,NO_PRODUCTS
+entrenous.fr,unknown,417,2228.01,1126736,38391,0.08527,OK
+brekz.fr,unknown,0,15.1,0,0,0.0,NO_PRODUCTS

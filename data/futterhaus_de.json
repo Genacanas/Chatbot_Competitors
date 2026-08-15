@@ -1,0 +1,62 @@
+[
+  {
+    "source_url": "https://www.futterhaus.de/p/wildkind-adult-great-woods-huhn-mit-wildschwein-4kg-P7000032176-7000032196/",
+    "site_domain": "futterhaus.de",
+    "name": "WILDKIND Adult Great Woods Huhn mit Wildschwein 4kg",
+    "price": 29.99,
+    "id": "baa66829-2793-4ad4-bd25-d82debbc459e",
+    "scraped_at": "2026-08-13T10:43:29.382539",
+    "sku": null,
+    "brand": "WILDKIND",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "61,1 % Fleisch mit Waldbeeren und Wildkräutern, Getreidefreie Rezeptur, Ab ca. 1 Jahr",
+    "images": [
+      "https://media.futterhaus.de/Normal_PDP/4251166827185_1.webp"
+    ],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {}
+  },
+  {
+    "source_url": "https://www.futterhaus.de/p/rinti-kennerfleisch-senior-rind-400g-P7000060108-7000060110/",
+    "site_domain": "futterhaus.de",
+    "name": "12 x RINTI Kennerfleisch Senior Rind 400g",
+    "price": 20.28,
+    "id": "0f08ac4a-9f2e-4557-8c37-892ed0cc076a",
+    "scraped_at": "2026-08-13T10:43:29.382539",
+    "sku": null,
+    "brand": "RINTI",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "Nassfutter: RINTI Kennerfleisch Senior. Schnelle Lieferung ✓ Große Auswahl ✓ Jetzt online kaufen ✓",
+    "images": [
+      "https://media.futterhaus.de/Normal_PDP/4000158925459_1.webp"
+    ],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {}
+  },
+  {
+    "source_url": "https://www.futterhaus.de/p/wildkind-adult-meadow-farm-gefluegel-400g-P7000093100-7000093102/",
+    "site_domain": "futterhaus.de",
+    "name": "6 x WILDKIND Adult Meadow Farm Geflügel 400g",
+    "price": 17.94,
+    "id": "449f8c60-1452-457f-83e1-f50e4790f81b",
+    "scraped_at": "2026-08-13T10:43:29.382539",
+    "sku": null,
+    "brand": "WILDKIND",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "99 % tierisches Protein, Getreidefreie Rezeptur, Für ausgewachsene Katzen",
+    "images": [
+      "https://media.futterhaus.de/Normal_PDP/4251166852095.webp"
+    ],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {}
+  }
+]

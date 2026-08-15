@@ -1,0 +1,3396 @@
+[
+  {
+    "source_url": "https://www.zooroyal.de/p/happy-dog-supreme-fit-vital-senior-12kg/1000076511/",
+    "site_domain": "zooroyal.de",
+    "name": "ProductGroup 1000076511",
+    "price": 43.59,
+    "id": "9d037a12-2061-4669-b7cf-5039206b0402",
+    "scraped_at": "2026-08-13T10:15:04.896023",
+    "sku": "1000076511",
+    "brand": "",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "",
+    "images": [],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {
+      "schema_org": {
+        "@context": "https://schema.org",
+        "@type": "ProductGroup",
+        "name": "ProductGroup 1000076511",
+        "productGroupID": "1000076511",
+        "variesBy": [
+          "https://schema.org/size"
+        ],
+        "hasVariant": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "@id": "#sku_1000076511",
+            "url": "https://www.zooroyal.de/p/happy-dog-supreme-fit-vital-senior-12kg/1000076511",
+            "name": "Happy Dog Supreme fit & vital Senior - 12kg",
+            "brand": {
+              "@type": "Brand",
+              "name": "Happy Dog"
+            },
+            "category": "Hunde-Trockenfutter",
+            "size": "12kg",
+            "description": "Happy Dog fit & vital Senior ist perfekt abgestimmt auf die Bedürfnisse älterer Hunde, da sich mit zunehmendem Alter der Organstoffwechsel verändert. Die leckere und bekömmliche Vollnahrung mit optimalem Protein-, Phosphor-, und Natriumgehalt schont die Organe und basiert auf dem einzigartigen Happy Dog Natural Life Concept&reg;. Die organschonende Rezeptur eignet sich ideal für ältere Hunde und unterstützt Vitalität und Lebensfreude bis ins hohe Alter. Artikeldetails : Organschonende Rezeptur Mit L-Carnitin Ohne Zuckerzusatz Weizenfrei",
+            "sku": "1000076511",
+            "gtin13": "4001967135374",
+            "image": [
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/drca2a-hjZd5wwK.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/3sz917-xxNJBZpL.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/3sfgfu-NOYgbLpL.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/3rvnuh-lIQB67Sm.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/3rbv94-35lkdv4_.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/3qs2nr-O3Ev3vrz.jpg"
+              }
+            ],
+            "weight": {
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "unit": "KGM",
+              "value": 1218000
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "url": "https://www.zooroyal.de/p/happy-dog-supreme-fit-vital-senior-12kg/1000076511",
+                "priceCurrency": "EUR",
+                "price": 43.59,
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                  "@type": "Organization",
+                  "@id": "https://www.zooroyal.de/#organization",
+                  "name": "ZooRoyal",
+                  "legalName": "ZooRoyal Petcare GmbH",
+                  "url": "https://www.zooroyal.de/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.zooroyal.de/#logo",
+                    "url": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "caption": "ZOOROYAL",
+                    "contentUrl": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "width": "280",
+                    "height": "60"
+                  },
+                  "image": {
+                    "@id": "https://www.zooroyal.de/#logo"
+                  },
+                  "description": "ZooRoyal - Ihr Online-Shop für Tierbedarf. Futter, Zubehör und Spielzeug für Hunde, Katzen und andere Haustiere.",
+                  "foundingDate": "2007",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Schanzenstraße 6-20",
+                    "addressLocality": "Köln",
+                    "addressRegion": "DE-NW",
+                    "postalCode": "51063",
+                    "addressCountry": {
+                      "@type": "Country",
+                      "name": "DE"
+                    }
+                  },
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-221-1773-1000",
+                    "email": "info@zooroyal.de",
+                    "contactType": "customer support"
+                  }
+                },
+                "shippingDetails": [
+                  {
+                    "@type": "OfferShippingDetails",
+                    "shippingSettingsLink": "https://www.zooroyal.de/versand-und-zahlungsbedingungen/",
+                    "shippingRate": {
+                      "@type": "MonetaryAmount",
+                      "value": 3.9,
+                      "currency": "EUR"
+                    },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "unitCode": "D"
+                      },
+                      "transitTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 1,
+                        "maxValue": 3,
+                        "unitCode": "D"
+                      }
+                    }
+                  }
+                ],
+                "hasMerchantReturnPolicy": {
+                  "@type": "MerchantReturnPolicy",
+                  "@id": "https://www.zooroyal.de/#merchantReturnPolicy",
+                  "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+                  "merchantReturnDays": 14,
+                  "returnFees": "https://schema.org/FreeReturn",
+                  "returnMethod": [
+                    "https://schema.org/ReturnByMail"
+                  ],
+                  "merchantReturnLink": "https://www.zooroyal.de/widerrufsrecht/"
+                },
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": 43.59,
+                  "priceCurrency": "EUR"
+                }
+              }
+            ],
+            "inProductGroupWithID": "1000076511",
+            "manufacturer": {
+              "@type": "Organization",
+              "name": "Interquell GmbH"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.875,
+              "ratingCount": 40,
+              "reviewCount": 40,
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-06T16:29:55.000Z",
+                "reviewBody": "Schnelle und unkomplizierte Lieferung des Hundefutters für unsere Seniorin",
+                "name": "Schnelle Lieferung"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-06-18T10:32:26.000Z",
+                "reviewBody": "Unser Labrador, über 10 Jahre alt,  frist das Senioren-Futter gern ! Er verträgt es auch gut.",
+                "name": "SENIORENFUTTER"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-06-08T10:59:24.000Z",
+                "reviewBody": "Hatte leider das falsche Futter bestellt und konnte es ohne Probleme zurück schicken. Super Service. Vielen Dank.",
+                "name": "Hatte leider das falsche Futter bestellt…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 4,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-05-24T12:57:57.000Z",
+                "reviewBody": "Meine Hunde mögen es nicht so sehr",
+                "name": "Meine Hunde mögen es nicht so sehr"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-11-10T09:37:56.000Z",
+                "reviewBody": "Produkt hat gute Qualität. Schmeckt meinen Hunden sehr gut. Einfache Bestellung und schnelle Lieferung.  Als Dauerbesteller wären manchmal Sonderprozente wünschenswert.",
+                "name": "Hundefutter"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-01-27T09:07:02.000Z",
+                "reviewBody": "Bestellung  wie immer   gutes Futter gute Verdauung",
+                "name": "Bestellung  wie immer   gutes Futter…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2024-09-29T15:41:34.000Z",
+                "reviewBody": "Viel preiswerter als im örtlichen Zooroyal Laden. Schnelle Lieferung. Paket zwar kaputt, aber Hundefuttersäcke unversehrt.",
+                "name": "Viel preiswerter als im örtlichen…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2024-08-20T09:21:56.000Z",
+                "reviewBody": "Dieses Produkt verträgt mein Hund sehr gut.\nMich stört gar nichts daran.\nFür meinen Labrador der bald 9Jahre wird und ihm schmeckt er auch.",
+                "name": "Dieses Produkt verträgt mein Hund sehr…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2024-08-11T16:39:07.000Z",
+                "reviewBody": "Meine Hündin frißt das Futter gern.",
+                "name": "Trockenfutter"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2024-07-11T17:39:02.000Z",
+                "reviewBody": "Schnelle Lieferung",
+                "name": "Schnelle Lieferung"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "url": "https://www.zooroyal.de/p/happy-dog-supreme-fit-vital-senior-2x12kg/1000076512"
+          },
+          {
+            "@type": "Product",
+            "url": "https://www.zooroyal.de/p/happy-dog-supreme-fit-vital-senior-4kg/1000076513"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source_url": "https://www.zooroyal.de/p/gf-pet-elastofit-kuehlweste-xl/1000077782/",
+    "site_domain": "zooroyal.de",
+    "name": "ProductGroup 1000077779",
+    "price": 31.99,
+    "id": "307fd089-1936-42b9-8617-60251dc68acf",
+    "scraped_at": "2026-08-13T10:15:04.896023",
+    "sku": "1000077779",
+    "brand": "",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "",
+    "images": [],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {
+      "schema_org": {
+        "@context": "https://schema.org",
+        "@type": "ProductGroup",
+        "name": "ProductGroup 1000077779",
+        "productGroupID": "1000077779",
+        "variesBy": [
+          "https://schema.org/model"
+        ],
+        "hasVariant": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "@id": "#sku_1000077782",
+            "url": "https://www.zooroyal.de/p/gf-pet-elastofit-kuehlweste-xl/1000077782",
+            "name": "GF Pet ELASTOFIT Kühlweste - XL",
+            "brand": {
+              "@type": "Brand",
+              "name": "GF PET"
+            },
+            "category": "Kühlweste",
+            "size": "XL",
+            "description": "Die GF PET&reg; Kühlweste wurde entwickelt, um Ihren Hund an heißen Tagen und unterwegs kühl und behaglich zu halten. Einfach in der Anwendung und anpassbar. Einfach nass machen, auswringen & anziehen! Mit der neuen ELASTO-FIT&reg;-Technologie passt sich diese einfache und leichte Weste perfekt an - KEIN BEINHEBEN MEHR! Hält Ihren Hund bis zu 6 Std. kühl. Anweisungen: Einfach nass machen, auswringen & anziehen. Sobald Wasser verdunstet, die Schritte wiederholen. Artikeldetails : Mit ELASTO-FIT&reg;-Technologie Hält Deinen Hund bis zu 6 Std. kühl Hilft dabei, Hunde vor hitzebedingtem Unbehagen zu schützen Länge anpassbar Leicht Antimikrobiell UV-Schutz Breite Größenauswahl Sicher und einfach zu verwenden: - Wenn Sie es aus der Verpackung nehmen, kann es bereits feucht & fertig zur Anwendung sein. - ** Vor dem Entfalten bitte stets nass machen, um Einreissen zu vermeiden. - Trocken lagern, wenn nicht in Nutzung. - Lassen Sie das Tier während der Nutzung der Kühlweste nicht unbeaufsichtigt. - Handwäsche. Modell Rückenlänge Brustumfang Gewicht geeignet für z.B. S 33 cm 38-48 cm 5-8 kg Bichon Fris&eacute;, Jack Russell Terrier M 38 cm 43-56 cm 7-10 kg Boston Terrier, Cavalier Spaniel L 46 cm 51-64 cm 9-18 kg Franz. Bulldoge, Corgi, Beagle XL 53 cm 58-71 cm 16-25 kg Border Collie, Basset Hound XXL 61 cm 66-79 cm 23-32 kg Pudel, Boxer XXXL 71 cm 76-89 cm 27-45 kg Labrador, Dobermann",
+            "sku": "1000077782",
+            "gtin13": "824348685626",
+            "image": [
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/5iidwl-sTzxGuVa.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/5hylb8-mYMvUoju.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/5hespv-htdoWvf_.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/5gv04i-WkVXLwPq.jpg"
+              }
+            ],
+            "weight": {
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "unit": "ST",
+              "value": 20000
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "url": "https://www.zooroyal.de/p/gf-pet-elastofit-kuehlweste-xl/1000077782",
+                "priceCurrency": "EUR",
+                "price": 31.99,
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                  "@type": "Organization",
+                  "@id": "https://www.zooroyal.de/#organization",
+                  "name": "ZooRoyal",
+                  "legalName": "ZooRoyal Petcare GmbH",
+                  "url": "https://www.zooroyal.de/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.zooroyal.de/#logo",
+                    "url": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "caption": "ZOOROYAL",
+                    "contentUrl": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "width": "280",
+                    "height": "60"
+                  },
+                  "image": {
+                    "@id": "https://www.zooroyal.de/#logo"
+                  },
+                  "description": "ZooRoyal - Ihr Online-Shop für Tierbedarf. Futter, Zubehör und Spielzeug für Hunde, Katzen und andere Haustiere.",
+                  "foundingDate": "2007",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Schanzenstraße 6-20",
+                    "addressLocality": "Köln",
+                    "addressRegion": "DE-NW",
+                    "postalCode": "51063",
+                    "addressCountry": {
+                      "@type": "Country",
+                      "name": "DE"
+                    }
+                  },
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-221-1773-1000",
+                    "email": "info@zooroyal.de",
+                    "contactType": "customer support"
+                  }
+                },
+                "shippingDetails": [
+                  {
+                    "@type": "OfferShippingDetails",
+                    "shippingSettingsLink": "https://www.zooroyal.de/versand-und-zahlungsbedingungen/",
+                    "shippingRate": {
+                      "@type": "MonetaryAmount",
+                      "value": 3.9,
+                      "currency": "EUR"
+                    },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "unitCode": "D"
+                      },
+                      "transitTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 1,
+                        "maxValue": 3,
+                        "unitCode": "D"
+                      }
+                    }
+                  }
+                ],
+                "hasMerchantReturnPolicy": {
+                  "@type": "MerchantReturnPolicy",
+                  "@id": "https://www.zooroyal.de/#merchantReturnPolicy",
+                  "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+                  "merchantReturnDays": 14,
+                  "returnFees": "https://schema.org/FreeReturn",
+                  "returnMethod": [
+                    "https://schema.org/ReturnByMail"
+                  ],
+                  "merchantReturnLink": "https://www.zooroyal.de/widerrufsrecht/"
+                },
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": 31.99,
+                  "priceCurrency": "EUR"
+                }
+              }
+            ],
+            "inProductGroupWithID": "1000077779",
+            "manufacturer": {
+              "@type": "Organization",
+              "name": "AS Aquaristik GmbH & Co.KG (DS)"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 3.4,
+              "ratingCount": 5,
+              "reviewCount": 5,
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 1,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-06T05:07:19.000Z",
+                "reviewBody": "Die Weste ist gut geschnitten, leider habe ich wohl eine Nummer zu klein bestellt. Mein Hund ist vom Gewicht her genau auf der Schwelle zwischen zwei Größen…\nDie Kühlleistung ist überschaubar, da gibt es bessere, zugegeben aber auch schlechtere Produkte.\nLeider riecht das Material sehr stark chemisch. Wäre das nicht der Fall, würde ich nochmal eine Nummer größer ausprobieren. So stark chemischer Geruch ist für den Einsatz an einem Spürhund aber doch eher suboptimal.\nBestimmt gibt es Konstellationen, für die dieses Produkt genau richtig ist. Ich werde die Weste aber leider zurück geben müssen.",
+                "name": "Vor- und Nachteile"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-05-11T10:40:02.000Z",
+                "reviewBody": "Sehr gut",
+                "name": "Sehr gut"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 1,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2023-07-05T12:13:25.000Z",
+                "reviewBody": "kann nicht bewertet werden, da der Artikel nicht mehr lieferbar war. Info ist erfolgt und auch eine direkte Rückerstattung des bereits gezahlten Betrages.",
+                "name": "kann nicht bewertet werden"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2022-05-21T19:03:06.000Z"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2021-04-06T08:34:58.000Z",
+                "reviewBody": "Sehr gute Qualität und sehr gut durchdacht. Man muss die Pfoten nicht versuchen durch die Löcher zu bekommen. Man zieht die Weste übern Kopf und kann dann unten um Brust und Beine führen und mit dem Klett beidseitig zumachen.",
+                "name": "Sehr gute Qualität und sehr gut durchdacht. Man muss die Pfoten nicht versuchen durch die Löcher zu bekommen."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source_url": "https://www.zooroyal.de/p/sheba-filets-schale-huhn-thunfisch-in-sauce-16x60-g/1000111521/?citrusAdId=shotgun_ZFeuRmXEcDWm_H0hgRMvaT0ZiegKDAoKMTAwMDA3MjI2NBIAGgsIlt-Q1AYQxKTHHyICCAE%3D",
+    "site_domain": "zooroyal.de",
+    "name": "ProductGroup 1000111515",
+    "price": 21.49,
+    "id": "5c569cef-f24c-467b-91f5-ca737aa6717e",
+    "scraped_at": "2026-08-13T10:15:04.896023",
+    "sku": "1000111515",
+    "brand": "",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "",
+    "images": [],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {
+      "schema_org": {
+        "@context": "https://schema.org",
+        "@type": "ProductGroup",
+        "name": "ProductGroup 1000111515",
+        "productGroupID": "1000111515",
+        "variesBy": [
+          "https://schema.org/size"
+        ],
+        "hasVariant": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "@id": "#sku_1000111521",
+            "url": "https://www.zooroyal.de/p/sheba-filets-schale-huhn-thunfisch-in-sauce-16x60-g/1000111521",
+            "name": "SHEBA Filets Schale Huhn & Thunfisch in Sauce - 16x60 g",
+            "brand": {
+              "@type": "Brand",
+              "name": "Sheba"
+            },
+            "category": "Katzen-Nassfutter",
+            "size": "16x60 g",
+            "description": "Artikeldetails: Für Katzen: SHEBA Filets in Sauce Huhn & Thunfisch Geschmack Natürliche, hochwertige Zutaten 100% natürliches Huhn & MSC-zertifizierter Fisch Ohne Farb- und Konservierungsstoffe Ernährungswissenschaftlich entwickelt Praktische 60g recyclingfähige Schalen Ein Fest für die Sinne deiner Katze SHEBA Filets Schale Huhn & Thunfisch in Sauce bietet deiner Katze ein unvergessliches Geschmackserlebnis. Mit über 40 Jahren Erfahrung in der Herstellung von hochwertigem Katzenfutter, sorgt SHEBA dafür, dass jede Mahlzeit ein Genuss wird. Die zarten Filetstücke in einer köstlichen Sauce sind nicht nur schmackhaft, sondern auch von höchster Qualität. Deine Katze wird es lieben, sich jeden Tag aufs Neue daran zu erfreuen. Hochwertige Zutaten für anspruchsvolle Katzen Diese Rezeptur verwendet 100% natürliches Huhn und MSC-zertifizierten, verantwortungsvoll bezogenen Fisch, um sicherzustellen, dass deine Katze nur das Beste erhält. Ohne den Zusatz von Farb- und Konservierungsstoffen bietet dieses Futter eine natürliche Ernährung, die selbst die anspruchsvollste Katze beeindrucken wird. Die Kombination aus Huhn und Thunfisch in einer außergewöhnlichen Sauce sorgt für eine ausgewogene und leckere Mahlzeit. Praktische und umweltfreundliche Verpackung Die SHEBA Filets werden in praktischen 60g recyclingfähigen Schalen geliefert, die einfach zu öffnen und zu servieren sind. Diese Verpackungslösung ist nicht nur bequem, sondern auch umweltfreundlich, sodass du mit gutem Gewissen füttern kannst. Die handlichen Schalen garantieren, dass jede Mahlzeit frisch und appetitlich bleibt, was das Füttern deiner Katze zu einem unkomplizierten Vergnügen macht. Von Experten entwickelt Das SHEBA Katzenfutter wurde in Zusammenarbeit mit Ernährungswissenschaftlern und Tierärzten des WALTHAM™ Petcare Science Institute entwickelt, um sicherzustellen, dass es den Ernährungsbedürfnissen erwachsener Katzen entspricht. Diese wissenschaftlich fundierte Herangehensweise garantiert, dass deine Katze eine vollwertige und ausgewogene Ernährung erhält, die sie gesund und zufrieden hält. Vertraue auf die Qualität und Expertise von SHEBA.",
+            "sku": "1000111521",
+            "gtin13": "4434567411201",
+            "image": [
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/1000111521%20%282%29-gtHvLQ85.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/1000111521%20%281%29-CYRIp82f.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/1000111521%20%284%29-CJVWonqw.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/1000111521%20%283%29-iaf45Px8.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/15_4-GGmvlu69.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/15_6-mTN4Hlzu.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/15_5-dA2b25zt.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/15_2-AmfEQOq4.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/15_3-PoYE1h9r.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/15_7-pDVYzWeq.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/15-zTsSUXcx.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/64_5-RVq41io7.jpg"
+              }
+            ],
+            "weight": {
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "unit": "KGM",
+              "value": 0
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "url": "https://www.zooroyal.de/p/sheba-filets-schale-huhn-thunfisch-in-sauce-16x60-g/1000111521",
+                "priceCurrency": "EUR",
+                "price": 21.49,
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                  "@type": "Organization",
+                  "@id": "https://www.zooroyal.de/#organization",
+                  "name": "ZooRoyal",
+                  "legalName": "ZooRoyal Petcare GmbH",
+                  "url": "https://www.zooroyal.de/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.zooroyal.de/#logo",
+                    "url": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "caption": "ZOOROYAL",
+                    "contentUrl": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "width": "280",
+                    "height": "60"
+                  },
+                  "image": {
+                    "@id": "https://www.zooroyal.de/#logo"
+                  },
+                  "description": "ZooRoyal - Ihr Online-Shop für Tierbedarf. Futter, Zubehör und Spielzeug für Hunde, Katzen und andere Haustiere.",
+                  "foundingDate": "2007",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Schanzenstraße 6-20",
+                    "addressLocality": "Köln",
+                    "addressRegion": "DE-NW",
+                    "postalCode": "51063",
+                    "addressCountry": {
+                      "@type": "Country",
+                      "name": "DE"
+                    }
+                  },
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-221-1773-1000",
+                    "email": "info@zooroyal.de",
+                    "contactType": "customer support"
+                  }
+                },
+                "shippingDetails": [
+                  {
+                    "@type": "OfferShippingDetails",
+                    "shippingSettingsLink": "https://www.zooroyal.de/versand-und-zahlungsbedingungen/",
+                    "shippingRate": {
+                      "@type": "MonetaryAmount",
+                      "value": 3.9,
+                      "currency": "EUR"
+                    },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "unitCode": "D"
+                      },
+                      "transitTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 1,
+                        "maxValue": 3,
+                        "unitCode": "D"
+                      }
+                    }
+                  }
+                ],
+                "hasMerchantReturnPolicy": {
+                  "@type": "MerchantReturnPolicy",
+                  "@id": "https://www.zooroyal.de/#merchantReturnPolicy",
+                  "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+                  "merchantReturnDays": 14,
+                  "returnFees": "https://schema.org/FreeReturn",
+                  "returnMethod": [
+                    "https://schema.org/ReturnByMail"
+                  ],
+                  "merchantReturnLink": "https://www.zooroyal.de/widerrufsrecht/"
+                },
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": 21.49,
+                  "priceCurrency": "EUR"
+                }
+              }
+            ],
+            "inProductGroupWithID": "1000111515",
+            "manufacturer": {
+              "@type": "Organization",
+              "name": ""
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 5,
+              "ratingCount": 1,
+              "reviewCount": 1,
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-07T18:39:04.000Z",
+                "reviewBody": "Klasse",
+                "name": "Klasse"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source_url": "https://www.zooroyal.de/p/dokas-huehnerbrust-in-streifen-900g/1000072705/",
+    "site_domain": "zooroyal.de",
+    "name": "ProductGroup 1000072705",
+    "price": 17.99,
+    "id": "9055aee7-b88a-4ea3-9550-2fd86cd62509",
+    "scraped_at": "2026-08-13T10:15:04.896023",
+    "sku": "1000072705",
+    "brand": "",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "",
+    "images": [],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {
+      "schema_org": {
+        "@context": "https://schema.org",
+        "@type": "ProductGroup",
+        "name": "ProductGroup 1000072705",
+        "productGroupID": "1000072705",
+        "variesBy": [
+          "https://schema.org/size"
+        ],
+        "hasVariant": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "@id": "#sku_1000072705",
+            "url": "https://www.zooroyal.de/p/dokas-huehnerbrust-in-streifen-900g/1000072705",
+            "name": "Dokas Hühnerbrust in Streifen - 900g",
+            "brand": {
+              "@type": "Brand",
+              "name": "Dokas"
+            },
+            "category": "Fleischsnacks",
+            "size": "900g",
+            "description": "Artikeldetails: Für Hunde: Dokas Hühnerbrust in Streifen Proteinreicher Snack ohne künstliche Geschmacksverstärker Getreidefrei und laktosefrei Wohlschmeckendes Huhn für ausgewachsene Hunde Hoher Fleischanteil liefert wertvolle Proteine Frei von Gluten und Farbstoffen Ideal als Belohnung oder zum Naschen Hochwertige Zutaten für deinen Hund Dokas Hühnerbrust in Streifen bietet deinem Hund einen proteinreichen Snack, der speziell auf die Bedürfnisse von ausgewachsenen Hunden abgestimmt ist. Das hochwertige Huhn sorgt für einen besonders guten Geschmack, der deinem Hund Appetit macht. Der hohe Fleischanteil liefert wertvolle Proteine und gibt deinem Hund die nötige Energie für den Tag. Für ernährungssensible Hunde geeignet Der Snack ist getreidefrei und laktosefrei, was ihn besonders für Hunde geeignet macht, die zu Allergien oder Unverträglichkeiten neigen. Auch auf die Zugabe von Farbstoffen und künstlichen Geschmacksverstärkern wird bewusst verzichtet, um deinem Hund eine natürliche und verträgliche Belohnung zu bieten. Vielseitig einsetzbar Dokas Hühnerbrust in Streifen ist nicht nur ein leckerer Snack zum Naschen, sondern auch ideal als Belohnung geeignet. Egal ob kleiner oder großer Hund, dieser Snack ist für Hunde aller Größen geeignet und wird deinem Vierbeiner bestimmt Freude bereiten. Beachte jedoch, dass Hundesnacks nur begrenzt verabreicht werden sollten. Ernährungshinweis Es ist wichtig, die Menge an Snacks, die dein Hund erhält, von seiner Hauptfutterration abzuziehen, um eine Überversorgung mit Energie zu vermeiden. Besonders wenn dein Hund zu Gewichtsproblemen neigt, solltest du mit energiereichen Snacks sparsam umgehen. Dokas Hühnerbrust in Streifen bietet eine leckere und ausgewogene Ergänzung zur täglichen Ernährung.",
+            "sku": "1000072705",
+            "gtin13": "4251276202490",
+            "image": [
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/pi0ebc-O62F6N7h.jpg"
+              }
+            ],
+            "weight": {
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "unit": "KGM",
+              "value": 96000
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "url": "https://www.zooroyal.de/p/dokas-huehnerbrust-in-streifen-900g/1000072705",
+                "priceCurrency": "EUR",
+                "price": 17.99,
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                  "@type": "Organization",
+                  "@id": "https://www.zooroyal.de/#organization",
+                  "name": "ZooRoyal",
+                  "legalName": "ZooRoyal Petcare GmbH",
+                  "url": "https://www.zooroyal.de/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.zooroyal.de/#logo",
+                    "url": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "caption": "ZOOROYAL",
+                    "contentUrl": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "width": "280",
+                    "height": "60"
+                  },
+                  "image": {
+                    "@id": "https://www.zooroyal.de/#logo"
+                  },
+                  "description": "ZooRoyal - Ihr Online-Shop für Tierbedarf. Futter, Zubehör und Spielzeug für Hunde, Katzen und andere Haustiere.",
+                  "foundingDate": "2007",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Schanzenstraße 6-20",
+                    "addressLocality": "Köln",
+                    "addressRegion": "DE-NW",
+                    "postalCode": "51063",
+                    "addressCountry": {
+                      "@type": "Country",
+                      "name": "DE"
+                    }
+                  },
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-221-1773-1000",
+                    "email": "info@zooroyal.de",
+                    "contactType": "customer support"
+                  }
+                },
+                "shippingDetails": [
+                  {
+                    "@type": "OfferShippingDetails",
+                    "shippingSettingsLink": "https://www.zooroyal.de/versand-und-zahlungsbedingungen/",
+                    "shippingRate": {
+                      "@type": "MonetaryAmount",
+                      "value": 3.9,
+                      "currency": "EUR"
+                    },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "unitCode": "D"
+                      },
+                      "transitTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 1,
+                        "maxValue": 3,
+                        "unitCode": "D"
+                      }
+                    }
+                  }
+                ],
+                "hasMerchantReturnPolicy": {
+                  "@type": "MerchantReturnPolicy",
+                  "@id": "https://www.zooroyal.de/#merchantReturnPolicy",
+                  "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+                  "merchantReturnDays": 14,
+                  "returnFees": "https://schema.org/FreeReturn",
+                  "returnMethod": [
+                    "https://schema.org/ReturnByMail"
+                  ],
+                  "merchantReturnLink": "https://www.zooroyal.de/widerrufsrecht/"
+                },
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": 17.99,
+                  "priceCurrency": "EUR"
+                }
+              }
+            ],
+            "inProductGroupWithID": "1000072705",
+            "manufacturer": {
+              "@type": "Organization",
+              "name": "Dokas Handelsgesellschaft mbH"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.97619,
+              "ratingCount": 42,
+              "reviewCount": 42,
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-20T09:40:50.000Z",
+                "reviewBody": "Und zwar sofort, die Streifen sind schön gut zu kauen und lassen sich leicht teilen. Die Größe passt im Alltag prima, und bei uns ist das direkt ein Lieblingssnack.",
+                "name": "Der Snack kommt hier mega an!"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-19T06:37:12.000Z",
+                "reviewBody": "Kaufen würde ich es auf jeden Fall. Die Streifen sind angenehm bissfest und lassen sich gut portionieren, also ziemlich alltagstauglich. Mein Hund war sofort begeistert, kurz und knapp.",
+                "name": "Genau richtig für Mittelgroße Hunde"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-17T12:24:29.000Z",
+                "reviewBody": "Genau das Richtige, ich hatte etwas zu Hartes erwartet, aber die Streifen sind gut zu kauen. Kurz gesagt, passt. Auch die Größe ist praktisch, und die wiederverschließbare Packung finde ich wirklich sinnvoll.",
+                "name": "Gut kaubare Streifen für Hunde"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-14T09:23:53.000Z",
+                "reviewBody": "Klare Sache, meine Hund hat die Streifen sofort angenommen. Die Größe ist praktisch, nicht zu klein und nicht zu groß, und die Konsistenz passt auch gut. Sie wirken ordentlich und lassen sich gut geben. Am Ende zählt für mich vor allem, dass sie extrem attraktiv sind und hier richtig gut ankommen.",
+                "name": "Sieht unscheinbar aus, kommt gut an"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-02T12:21:04.000Z",
+                "reviewBody": "Mein Max und ich sind sehr zurieden , Vielen Dank",
+                "name": "Mein Max und ich sind sehr zurieden"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-06-19T12:26:00.000Z",
+                "reviewBody": "Schmeckt meiner Hündin sehr gut",
+                "name": "Schmeckt meiner Hündin sehr gut"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-06-12T18:32:49.000Z",
+                "reviewBody": "Perfekt für meinen Feinschmecker",
+                "name": "Perfekt für meinen Feinschmecker"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-06-10T10:23:25.000Z",
+                "reviewBody": "Zerkleinert will mein Hund die mit dem Trockenfurtter vermischt haben.",
+                "name": "Zerkleinert will mein Hund die mit dem T…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-03-13T18:15:42.000Z",
+                "reviewBody": "Perfekt 👌🏼",
+                "name": "Perfekt 👌🏼"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-12-11T09:56:27.000Z",
+                "reviewBody": "Mein Hund mag's!",
+                "name": "Mein Hund mag's!"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "url": "https://www.zooroyal.de/p/dokas-huehnerbrust-in-streifen-2x900g/1000075471"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source_url": "https://www.zooroyal.de/p/dokas-huehnermaegen-gefriergetrocknet-12g/1000077544/",
+    "site_domain": "zooroyal.de",
+    "name": "ProductGroup 1000077544",
+    "price": 1.49,
+    "id": "815919f0-c72b-42e4-8045-948963b6c8e1",
+    "scraped_at": "2026-08-13T10:15:04.896023",
+    "sku": "1000077544",
+    "brand": "",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "",
+    "images": [],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {
+      "schema_org": {
+        "@context": "https://schema.org",
+        "@type": "ProductGroup",
+        "name": "ProductGroup 1000077544",
+        "productGroupID": "1000077544",
+        "variesBy": [
+          "https://schema.org/size"
+        ],
+        "hasVariant": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "@id": "#sku_1000077544",
+            "url": "https://www.zooroyal.de/p/dokas-huehnermaegen-gefriergetrocknet-12g/1000077544",
+            "name": "Dokas Hühnermägen gefriergetrocknet - 12g",
+            "brand": {
+              "@type": "Brand",
+              "name": "Dokas"
+            },
+            "category": "Fleischsnacks",
+            "size": "12g",
+            "description": "Der pure Snack - Als Snack sind die gefriergetrockneten Innereien die ideale Ergänzung im täglichen Ernährungsplan und heiß begehrt von jedem Vierbeiner. Durch die schonende Gefriertrocknung bleiben der Geschmack und die Nährstoffe zu 100% erhalten. Natürlich! Lecker! Einzigartig! Artikeldetails : gefriergetrocknete Innereien leckerer Snack für zwischendurch für ausgewachsene Katzen",
+            "sku": "1000077544",
+            "gtin13": "4251276204234",
+            "image": [
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/ca2z4p-3siMdSgW.jpg"
+              }
+            ],
+            "weight": {
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "unit": "KGM",
+              "value": 2000
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "url": "https://www.zooroyal.de/p/dokas-huehnermaegen-gefriergetrocknet-12g/1000077544",
+                "priceCurrency": "EUR",
+                "price": 1.49,
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                  "@type": "Organization",
+                  "@id": "https://www.zooroyal.de/#organization",
+                  "name": "ZooRoyal",
+                  "legalName": "ZooRoyal Petcare GmbH",
+                  "url": "https://www.zooroyal.de/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.zooroyal.de/#logo",
+                    "url": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "caption": "ZOOROYAL",
+                    "contentUrl": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "width": "280",
+                    "height": "60"
+                  },
+                  "image": {
+                    "@id": "https://www.zooroyal.de/#logo"
+                  },
+                  "description": "ZooRoyal - Ihr Online-Shop für Tierbedarf. Futter, Zubehör und Spielzeug für Hunde, Katzen und andere Haustiere.",
+                  "foundingDate": "2007",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Schanzenstraße 6-20",
+                    "addressLocality": "Köln",
+                    "addressRegion": "DE-NW",
+                    "postalCode": "51063",
+                    "addressCountry": {
+                      "@type": "Country",
+                      "name": "DE"
+                    }
+                  },
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-221-1773-1000",
+                    "email": "info@zooroyal.de",
+                    "contactType": "customer support"
+                  }
+                },
+                "shippingDetails": [
+                  {
+                    "@type": "OfferShippingDetails",
+                    "shippingSettingsLink": "https://www.zooroyal.de/versand-und-zahlungsbedingungen/",
+                    "shippingRate": {
+                      "@type": "MonetaryAmount",
+                      "value": 3.9,
+                      "currency": "EUR"
+                    },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "unitCode": "D"
+                      },
+                      "transitTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 1,
+                        "maxValue": 3,
+                        "unitCode": "D"
+                      }
+                    }
+                  }
+                ],
+                "hasMerchantReturnPolicy": {
+                  "@type": "MerchantReturnPolicy",
+                  "@id": "https://www.zooroyal.de/#merchantReturnPolicy",
+                  "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+                  "merchantReturnDays": 14,
+                  "returnFees": "https://schema.org/FreeReturn",
+                  "returnMethod": [
+                    "https://schema.org/ReturnByMail"
+                  ],
+                  "merchantReturnLink": "https://www.zooroyal.de/widerrufsrecht/"
+                },
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": 1.49,
+                  "priceCurrency": "EUR"
+                }
+              }
+            ],
+            "inProductGroupWithID": "1000077544",
+            "manufacturer": {
+              "@type": "Organization",
+              "name": "Dokas Handelsgesellschaft mbH"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.94737,
+              "ratingCount": 38,
+              "reviewCount": 38,
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-08-03T10:52:47.000Z",
+                "reviewBody": "Kaufen würde ich sie auf jeden Fall, wenn euer Tier solche Snacks mag. Die Stücke lassen sich gut portionieren und haben für mich genau die richtige Knusprigkeit, nicht zu hart und nicht zu weich, und mein Kater hat sie gierig angenommen und sofort verputzt, was bei ihm schon ziemlich eindeutig ist.",
+                "name": "Gerne gefressen, etwas ungleich geschnitten"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-10T13:49:28.000Z",
+                "reviewBody": "Der Snack kommt richtig gut an, und die Stücke sind genau richtig zum Füttern. Der Beutel ist praktisch verschließbar, auch wenn das nicht ganz perfekt wirkt. Ich finde die Hühnermägen insgesamt echt gelungen, weil sie einfach sehr schmackhaft sind.",
+                "name": "Katzenknabberei mit Suchtpotenzial"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-06-17T15:22:31.000Z",
+                "reviewBody": "Super  Alternative zu den anderen Leckerlies, weil weniger  Fett enthalten ist.",
+                "name": "Super  Alternative zu den anderen Lecker…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-05-29T09:42:54.000Z",
+                "reviewBody": "Meine Katzen lieben das.",
+                "name": "Meine Katzen lieben das"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-01-29T09:23:45.000Z",
+                "reviewBody": "Blitzschneller Versand, ich empfehle es.",
+                "name": "Blitzschneller Versand, ich empfehle es."
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-01-18T14:26:30.000Z",
+                "reviewBody": "Ich persönlich kann es nicht bewerten, aber meinem Kater scheint es sehr gut zu schmecken! 😉 Die Lieferung war sehr schnell! Alle sind sehr zufrieden! 👍😊",
+                "name": "Ich persönlich kann es nicht bewerten"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-12-03T10:29:30.000Z",
+                "reviewBody": "Ich bevorzuge solche Snacks, weil es sich um reines Fleisch ohne irgendwelche Zusätze handelt. \nDieser Snack wird von drei Katern noch etwas lieber gefressen als die gefriergetrockneten Hühnerherzen des gleichen Herstellers, aber beides habe ich ständig vorrätig.",
+                "name": "Sehr gute Akzeptanz"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-10-07T11:56:38.000Z",
+                "reviewBody": "Sehr gut angekommen",
+                "name": "Sehr gut angekommen"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-09-17T06:21:36.000Z",
+                "reviewBody": "meine Katzen lieben diese Teile",
+                "name": "Meine Katzen lieben diese Teile"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-09-07T12:42:28.000Z",
+                "reviewBody": "Unsere beiden Katzen lieben Sie. Ich mische Sie immer unter das natürliche  Trockenfutter der Firma \"Dogs´n Tiger\" unter. Ein super Zwischendurch-Snack zum natürlichen Nassfutter.",
+                "name": "Unsere beiden Katzen lieben Sie"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "url": "https://www.zooroyal.de/p/dokas-huehnermaegen-gefriergetrocknet-6x12g/1000077545"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source_url": "https://www.zooroyal.de/p/sheba-selection-in-sauce-gefluegel-variation-multipack-40x85g/1000062032/?citrusAdId=shotgun_ZFeuRmXEcDWm_H0hgRMvaT0ZiegKDAoKMTAwMDA3MjI2NBIAGgsIlt-Q1AYQxKTHHyICCAE%3D",
+    "site_domain": "zooroyal.de",
+    "name": "ProductGroup 1000062032",
+    "price": 23.29,
+    "id": "8b61df16-bd8a-469d-a357-8dc2ec951a75",
+    "scraped_at": "2026-08-13T10:15:04.896023",
+    "sku": "1000062032",
+    "brand": "",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "",
+    "images": [],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {
+      "schema_org": {
+        "@context": "https://schema.org",
+        "@type": "ProductGroup",
+        "name": "ProductGroup 1000062032",
+        "productGroupID": "1000062032",
+        "variesBy": [],
+        "hasVariant": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "@id": "#sku_1000062032",
+            "url": "https://www.zooroyal.de/p/sheba-selection-in-sauce-gefluegel-variation-multipack-40x85g/1000062032",
+            "name": "Sheba Selection in Sauce Geflügel Variation Multipack 40x85g",
+            "brand": {
+              "@type": "Brand",
+              "name": "Sheba"
+            },
+            "category": "Katzen-Nassfutter",
+            "size": "",
+            "description": "Artikeldetails: Für erwachsene Katzen Nassfutter mit Geflügel Ohne Farbstoffe und Konservierungsmittel Mit Vitaminen für mehr Vitalität Nachhaltige Herstellung Hoher Feuchtigkeitsanteil Hochwertige Zutaten Erstklassige Zutaten für deine Katze Sheba Selection in Sauce Geflügel Variation Multipack 40x85g bietet deiner Katze eine erstklassige Ernährung. Dieses Nassfutter enthält hochwertiges Geflügel, das speziell auf die Bedürfnisse von erwachsenen Katzen abgestimmt ist. Die sorgfältig ausgewählten Zutaten sorgen für ein besonderes Geschmackserlebnis. Deine Katze wird die Qualität und den Geschmack dieses Futters lieben. Mit Vitaminen für mehr Vitalität Das Sheba Selection in Sauce Geflügel Variation Multipack 40x85g ist nicht nur lecker, sondern auch gesund. Die beigefügten Vitamine können deiner Katze mehr Vitalität verleihen und sie im Alltag unterstützen. So erhält deine Katze eine ausgewogene Ernährung, die sie mit wichtigen Nährstoffen versorgt. Nachhaltige Herstellung und hochwertige Zutaten Sheba legt großen Wert auf Nachhaltigkeit in der Herstellung. Das Sheba Selection in Sauce Geflügel Variation Multipack 40x85g wird unter Berücksichtigung umweltfreundlicher Prozesse produziert. Zudem wird auf die Zugabe von Farbstoffen und Konservierungsmitteln bewusst verzichtet. So kannst du sicher sein, dass deine Katze nur das Beste erhält. Hoher Feuchtigkeitsanteil für zusätzliche Flüssigkeitsaufnahme Sheba Selection in Sauce Geflügel Variation Multipack 40x85g hat einen hohen Feuchtigkeitsanteil, der über 60% liegt. Dies unterstützt die Flüssigkeitsaufnahme deiner Katze und sorgt dafür, dass sie schneller satt wird. Nassfutter wie dieses ist ideal, um die tägliche Wasseraufnahme deiner Katze zu erhöhen.",
+            "sku": "1000062032",
+            "gtin13": "4770608255909",
+            "image": [
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/e36nzb-e8Cp9GiL.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/qi0fgd-4Ed6OdTU.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/qik81q-nS6P4RFt.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/qj40n3-xZ4vSXyZ.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/qjnt8g-ENB7Bd49.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/qk7ltt-EkCYmEGj.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/qkref6-jjoCclkv.jpg"
+              }
+            ],
+            "weight": {
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "unit": "KGM",
+              "value": 380000
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "url": "https://www.zooroyal.de/p/sheba-selection-in-sauce-gefluegel-variation-multipack-40x85g/1000062032",
+                "priceCurrency": "EUR",
+                "price": 23.29,
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                  "@type": "Organization",
+                  "@id": "https://www.zooroyal.de/#organization",
+                  "name": "ZooRoyal",
+                  "legalName": "ZooRoyal Petcare GmbH",
+                  "url": "https://www.zooroyal.de/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.zooroyal.de/#logo",
+                    "url": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "caption": "ZOOROYAL",
+                    "contentUrl": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "width": "280",
+                    "height": "60"
+                  },
+                  "image": {
+                    "@id": "https://www.zooroyal.de/#logo"
+                  },
+                  "description": "ZooRoyal - Ihr Online-Shop für Tierbedarf. Futter, Zubehör und Spielzeug für Hunde, Katzen und andere Haustiere.",
+                  "foundingDate": "2007",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Schanzenstraße 6-20",
+                    "addressLocality": "Köln",
+                    "addressRegion": "DE-NW",
+                    "postalCode": "51063",
+                    "addressCountry": {
+                      "@type": "Country",
+                      "name": "DE"
+                    }
+                  },
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-221-1773-1000",
+                    "email": "info@zooroyal.de",
+                    "contactType": "customer support"
+                  }
+                },
+                "shippingDetails": [
+                  {
+                    "@type": "OfferShippingDetails",
+                    "shippingSettingsLink": "https://www.zooroyal.de/versand-und-zahlungsbedingungen/",
+                    "shippingRate": {
+                      "@type": "MonetaryAmount",
+                      "value": 3.9,
+                      "currency": "EUR"
+                    },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "unitCode": "D"
+                      },
+                      "transitTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 1,
+                        "maxValue": 3,
+                        "unitCode": "D"
+                      }
+                    }
+                  }
+                ],
+                "hasMerchantReturnPolicy": {
+                  "@type": "MerchantReturnPolicy",
+                  "@id": "https://www.zooroyal.de/#merchantReturnPolicy",
+                  "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+                  "merchantReturnDays": 14,
+                  "returnFees": "https://schema.org/FreeReturn",
+                  "returnMethod": [
+                    "https://schema.org/ReturnByMail"
+                  ],
+                  "merchantReturnLink": "https://www.zooroyal.de/widerrufsrecht/"
+                },
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": 23.29,
+                  "priceCurrency": "EUR"
+                }
+              }
+            ],
+            "inProductGroupWithID": "1000062032",
+            "manufacturer": {
+              "@type": "Organization",
+              "name": "Mars GmbH"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.87805,
+              "ratingCount": 41,
+              "reviewCount": 41,
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-04-10T07:17:28.000Z",
+                "reviewBody": "Bin sehr zufrieden,Lieferung ist schnell,meine Katze",
+                "name": "Bin sehr zufrieden"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-02-17T19:02:44.000Z",
+                "reviewBody": "Gut",
+                "name": "Gut"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-07-27T14:43:16.000Z",
+                "reviewBody": "Katzen lieben es",
+                "name": "Katzen lieben es"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-05-03T10:00:25.000Z",
+                "reviewBody": "Frisst meine Katze sehr gerne",
+                "name": "Frisst meine Katze sehr gerne"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-04-27T10:40:13.000Z",
+                "reviewBody": "Meine Kätzchen liieben es",
+                "name": "Meine Kätzchen liieben es"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-04-06T08:47:35.000Z",
+                "reviewBody": "schmeckt alles 18 Streunerkatzen",
+                "name": "schmeckt alles 18 Streunerkatzen"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-03-21T07:51:38.000Z",
+                "reviewBody": "Dieses leckere Nassfutter wird von allen (15-20) Streunerkatzen gerne genommen.",
+                "name": "Dieses leckere Nassfutter wird von…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-03-12T10:14:38.000Z",
+                "reviewBody": "Meine Katze liebt es",
+                "name": "Meine Katze liebt es"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-03-11T11:08:55.000Z",
+                "reviewBody": "Super Qualität",
+                "name": "Super Qualität"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2024-05-22T13:19:37.000Z",
+                "reviewBody": "Für mein Kater und ist ein gutes Produkt.",
+                "name": "Für mein Kater und ist ein gutes…"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source_url": "https://www.zooroyal.de/p/flexi-multi-box-schwarz/1000051276/",
+    "site_domain": "zooroyal.de",
+    "name": "ProductGroup 1000051276",
+    "price": 6.99,
+    "id": "e9fe6ff6-1974-4853-9c0f-cfcd6ecc128b",
+    "scraped_at": "2026-08-13T10:15:04.896023",
+    "sku": "1000051276",
+    "brand": "",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "",
+    "images": [],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {
+      "schema_org": {
+        "@context": "https://schema.org",
+        "@type": "ProductGroup",
+        "name": "ProductGroup 1000051276",
+        "productGroupID": "1000051276",
+        "variesBy": [
+          "https://schema.org/model"
+        ],
+        "hasVariant": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "@id": "#sku_1000051276",
+            "url": "https://www.zooroyal.de/p/flexi-multi-box-schwarz/1000051276",
+            "name": "flexi Multi Box - schwarz",
+            "brand": {
+              "@type": "Brand",
+              "name": "Flexi"
+            },
+            "category": "Rollleine",
+            "size": "schwarz",
+            "description": "Die Multi Box von flexi ist ein praktisches Zubehörteil für alle, die eine Flexi Rollkleine der Modellreihen flexi VARIO, Design und flexi New Classic (Größen S, M, L / M-L) besitzen. Diese kompakte Box wird einfach unter dem Griff der Leine angebracht (gelingt ganz einfach dank vorangebrachter Öffnung an der Griffunterseite) und bietet hier praktischen Stauraum für Leckerchen oder Kotbeutel. Die Box ist beidseitig zu öffnen, so dass Sie für Links- und Rechtshänder gleichermaßen geeignet ist. Die Öffnung mit Führung an der Behälterunterseite ermöglicht dabei eine bequeme, einzelne Entnahme von Kotbeuteln. Artikeldetails : Praktische Box für kleine Dinge als Zubehörteil für Ihre flexi Leine Ermöglicht die Unterbringung von beispielsweise Leckerlies oder Kotbeuteln Kompatibel mit der flexi New NEON Serie Beidseitig zu öffnen (für Links- und Rechtshändler geeignet) Öffnung mit Führung an der Behälterunterseite ermöglicht bequeme, einzelne Entnahme von Kotbeuteln Passend für das VARIO System, die New Classic und Design in den Größen S, M und L / M-L.",
+            "sku": "1000051276",
+            "gtin13": "4000498023709",
+            "image": [
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/lkxl54-jAhFWzy_.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/rhsc2d-MyNZk83_.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/mff1n4-bnGfg39Z.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/4rb6dt-nYMCaBFW.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/1j7jdl-h_4sCTS4.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/yxkbt2-PwZJlgi-.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/4qrdsg-2O6t2YYk.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/4q7l73-ypsZr_Im.jpg"
+              }
+            ],
+            "weight": {
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "unit": "ST",
+              "value": 4000
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "url": "https://www.zooroyal.de/p/flexi-multi-box-schwarz/1000051276",
+                "priceCurrency": "EUR",
+                "price": 6.99,
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                  "@type": "Organization",
+                  "@id": "https://www.zooroyal.de/#organization",
+                  "name": "ZooRoyal",
+                  "legalName": "ZooRoyal Petcare GmbH",
+                  "url": "https://www.zooroyal.de/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.zooroyal.de/#logo",
+                    "url": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "caption": "ZOOROYAL",
+                    "contentUrl": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "width": "280",
+                    "height": "60"
+                  },
+                  "image": {
+                    "@id": "https://www.zooroyal.de/#logo"
+                  },
+                  "description": "ZooRoyal - Ihr Online-Shop für Tierbedarf. Futter, Zubehör und Spielzeug für Hunde, Katzen und andere Haustiere.",
+                  "foundingDate": "2007",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Schanzenstraße 6-20",
+                    "addressLocality": "Köln",
+                    "addressRegion": "DE-NW",
+                    "postalCode": "51063",
+                    "addressCountry": {
+                      "@type": "Country",
+                      "name": "DE"
+                    }
+                  },
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-221-1773-1000",
+                    "email": "info@zooroyal.de",
+                    "contactType": "customer support"
+                  }
+                },
+                "shippingDetails": [
+                  {
+                    "@type": "OfferShippingDetails",
+                    "shippingSettingsLink": "https://www.zooroyal.de/versand-und-zahlungsbedingungen/",
+                    "shippingRate": {
+                      "@type": "MonetaryAmount",
+                      "value": 3.9,
+                      "currency": "EUR"
+                    },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "unitCode": "D"
+                      },
+                      "transitTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 1,
+                        "maxValue": 3,
+                        "unitCode": "D"
+                      }
+                    }
+                  }
+                ],
+                "hasMerchantReturnPolicy": {
+                  "@type": "MerchantReturnPolicy",
+                  "@id": "https://www.zooroyal.de/#merchantReturnPolicy",
+                  "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+                  "merchantReturnDays": 14,
+                  "returnFees": "https://schema.org/FreeReturn",
+                  "returnMethod": [
+                    "https://schema.org/ReturnByMail"
+                  ],
+                  "merchantReturnLink": "https://www.zooroyal.de/widerrufsrecht/"
+                },
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": 6.99,
+                  "priceCurrency": "EUR"
+                }
+              }
+            ],
+            "inProductGroupWithID": "1000051276",
+            "manufacturer": {
+              "@type": "Organization",
+              "name": "Trixie Heimtierbedarf GmbH & Co. KG"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.91667,
+              "ratingCount": 36,
+              "reviewCount": 36,
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-08-19T19:19:01.000Z",
+                "reviewBody": "Sehr praktisch und funktional",
+                "name": "Sehr praktisch und"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-04-04T11:06:13.000Z",
+                "reviewBody": "Ja",
+                "name": "Alles gut"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2024-05-09T13:01:48.000Z",
+                "reviewBody": "Sehr praktisch",
+                "name": "Sehr praktisch"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2022-09-24T10:46:13.000Z"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2022-06-03T09:22:01.000Z"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2022-01-25T09:19:56.000Z",
+                "reviewBody": "Immer Leckerlie & Hundetüten griffbereit",
+                "name": "Immer Leckerlie & Hundetüten griffbereit"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2021-06-22T13:18:30.000Z",
+                "reviewBody": "Perfekt beim Gassigehen. Man braucht keine Tüten mehr einzeln mitnehmen.",
+                "name": "Perfekt beim Gassigehen."
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 4,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2021-04-30T06:57:07.000Z",
+                "reviewBody": "unkompliziertes Anbringen an der Flexileine",
+                "name": "unkompliziertes Anbringen an der Flexileine"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2021-04-02T07:01:39.000Z",
+                "reviewBody": "Perfekt alles so wie beschrieben und sehr günstig",
+                "name": "Perfekt alles so wie beschrieben und sehr günstig"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2021-03-19T12:44:36.000Z",
+                "reviewBody": "Super Box für Beutel und  Leckerli",
+                "name": "Super Box für Beutel und  Leckerli"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source_url": "https://www.zooroyal.de/p/sheba-nassfutter-multipack-delikatesse-in-gelee-fisch-variation-60x85g/1000072266/?citrusAdId=shotgun_ZFeuRmXEcDWm_H0hgRMvaT0ZiegKDAoKMTAwMDA3MjI2NBIAGgsIlt-Q1AYQxKTHHyICCAE%3D",
+    "site_domain": "zooroyal.de",
+    "name": "ProductGroup 1000072266",
+    "price": 35.99,
+    "id": "6b99b7f1-3250-4e3c-97f6-ee277780f8c3",
+    "scraped_at": "2026-08-13T10:15:04.896023",
+    "sku": "1000072266",
+    "brand": "",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "",
+    "images": [],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {
+      "schema_org": {
+        "@context": "https://schema.org",
+        "@type": "ProductGroup",
+        "name": "ProductGroup 1000072266",
+        "productGroupID": "1000072266",
+        "variesBy": [
+          "https://schema.org/size"
+        ],
+        "hasVariant": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "@id": "#sku_1000072266",
+            "url": "https://www.zooroyal.de/p/sheba-nassfutter-multipack-delikatesse-in-gelee-fisch-variation-60x85g/1000072266",
+            "name": "Sheba Nassfutter Multipack Delikatesse in Gelee Fisch Variation - 60x85g",
+            "brand": {
+              "@type": "Brand",
+              "name": "Sheba"
+            },
+            "category": "Katzen-Nassfutter",
+            "size": "60x85g",
+            "description": "Artikeldetails: Für Katzen jeden Alters Nassfutter von Sheba Fisch Variation in Gelee Mit Vitaminen angereichert Unterstützt Vitalität und Wohlbefinden Hohe Akzeptanz bei wählerischen Katzen Speziell für ausgewachsene Katzen Nachhaltige und hochwertige Zutaten Hochwertige Zutaten für deine Katze Das Sheba Nassfutter Multipack Delikatesse in Gelee Fisch Variation bietet deiner Katze eine ausgewogene und schmackhafte Mahlzeit. Es besteht aus hochwertigen Zutaten, die speziell auf die Bedürfnisse von ausgewachsenen Katzen abgestimmt sind. Der wohlschmeckende Fisch sorgt für eine hohe Akzeptanz, auch bei wählerischen Tieren. Dank der enthaltenen Vitamine wird die Vitalität deiner Katze gefördert. Perfekte Feuchtigkeitsquelle Sheba Nassfutter Multipack Delikatesse in Gelee Fisch Variation ist nicht nur eine nahrhafte Mahlzeit, sondern auch eine hervorragende Feuchtigkeitsquelle. Mit einem Feuchtigkeitsanteil von über 60% nimmt deine Katze während des Essens bereits wichtige Flüssigkeit auf. Dies ist besonders vorteilhaft für Katzen, die wenig trinken, und hilft, sie schneller satt zu machen. Nachhaltigkeit und Qualität Bei Sheba stehen Nachhaltigkeit und hochwertige Zutaten an erster Stelle. Das Sheba Nassfutter Multipack Delikatesse in Gelee Fisch Variation wird unter Berücksichtigung dieser Werte hergestellt. So kannst du sicher sein, dass deine Katze nicht nur eine schmackhafte, sondern auch eine verantwortungsvoll produzierte Mahlzeit erhält. Genieße die Gewissheit, deiner Katze nur das Beste zu bieten. Für ausgewachsene Katzen aller Größen Das Sheba Nassfutter Multipack Delikatesse in Gelee Fisch Variation ist speziell auf die Bedürfnisse von ausgewachsenen Katzen abgestimmt und für Katzen aller Größen geeignet. Die Kombination aus wohlschmeckendem Fisch und wichtigen Vitaminen sorgt für eine ausgewogene Ernährung und kann die Vitalität deiner Katze unterstützen. Eine hervorragende Wahl für jeden Katzenbesitzer.",
+            "sku": "1000072266",
+            "gtin13": "4770608257880",
+            "image": [
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/sytkni-mvfET6db.jpg"
+              }
+            ],
+            "weight": {
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "unit": "KGM",
+              "value": 572000
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "url": "https://www.zooroyal.de/p/sheba-nassfutter-multipack-delikatesse-in-gelee-fisch-variation-60x85g/1000072266",
+                "priceCurrency": "EUR",
+                "price": 35.99,
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                  "@type": "Organization",
+                  "@id": "https://www.zooroyal.de/#organization",
+                  "name": "ZooRoyal",
+                  "legalName": "ZooRoyal Petcare GmbH",
+                  "url": "https://www.zooroyal.de/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.zooroyal.de/#logo",
+                    "url": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "caption": "ZOOROYAL",
+                    "contentUrl": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "width": "280",
+                    "height": "60"
+                  },
+                  "image": {
+                    "@id": "https://www.zooroyal.de/#logo"
+                  },
+                  "description": "ZooRoyal - Ihr Online-Shop für Tierbedarf. Futter, Zubehör und Spielzeug für Hunde, Katzen und andere Haustiere.",
+                  "foundingDate": "2007",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Schanzenstraße 6-20",
+                    "addressLocality": "Köln",
+                    "addressRegion": "DE-NW",
+                    "postalCode": "51063",
+                    "addressCountry": {
+                      "@type": "Country",
+                      "name": "DE"
+                    }
+                  },
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-221-1773-1000",
+                    "email": "info@zooroyal.de",
+                    "contactType": "customer support"
+                  }
+                },
+                "shippingDetails": [
+                  {
+                    "@type": "OfferShippingDetails",
+                    "shippingSettingsLink": "https://www.zooroyal.de/versand-und-zahlungsbedingungen/",
+                    "shippingRate": {
+                      "@type": "MonetaryAmount",
+                      "value": 3.9,
+                      "currency": "EUR"
+                    },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "unitCode": "D"
+                      },
+                      "transitTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 1,
+                        "maxValue": 3,
+                        "unitCode": "D"
+                      }
+                    }
+                  }
+                ],
+                "hasMerchantReturnPolicy": {
+                  "@type": "MerchantReturnPolicy",
+                  "@id": "https://www.zooroyal.de/#merchantReturnPolicy",
+                  "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+                  "merchantReturnDays": 14,
+                  "returnFees": "https://schema.org/FreeReturn",
+                  "returnMethod": [
+                    "https://schema.org/ReturnByMail"
+                  ],
+                  "merchantReturnLink": "https://www.zooroyal.de/widerrufsrecht/"
+                },
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": 35.99,
+                  "priceCurrency": "EUR"
+                }
+              }
+            ],
+            "inProductGroupWithID": "1000072266",
+            "manufacturer": {
+              "@type": "Organization",
+              "name": "Mars GmbH"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.94231,
+              "ratingCount": 52,
+              "reviewCount": 52,
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-04-03T12:35:57.000Z",
+                "reviewBody": "Meine Katzen lieben Fisch und da ja mehre Sorten in dem Paket sind,funde ich es vorteilhaft.",
+                "name": "Meine Katzen lieben Fisch und da ja…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-03-18T16:17:08.000Z",
+                "reviewBody": "Nicht warum mir das Produkt gefällt sondern meiner Katze ! Und die mag gerne Weißfisch und der schmeckt es super und weil es in den Läden nicht immer verfügbar ist habe ich es diereckt bei Zoo Royal bestellt. Die Lieferung hat super geklappt.",
+                "name": "Nicht warum mir das Produkt gefällt…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-11-23T09:56:09.000Z",
+                "reviewBody": "Leider gibt es Fisch in Gelee in Großpackung selten im Geschäft. Er liebt dies. \nAlso immer wieder gerne.",
+                "name": "Leider gibt es Fisch in Gelee in…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-05-21T16:40:50.000Z",
+                "reviewBody": "Dieses Futter schmeckt meiner Katze ausgezeichnet. Das Futter gleitet leicht und vollständig aus der Tüte. Bin zufrieden mit dem Produkt.",
+                "name": "Dieses Futter schmeckt meiner Katze…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2024-07-30T09:23:15.000Z",
+                "reviewBody": "Gute Qualität - gute Preise - großes Angebot - gut wie immer",
+                "name": "Gute Qualität"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2024-04-20T09:18:09.000Z",
+                "reviewBody": "Alles bestens",
+                "name": "Alles bestens"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2024-03-17T12:54:55.000Z",
+                "reviewBody": "Meine Fusselmonster lieben diese Futter. Bestellung, Preis und Lieferung passen jedes mal.",
+                "name": "Meine Fusselmonster lieben diese…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2022-07-31T10:57:13.000Z"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 4,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2022-04-04T12:54:46.000Z"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2022-01-27T09:02:10.000Z",
+                "reviewBody": "War alles sehr gut",
+                "name": "War alles sehr gut"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source_url": "https://www.zooroyal.de/p/zooroyal-hundepool-80x20cm/1000001785/",
+    "site_domain": "zooroyal.de",
+    "name": "ProductGroup 1000098129",
+    "price": 24.49,
+    "id": "f8287902-3009-4e66-9f3b-43bf6628ef48",
+    "scraped_at": "2026-08-13T10:15:04.896023",
+    "sku": "1000098129",
+    "brand": "",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "",
+    "images": [],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {
+      "schema_org": {
+        "@context": "https://schema.org",
+        "@type": "ProductGroup",
+        "name": "ProductGroup 1000098129",
+        "productGroupID": "1000098129",
+        "variesBy": [
+          "https://schema.org/model"
+        ],
+        "hasVariant": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "@id": "#sku_1000001785",
+            "url": "https://www.zooroyal.de/p/zooroyal-hundepool-80x20cm/1000001785",
+            "name": "ZooRoyal Hundepool - 80x20cm",
+            "brand": {
+              "@type": "Brand",
+              "name": "ZooRoyal"
+            },
+            "category": "Schwimmspielzeug",
+            "size": "80x20cm",
+            "description": "Der Hundepool von ZooRoyal sorgt für genügend Abkühlung und Wasserspaß an warmen Tagen. Denn wenn die Temperaturen wärmer werden, wird es deinem Fell-Kollegen erst recht richtig heiß unter seinem kuscheligen Fell. Es wird Zeit ihm die Sommerhitze erträglicher zu machen - mit dem ZooRoyal Hundepool aus kratzfestem PVC im modischen petrol/grau. Die Seitenwände sind besonders stabil und bestehen aus MDF. Der Pool ist mühelos ohne Luftpumpe aufzubauen und hat einen rutschfesten Boden im Inneren &ndash; sicherer Badespaß garantiert! Den Pool kannst du anschließend ganz einfach über das Ablassventil entleeren. Und auch die Reinigung ist spielend einfach (siehe unten). Artikeldetails: ideale Abkühlung an warmen Tagen für deinen Hund müheloser Auf- und Abbau, ganz ohne Luftpumpe rutschfester Boden im Inneren einfaches Entleeren durch Ablassventil platzsparend zu verstauen (faltbar) einfach zu reinigen aus kratzfestem und robustem Kunststoff (PVC-Material) stabile Seitenwände (MDF) Material: PVC & MDF (Seitenwände) Farbe: petrol/grau erhältlich in drei verschiedenen Größen Maße (&Oslash; x H): 80x20cm, 120x30cm, 160x30cm Gebrauchsanweisung: Der Pool ist ausschließlich für Hunde zum Spielen und Planschen im Freien konzipiert. Er ist ausschließlich für den Privatgebrauch bestimmt und nicht für den gewerblichen Bereich geeignet. Baue den Hundepool auf flachen und weichen Untergrund auf. Der Aufstellplatz muss frei von scharfen Objekten oder Steinen sein. Suche möglichst einen Ort, der nicht direkter Sonneneinstrahlung ausgesetzt ist, damit sich Pool und Wasser nicht unnötig stark aufheizen und dein Hund auch vor zu starker Sonne geschützt ist. Fülle den Hundepool mit Wasser und sorge dafür, dass die schwarze Verschlusskappe des Ablassventils (s. Seitenwand) verschlossen ist. Zum Entleeren des Hundepools muss die schwarze Verschlusskappe aufgedreht werden. Der Hundepool darf nur unter Aufsicht von Erwachsenen benutzt werden. Reinigung: Verwende keine aggressiven Reinigungsmittel, Bürsten mit Metall- oder Nylonborsten sowie keine scharfen oder metallischen Reinigungsgegenstände wie Messer, harte Spachtel und dergleichen. Diese können die Oberflächen beschädigen. 1. Spüle den Pool mit klarem Wasser ab. Benutze dazu einen Gartenschlauch oder eine Gießkanne. 2. Wische den Pool mit einem weichen Schwamm und lauwarmem Wasser ab. 3. Wische den Pool mit einem weichen, trockenen Tuch ab. 4. Lasse den Pool vollständig trocknen bevor du ihn zusammenfaltest und einpackst. Warnhinweis: Achtung: Benutzung unter unmittelbarer Aufsicht von Erwachsenen! Lasse niemals Kinder und Tiere unbeaufsichtigt! Es besteht Gefahr des Ertrinkens. Lasse auch einen abgedeckten Pool niemals unbeaufsichtigt, wenn er gefüllt ist. Dieses Produkt ist nicht für Kinder geeignet und nicht als Kinderspielzeug zu verwenden. Den Pool bitte nach Gebrauch leeren. Nicht in Innenräumen verwenden. Halte elektrische Leitungen, Radios, Lautsprecher und andere elektrische Geräte vom Pool fern. Keime und Bakterien im Wasser können die Gesundheit gefährden. Verwende ausschließlich sauberes Wasser. Wechsel das Wasser im Pool regelmäßig, insbesondere bei heißem Wetter, spätestens jedoch, wenn es verschmutzt ist. Schlucke das Wasser aus dem Pool nicht und achte darauf, dass auch Kinder das Wasser nicht schlucken. Reinige den Pool nach jeder Benutzung. Auf chemische Reiniger wie Chlor solltest Du verzichten. Diese Mittel können die Haut und Schleimhäute deines Hundes gefährlich reizen. Der Pool ist Verschleiß ausgesetzt. Überprüfe ihn vor jeder Verwendung auf Beschädigungen.",
+            "sku": "1000001785",
+            "gtin13": "4337256772501",
+            "image": [
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/md0ux2-5tuazXI2.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/mdknif-4AYyg-k5.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/e5h50x-9RjhXQ0r.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/e60xma-aBYzUugs.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/e6kq7n-Og6VRwQX.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/e74it0-rt5ZMXAS.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/x8206f-eD_CBism.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/x8lsrs-3E0qtxPF.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/x95ld5-FC67J8ff.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/dtzhj9-jmWiY6Yo.jpg"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/ucw5fp-h2rXS6B5.jpg"
+              }
+            ],
+            "weight": {
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "unit": "ST",
+              "value": 166000
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "url": "https://www.zooroyal.de/p/zooroyal-hundepool-80x20cm/1000001785",
+                "priceCurrency": "EUR",
+                "price": 24.49,
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                  "@type": "Organization",
+                  "@id": "https://www.zooroyal.de/#organization",
+                  "name": "ZooRoyal",
+                  "legalName": "ZooRoyal Petcare GmbH",
+                  "url": "https://www.zooroyal.de/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.zooroyal.de/#logo",
+                    "url": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "caption": "ZOOROYAL",
+                    "contentUrl": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "width": "280",
+                    "height": "60"
+                  },
+                  "image": {
+                    "@id": "https://www.zooroyal.de/#logo"
+                  },
+                  "description": "ZooRoyal - Ihr Online-Shop für Tierbedarf. Futter, Zubehör und Spielzeug für Hunde, Katzen und andere Haustiere.",
+                  "foundingDate": "2007",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Schanzenstraße 6-20",
+                    "addressLocality": "Köln",
+                    "addressRegion": "DE-NW",
+                    "postalCode": "51063",
+                    "addressCountry": {
+                      "@type": "Country",
+                      "name": "DE"
+                    }
+                  },
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-221-1773-1000",
+                    "email": "info@zooroyal.de",
+                    "contactType": "customer support"
+                  }
+                },
+                "shippingDetails": [
+                  {
+                    "@type": "OfferShippingDetails",
+                    "shippingSettingsLink": "https://www.zooroyal.de/versand-und-zahlungsbedingungen/",
+                    "shippingRate": {
+                      "@type": "MonetaryAmount",
+                      "value": 3.9,
+                      "currency": "EUR"
+                    },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "unitCode": "D"
+                      },
+                      "transitTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 1,
+                        "maxValue": 3,
+                        "unitCode": "D"
+                      }
+                    }
+                  }
+                ],
+                "hasMerchantReturnPolicy": {
+                  "@type": "MerchantReturnPolicy",
+                  "@id": "https://www.zooroyal.de/#merchantReturnPolicy",
+                  "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+                  "merchantReturnDays": 14,
+                  "returnFees": "https://schema.org/FreeReturn",
+                  "returnMethod": [
+                    "https://schema.org/ReturnByMail"
+                  ],
+                  "merchantReturnLink": "https://www.zooroyal.de/widerrufsrecht/"
+                },
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": 24.49,
+                  "priceCurrency": "EUR"
+                }
+              }
+            ],
+            "inProductGroupWithID": "1000098129",
+            "manufacturer": {
+              "@type": "Organization",
+              "name": "REWE Zentral GmbH  (Dietzenbach)"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.9375,
+              "ratingCount": 16,
+              "reviewCount": 16,
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 4,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-08-12T09:11:39.000Z",
+                "reviewBody": "Der Hundepool macht genau das, was er soll. Das Material wirkt ordentlich robust, der Aufbau ist kinderleicht und der Ablauf ist richtig praktisch, so muss das einfach sein.",
+                "name": "Wie ein kleiner Sommerteich im Garten"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-08-07T14:12:54.000Z",
+                "reviewBody": "schnelle Lieferung, preislich mehr als in Ordnung und sehr robust",
+                "name": "super Hundepool"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-30T16:20:15.000Z",
+                "reviewBody": "Der Ablauf ist für mich der stärkste Punkt. Genau das macht den Hundepool im Alltag so angenehm, weil das Wasser nicht umständlich raus muss. Der Aufbau geht ebenfalls sehr leicht von der Hand, da gibt es wirklich nichts, woran man hängenbleibt. Für mich ist das so ein Produkt, das durch seine unkomplizierte Art direkt sympathisch wirkt.",
+                "name": "Sehr praktisch, fast zu simpel"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-27T13:36:42.000Z",
+                "reviewBody": "Und ehrlich, der Hundepool war sofort bereit, steht schön stabil und lässt kein Wasser raus.",
+                "name": "Aufgebaut wie von selbst, hält dicht"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-25T09:54:47.000Z",
+                "reviewBody": "Das blaue Material wirkt direkt ordentlich und schön stabil, genau so, wie man es bei so einem Hundepool haben will. Der Aufbau war wirklich kinderleicht, einmal fix gemacht und sofort nutzbar. Auch der Ablauf ist praktisch und geht schnell und wurde unmittelbar ausprobiert.\nIch habe das Wasser schon einmal gewechselt.\nEs lief gut ab und der Pool ist leicht zu reinigen.",
+                "name": "Einfach und schnell aufgebaut"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-21T15:42:33.000Z",
+                "reviewBody": "Und zwar ziemlich überzeugend, der Hundepool macht genau das, was er soll. Er bleibt absolut dicht, und das Material wirkt angenehm robust, nicht so dünn, dass man gleich skeptisch wird. Auch beim Aufstellen steht er sehr stabil, da wackelt nichts unnötig herum. Für mich ist das eher ein unaufgeregtes, aber gut gemachtes Teil, und gerade das ist oft das Beste daran.",
+                "name": "Unser Jacko liebt seinen Pool"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-11T14:40:46.000Z",
+                "reviewBody": "Se",
+                "name": "Sehr gute Qualität! Mein Hund liebt den Pool und planscht darin wie verrückt!"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-08T09:30:32.000Z",
+                "reviewBody": "Ich habe das Paket gar nicht erst aufgemacht, weil ich nach der Bestellung gemerkt habe, das der Hunde-Pool zu groß ist.  Ich habe mir ein Rücksende Etikett ausgedruckt und das Paket ungeöffnet zurück geschickt. Die Rücksendung war total problemlos, dafür gebe ich alle Sterne (SEHR GUT)",
+                "name": "Die Rücksendung war total problemlos, dafür gebe ich alle Sterne (SEHR GUT)"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-07-02T16:34:09.000Z",
+                "reviewBody": "Gefällt ihm super 👍",
+                "name": "Gefällt ihm super 👍"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-06-09T23:33:11.000Z",
+                "reviewBody": "praktisches Pool",
+                "name": "praktisches Pool"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "url": "https://www.zooroyal.de/p/zooroyal-hundepool-160x30cm/1000102886"
+          },
+          {
+            "@type": "Product",
+            "url": "https://www.zooroyal.de/p/zooroyal-hundepool-120x30cm/1000001786"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source_url": "https://www.zooroyal.de/p/animonda-vom-feinsten-snack-cream-huhn-katzengras-6x15g/1000102870/",
+    "site_domain": "zooroyal.de",
+    "name": "ProductGroup 1000102870",
+    "price": 2.19,
+    "id": "add72488-8ac8-4cca-93a2-e230bac058e6",
+    "scraped_at": "2026-08-13T10:15:04.896023",
+    "sku": "1000102870",
+    "brand": "",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "",
+    "images": [],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {
+      "schema_org": {
+        "@context": "https://schema.org",
+        "@type": "ProductGroup",
+        "name": "ProductGroup 1000102870",
+        "productGroupID": "1000102870",
+        "variesBy": [
+          "https://schema.org/size"
+        ],
+        "hasVariant": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "@id": "#sku_1000102870",
+            "url": "https://www.zooroyal.de/p/animonda-vom-feinsten-snack-cream-huhn-katzengras-6x15g/1000102870",
+            "name": "animonda vom Feinsten Snack Cream Huhn + Katzengras - 6x15g",
+            "brand": {
+              "@type": "Brand",
+              "name": "animonda vom Feinsten"
+            },
+            "category": "Pasten & Cremes",
+            "size": "6x15g",
+            "description": "Katzen lieben zwischendurch eine kleine Gaumenfreude! Und sie haben es verdient, verwöhnt zu werden. Ein kleiner Snack mit ausgewählten Zutaten ist da genau das Richtige. Heißgeliebt von Samtpfoten ist die neue, köstliche animonda Vom Feinsten Snack-Cream . Sie ist besonders cremig und eine wahre Delikatesse für Katzen. Die Variante mit Huhn und Katzengras überzeugt durch einen leckeren Geschmack . Eine Schachtel enthält sechs Einzelportionen und kann dadurch immer frisch angeboten werden. Katzen und Hunde kleiner Rassen sind als besonders anspruchsvoll und wählerisch bekannt. Vom Feinsten wird diesem hohen Anspruch voll und ganz gerecht und kann hier mit seinem Spezialitäten-Programm in bester Qualität und mit vorzüglichem Geschmack überzeugen. Artikeldetails: cremiger Snack für deine ausgewachsene Katze mit köstlichem Huhn und Katzengras besonderer Genuss für zwischendurch eine Schachtel besteht aus sechs einzelnen Portionspackungen (6x15g)",
+            "sku": "1000102870",
+            "gtin13": "4017721838658",
+            "image": [
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/kbdoy4-mTMr0XnL.jpg"
+              }
+            ],
+            "weight": {
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "unit": "KGM",
+              "value": 12000
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "url": "https://www.zooroyal.de/p/animonda-vom-feinsten-snack-cream-huhn-katzengras-6x15g/1000102870",
+                "priceCurrency": "EUR",
+                "price": 2.19,
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                  "@type": "Organization",
+                  "@id": "https://www.zooroyal.de/#organization",
+                  "name": "ZooRoyal",
+                  "legalName": "ZooRoyal Petcare GmbH",
+                  "url": "https://www.zooroyal.de/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.zooroyal.de/#logo",
+                    "url": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "caption": "ZOOROYAL",
+                    "contentUrl": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "width": "280",
+                    "height": "60"
+                  },
+                  "image": {
+                    "@id": "https://www.zooroyal.de/#logo"
+                  },
+                  "description": "ZooRoyal - Ihr Online-Shop für Tierbedarf. Futter, Zubehör und Spielzeug für Hunde, Katzen und andere Haustiere.",
+                  "foundingDate": "2007",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Schanzenstraße 6-20",
+                    "addressLocality": "Köln",
+                    "addressRegion": "DE-NW",
+                    "postalCode": "51063",
+                    "addressCountry": {
+                      "@type": "Country",
+                      "name": "DE"
+                    }
+                  },
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-221-1773-1000",
+                    "email": "info@zooroyal.de",
+                    "contactType": "customer support"
+                  }
+                },
+                "shippingDetails": [
+                  {
+                    "@type": "OfferShippingDetails",
+                    "shippingSettingsLink": "https://www.zooroyal.de/versand-und-zahlungsbedingungen/",
+                    "shippingRate": {
+                      "@type": "MonetaryAmount",
+                      "value": 3.9,
+                      "currency": "EUR"
+                    },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "unitCode": "D"
+                      },
+                      "transitTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 1,
+                        "maxValue": 3,
+                        "unitCode": "D"
+                      }
+                    }
+                  }
+                ],
+                "hasMerchantReturnPolicy": {
+                  "@type": "MerchantReturnPolicy",
+                  "@id": "https://www.zooroyal.de/#merchantReturnPolicy",
+                  "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+                  "merchantReturnDays": 14,
+                  "returnFees": "https://schema.org/FreeReturn",
+                  "returnMethod": [
+                    "https://schema.org/ReturnByMail"
+                  ],
+                  "merchantReturnLink": "https://www.zooroyal.de/widerrufsrecht/"
+                },
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": 2.19,
+                  "priceCurrency": "EUR"
+                }
+              }
+            ],
+            "inProductGroupWithID": "1000102870",
+            "manufacturer": {
+              "@type": "Organization",
+              "name": "animonda petcare gmbh"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.92857,
+              "ratingCount": 14,
+              "reviewCount": 14,
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-06-21T17:59:29.000Z",
+                "reviewBody": "Sehr beliebt bei meiner wählerischen Katze 👍",
+                "name": "Sehr beliebt bei meiner wählerischen Kat…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 4,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-06-17T09:31:21.000Z",
+                "reviewBody": "Geht Grad Au noch mein Kater ist schleckig.",
+                "name": "Geht Grad Au noch mein Kater ist schleck…"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-06-04T11:41:29.000Z",
+                "reviewBody": "Die Katze mag´s",
+                "name": "Die Katze mag´s"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2026-05-23T20:41:06.000Z",
+                "reviewBody": "Erstklassige Ware. Zuverlässige Lieferung.",
+                "name": "Erstklassige Ware"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-10-13T13:31:20.000Z",
+                "reviewBody": "Tolles Leckerli unsere Katze liebt es.",
+                "name": "Tolles Leckerli unsere Katze liebt es."
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-08-18T18:49:33.000Z",
+                "reviewBody": "Erstklassige Ware",
+                "name": "Erstklassige Ware"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-08-14T15:52:20.000Z",
+                "reviewBody": "Mein Kater liebt es",
+                "name": "Mein Kater liebt es"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-08-08T14:48:10.000Z",
+                "reviewBody": "Carlo liebt es",
+                "name": "Carlo liebt es"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-07-29T08:06:50.000Z",
+                "reviewBody": "Carlo liebt sie",
+                "name": "Carlo liebt sie"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anonymous"
+                },
+                "datePublished": "2025-04-27T16:38:16.000Z",
+                "reviewBody": "Erstklassige Ware. Schnell geliefert.",
+                "name": "Erstklassige Ware"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "url": "https://www.zooroyal.de/p/animonda-vom-feinsten-snack-cream-huhn-katzengras-30x15g/1000102878"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source_url": "https://www.zooroyal.de/p/oase-lunaqua-connect-m-solo-teichlampe/1000108491/",
+    "site_domain": "zooroyal.de",
+    "name": "ProductGroup 1000108491",
+    "price": 119.99,
+    "id": "f41f9d70-e03d-4102-b43f-d86ed232131c",
+    "scraped_at": "2026-08-13T11:21:04.583600",
+    "sku": "1000108491",
+    "brand": "",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "",
+    "images": [],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {
+      "schema_org": {
+        "@context": "https://schema.org",
+        "@type": "ProductGroup",
+        "name": "ProductGroup 1000108491",
+        "productGroupID": "1000108491",
+        "variesBy": [],
+        "hasVariant": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "@id": "#sku_1000108491",
+            "url": "https://www.zooroyal.de/p/oase-lunaqua-connect-m-solo-teichlampe/1000108491",
+            "name": "Oase LunAqua Connect M Solo Teichlampe",
+            "brand": {
+              "@type": "Brand",
+              "name": "Oase"
+            },
+            "category": "Teichbeleuchtung",
+            "size": "",
+            "description": "Artikeldetails: Weiße Teichlampe mit 10m Kabel Integrierbar ins LunAqua Connect System IP68: Dauerhaft unter Wasser nutzbar Verschiedene Installationsmöglichkeiten Kabellänge 10 m Netzteil und Switch Controler sind nicht im Lieferumfang Optional über OASE Switch App steuer-/dimmbar mit Zeitschaltfunktion Effektvolle Beleuchtung für deinen Teich Die Oase LunAqua Connect M Solo Teichlampe ist die perfekte Wahl, um deinem Teich eine eindrucksvolle Ausstrahlung zu verleihen. Mit ihrem 10 Meter langen Kabel bietet sie maximale Flexibilität bei der Installation, sodass du auch tiefere und größere Teiche optimal ausleuchten kannst. Genieße die intensive Farbbrillanz, die Fische und Pflanzen in einem neuen Licht erstrahlen lässt. Nahtlose Integration und Steuerung Dank der nahtlosen Integration in das LunAqua Connect Beleuchtungssystem kannst du die Teichlampe ganz einfach über die OASE Switch App steuern. Diese Funktionalität ermöglicht es dir, die Beleuchtung individuell anzupassen und für jede Stimmung die passende Lichtatmosphäre zu schaffen. Mit der zusätzlichen Zeitschaltfunktion kannst du die Beleuchtung sogar automatisieren. Für diese Funktionen wird zusätzlich der optionale LunAqua Connect Controller OASE Switch benötigt. Vielseitige Installationsmöglichkeiten Die Oase LunAqua Connect M Solo Teichlampe bietet clevere Installationsmöglichkeiten, um sich deinen individuellen Anforderungen anzupassen. Ein beschwerter Standfuß, ein Erdspieß und ein Verlängerungsstück zur Höhenanpassung sind im Lieferumfang enthalten. So kannst du die Lampe flexibel positionieren und sicherstellen, dass dein Teich optimal beleuchtet wird. Achtung: LunAqua Connect Controller Switch und Netzteil werden zusätzlich benötigt.",
+            "sku": "1000108491",
+            "gtin13": "4010052965512",
+            "image": [
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://images.cdn.europe-west1.gcp.commercetools.com/48f20ab7-8172-4f6f-915e-02c589fad1d5/25un3i-Zp3rWkWi.jpg"
+              }
+            ],
+            "weight": {
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "unit": "ST",
+              "value": 150000
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "url": "https://www.zooroyal.de/p/oase-lunaqua-connect-m-solo-teichlampe/1000108491",
+                "priceCurrency": "EUR",
+                "price": 119.99,
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                  "@type": "Organization",
+                  "@id": "https://www.zooroyal.de/#organization",
+                  "name": "ZooRoyal",
+                  "legalName": "ZooRoyal Petcare GmbH",
+                  "url": "https://www.zooroyal.de/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.zooroyal.de/#logo",
+                    "url": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "caption": "ZOOROYAL",
+                    "contentUrl": "https://www.zooroyal.de/images/Zooroyal.png",
+                    "width": "280",
+                    "height": "60"
+                  },
+                  "image": {
+                    "@id": "https://www.zooroyal.de/#logo"
+                  },
+                  "description": "ZooRoyal - Ihr Online-Shop für Tierbedarf. Futter, Zubehör und Spielzeug für Hunde, Katzen und andere Haustiere.",
+                  "foundingDate": "2007",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Schanzenstraße 6-20",
+                    "addressLocality": "Köln",
+                    "addressRegion": "DE-NW",
+                    "postalCode": "51063",
+                    "addressCountry": {
+                      "@type": "Country",
+                      "name": "DE"
+                    }
+                  },
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+49-221-1773-1000",
+                    "email": "info@zooroyal.de",
+                    "contactType": "customer support"
+                  }
+                },
+                "shippingDetails": [
+                  {
+                    "@type": "OfferShippingDetails",
+                    "shippingSettingsLink": "https://www.zooroyal.de/versand-und-zahlungsbedingungen/",
+                    "shippingRate": {
+                      "@type": "MonetaryAmount",
+                      "value": 3.9,
+                      "currency": "EUR"
+                    },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "unitCode": "D"
+                      },
+                      "transitTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 1,
+                        "maxValue": 3,
+                        "unitCode": "D"
+                      }
+                    }
+                  }
+                ],
+                "hasMerchantReturnPolicy": {
+                  "@type": "MerchantReturnPolicy",
+                  "@id": "https://www.zooroyal.de/#merchantReturnPolicy",
+                  "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+                  "merchantReturnDays": 14,
+                  "returnFees": "https://schema.org/FreeReturn",
+                  "returnMethod": [
+                    "https://schema.org/ReturnByMail"
+                  ],
+                  "merchantReturnLink": "https://www.zooroyal.de/widerrufsrecht/"
+                },
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": 119.99,
+                  "priceCurrency": "EUR"
+                }
+              }
+            ],
+            "inProductGroupWithID": "1000108491",
+            "manufacturer": {
+              "@type": "Organization",
+              "name": "OASE GmbH"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

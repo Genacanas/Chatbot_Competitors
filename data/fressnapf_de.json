@@ -1,0 +1,50 @@
+[
+  {
+    "source_url": "https://www.fressnapf.de/p/real-nature-wilderness-trockenfutter-katze-adult-pure-chicken-300-g-1173937007/",
+    "site_domain": "fressnapf.de",
+    "name": "REAL NATURE WILDERNESS Trockenfutter Katze, Adult, Pure Chicken 300 g",
+    "price": 4.99,
+    "id": "0eb7b3f5-87fd-494a-bbcf-adbfe3959c90",
+    "scraped_at": "2026-08-13T10:27:47.823889",
+    "sku": "1173937007",
+    "brand": "REAL NATURE",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "REAL NATURE WILDERNESS – So ursprünglich wie Deine Katze selbst. Real Nature WILDERNESS steht für eine Ernährung, die sich an der Natur orientiert – inspiriert vom ursprünglichen Fressverhalten der Wildkatze, der Vorfahrin unserer Hauskatzen. Jede Rezeptur enthält einen hohen Anteil an hochwertigem Fleisch oder Fisch als wertvolle tierische Proteinquelle. Ergänzt wird das Ganze durch ausgewähltes Obst und Gemüse sowie nährstoffreiche Zutaten. Dabei verzichten wir konsequent auf Getreide, Zuckerzusatz sowie künstliche Farb-, Aroma- und Konservierungsstoffe. Die hochwertigen REAL NATURE WILDERNESS PURE Rezepturen zeichnen sich durch die Verwendung nur einer tierischen Proteinquelle aus. REAL NATURE WILDERNESS Pure Chicken Adult besteht aus 65% hochwertigem Huhn, 35% Obst, Gemüse und wertvollen Zutaten und 0% Getreidezugabe.",
+    "images": [
+      "https://media.os.fressnapf.com/products-v2/a/4/6/3/a4639d05e28c47898c02c5c0b089f83570bafc95_1173937007__1_.png",
+      "https://media.os.fressnapf.com/products-v2/e/1/7/c/e17cf45d737e171044c71f616db3a57f151ffb05_1243584002_2_de.jpg",
+      "https://media.os.fressnapf.com/products-v2/5/5/2/1/55219be4fa14fc06996b3369fec8231c350e761c_1259900__de_DE__Real_Nature_Wilderness_Cat_DE.jpg",
+      "https://media.os.fressnapf.com/products-v2/d/8/d/5/d8d56532a72718c4b32c66c9dab67dcaff97d3de_1265729__de_DE__Real_Nature_Wilderness_Cat_Bild.jpg",
+      "https://media.os.fressnapf.com/products-v2/9/7/a/8/97a890b3151d4cdbf0891be1cd017f283945b6f8_1241789__de_DE__USPs_RN_wilderness_DE.jpg",
+      "https://media.os.fressnapf.com/products-v2/b/0/f/5/b0f575f62d2de8ddb5756776aa8e13e49fdbf7ad_1278505001__de_DE__Real_Nature_DE.jpg",
+      "https://media.os.fressnapf.com/products-v2/5/c/3/e/5c3e1bd12520856501d6372bae5b7215c111bc43_1267098__de_DE__6_pure_chicken_1173938007.jpg"
+    ],
+    "categories": [
+      "Real Nature Trockenfutter Katze"
+    ],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {}
+  },
+  {
+    "source_url": "https://www.fressnapf.de/p/alpha-spirit-dog-the-only-one-wild-fish-3-kg-4087494/",
+    "site_domain": "fressnapf.de",
+    "name": "alpha spirit Dog The Only One Wild Fish 3 kg",
+    "price": 36.99,
+    "id": "74760666-3400-494b-91c0-30d158c6654a",
+    "scraped_at": "2026-08-13T11:20:55.968439",
+    "sku": "4087494",
+    "brand": "alpha spirit",
+    "original_price": null,
+    "currency": "EUR",
+    "description": "Getreidefreies Premium-Hundefutter mit 100% natürlichen Zutaten für beste Verträglichkeit. Die innovative Trockennahrung von alpha spirit ist getreidefrei, glutenfrei und ohne Fleischmehle. Hypoallergen, 100% natürliche Zutaten in Lebensmittelqualität. Das Futter wird nicht extrudiert, sondern schonend gekocht für das Wohlbefinden des Hundes.",
+    "images": [
+      "https://media.os.fressnapf.com/products-v2/1/4/4/3/1443b725cef2c7274ba516a0e20e47c664c63a26_4087494_0_de_fababb2f27a94e52bd48645b3020f12e.jpg"
+    ],
+    "categories": [],
+    "tags": [],
+    "in_stock": true,
+    "raw_data": {}
+  }
+]

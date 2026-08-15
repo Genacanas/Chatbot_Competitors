@@ -1,0 +1,631 @@
+{
+  "gemini": {
+    "model": "Gemini 2.5 Flash",
+    "elapsed_seconds": 20.17,
+    "total_tokens": 192914,
+    "products_ok": 15,
+    "products_failed": 0,
+    "products": [
+      {
+        "name": "Trixie wall-mounted climbing ladder",
+        "price": null,
+        "currency": null,
+        "sku": null,
+        "brand": "Trixie",
+        "description": "Expandable climbing landscape for more freedom of movement. Stable construction made of wood and sisal ropes. Perfectly suited for connecting cupboards or other climbing landscape elements with each other.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/4/3/f/7/43f73d5ba1ad5e8d09615991ced4e0b775fb2b7b_1368032_0_de_b366e550f0f541e2834b98f1063370a6.jpg",
+          "https://media.os.fressnapf.com/products-v2/3/2/f/7/32f73d5702749595b4a9ea7e210464b3c13c85ec_1368032_1_de_786b300d8e06411c837d9e0a6cf69d53.jpg",
+          "https://media.os.fressnapf.com/products-v2/f/1/d/d/f1dd34b7906735adffebc1104bce0fc56a2e97ff_1368032_2_de_c2cb2e2e540643a0b463f662cceb4d38.jpg",
+          "https://media.os.fressnapf.com/products-v2/0/6/2/3/0623015b64c4e64fbd80de2abc108465baf8a462_1368032_3_de_6f55f1cb7da74e0d99fcf4d9f18eb86a.jpg"
+        ],
+        "in_stock": null,
+        "categories": [
+          "Cat",
+          "Scratching Furniture",
+          "Scratching Trees"
+        ],
+        "source_url": "https://www.fressnapf.de/p/trixie-kletterleiter-zur-wandmontage-1368032/"
+      },
+      {
+        "name": "Max & Molly Multifunction Leash Sailor S",
+        "price": null,
+        "currency": null,
+        "sku": "1871010",
+        "brand": "Max & Molly",
+        "description": "Maximum flexibility – through versatile functions and individual adjustment options. Double hold – for more control with strong pulling dogs. Three brushed rings – for flexible adjustment of the leash length.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/d/7/c/9/d7c98fdda7bea222c378f42fc1375c0abf708fb6_1871010_0_de_369598ec7fc94ccfb6a71343f33da919.jpg",
+          "https://media.os.fressnapf.com/products-v2/e/6/d/f/e6df917747f7d8d4e3554e83c3be676cdbf5e72a_1871010_1_de_40561c5fc32a48e5ac0be7e4dfdc790b.jpg",
+          "https://media.os.fressnapf.com/products-v2/4/6/2/2/4622d50cbc440970b3aedcd035dd06befd545ce1_1871010_2_de_32e0d747d27a4722b9d6f0d704b0d6a6.jpg",
+          "https://media.os.fressnapf.com/products-v2/c/d/f/1/cdf1f0a09df686f339ef40e3b7a444ea016b0a1b_1871010_3_de_fb49ccaa04e34d21a7c889898f795b1c.jpg",
+          "https://media.os.fressnapf.com/products-v2/3/b/c/1/3bc11035d1d7b151279303cb8eab6a98d9a4982b_1871010_4_de_0bca8a1aa711473eab26e5f4244ffc28.jpg"
+        ],
+        "in_stock": null,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/max--molly-multifunktionseine-sailor-s-1871010/"
+      },
+      {
+        "name": "Dog Sport HUNTER ergonomic dog collar arvika cognac M",
+        "price": null,
+        "currency": null,
+        "sku": "2410824",
+        "brand": "Dog Sport",
+        "description": "Can reduce the risk of soft tissue damage (larynx, thyroid, muscles). Dampens the impact of sudden jumping into the leash or a leash jerk. Made in Germany.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/8/1/b/6/81b618c0ff0698ed794609ef6100e82e41422fe5_2410824_0_de_0ba76073734a4c9bb5510f658d13626f.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/2/e/1/52e15f2b51fe5a1f575421b0aa55aba81a20905b_2410824_1_de_35a5aac30b7d48c0b6a6a516c1540dd2.png",
+          "https://media.os.fressnapf.com/products-v2/1/d/0/2/1d02d9c384bebb7832001a89166e916d814de767_2410824_2_de_fd64ace1ebe5489191a582549d7c00e1.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/f/7/c/5f7c088bd9225ab6b4c2ef530b38669caa72121a_2410824_3_de_7c82c8e6e3484990ab114748762ee95b.jpg",
+          "https://media.os.fressnapf.com/products-v2/c/4/b/f/c4bf280ec65d3a0100c22719a55159d6d974ef2f_2410824_4_de_fd2d73ce30c048998aa45376e720dd45.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/8/0/7/7807b355767f8db3a480028950752e7ef3bbf63f_2410824_5_de_142e121b5da647afb679e53652bb8e48.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/b/b/d/5bbdc6ebeee825d88b57b6c5971f094e9bf432a5_2410824_6_de_162642e1e2f849eca328999b6f901721.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/1/0/1/71018f61cb4d49bc99d1631feda92cd40d9b2445_2410824_7_de_4067c4168f294d6f9df6ab5bae3498fc.jpg",
+          "https://media.os.fressnapf.com/products-v2/8/d/5/6/8d56857094a2a0b249f6a50d1e5de7574e5f4e57_2410824_8_de_a3c7de21c8444adfbcab79a4ec274ff6.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/6/d/7/76d71589670a44ab00ce7ea4e25fb4e2985907d8_2410824_9_de_3964d66ebf5446869b353b5592a60a66.jpg"
+        ],
+        "in_stock": true,
+        "categories": [
+          "Dog",
+          "Walking",
+          "Collars"
+        ],
+        "source_url": "https://www.fressnapf.de/p/dog-sport-hunter-ergonomisches-hundehalsband-arvika-cognac-m-2410824/"
+      },
+      {
+        "name": "Tierlando LILLY fluffy pet & plush blanket light brown XL",
+        "price": null,
+        "currency": null,
+        "sku": "2129512",
+        "brand": "Tierlando",
+        "description": "Cuddly soft & washable. Size S: 75x50cm // Size L: 100x75cm // Size XL: 150x100cm. Made of 61% acrylic and 39% polyester with a pile length of 10 mm.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/a/6/e/f/a6ef7e4f6830667252dec00c6d76c5202b138319_2129512_0_de_899a780850da4dd2b48a3f9b5e0f3626.png",
+          "https://media.os.fressnapf.com/products-v2/0/7/5/0/0750c996759f46855a86eff0e73b5dd80081d856_2129512_1_de_4bc925bcdbcc4c45907c9bb1f0bbaf54.png",
+          "https://media.os.fressnapf.com/products-v2/6/7/5/8/6758e6ece21c8be55c5e98aeed6a71eab2221b07_2129512_3_de_4179b1e43f6f4c30a6494b77ec8b66b4.png"
+        ],
+        "in_stock": true,
+        "categories": [
+          "Dogs",
+          "Dog sleeping places",
+          "Dog blankets"
+        ],
+        "source_url": "https://www.fressnapf.de/p/tierlando-lilly-flauschige-haustier---plueschdecke-hellbraun-xl-2129512/"
+      },
+      {
+        "name": "DOOG Walkie Belt",
+        "price": 29.99,
+        "currency": "EUR",
+        "sku": null,
+        "brand": "DOOG",
+        "description": "The original and still the best dog hip bag. The DOOG Walkie Belt is designed to keep your hands free while walking your dog. The DOOG Walkie Belt is also a great accessory for the dog park and the beach, as you can store all your gear for your outing with your dog in compartments. With our handy dog poop bag pocket, you will always have dog poop bags at hand and you can even clip on a small to medium-sized dog to walk hands-free. Belt length: extendable from 70 cm (women's size 4) to 130 cm (women's size 20). Weight: 258 g. Features include 2 strong carabiners for leashing a dog (up to 13 kg), a large front pocket for phones (16 cm x 9 cm), a back compartment for treats, 20 scented poop bags in the side pocket, a ball holder with velcro, and a small pocket for coins or keys.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/4/0/f/3/40f30b744a143c7473a6ad5c61d513c35bd6eab5_2033128_0_de_ae1a7230ea9b4d94a00e1f100d13c32b.jpg",
+          "https://media.os.fressnapf.com/products-v2/8/4/e/6/84e6924a253e05a81ae8798666cf4563cd0e752a_2033128_1_de_5e66f297c6d44a7d8b23de75af64582b.jpg"
+        ],
+        "in_stock": true,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/doog-walkie-belt-2033128/"
+      },
+      {
+        "name": "ALPHAZOO Belly Calm Bach Flowers, Globuli for dogs and cats",
+        "price": null,
+        "currency": null,
+        "sku": "1701984",
+        "brand": "ALPHAZOO",
+        "description": "Vital globuli for dogs and cats. Natural & plant-based. Tradition according to Dr. Bach.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/4/7/a/7/47a786d308e54b0cbc0dae4f7bbc0eb01c5957e4_1701984_0_de_5176a7c2b94e4738b9e8dfd9bee91a85.png",
+          "https://media.os.fressnapf.com/products-v2/e/d/e/a/edeaaa5701f5dce6626a302365fd5463ea355b26_1701984_1_de_bf440a98e4e64ff096d6af8ae53d9859.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/7/a/3/57a325b1f9bcc5e3c13e344eef8f3718bc4f64ae_1701984_2_de_44b31b4715f34b44b949db59bb731d1c.jpg",
+          "https://media.os.fressnapf.com/products-v2/4/5/c/1/45c1eecc317b1601af4e0de41565498a6f683b31_1701984_3_de_9b948202120544b5bc93bc272425d764.jpg",
+          "https://media.os.fressnapf.com/products-v2/9/e/7/c/9e7cf1f83e2496de7a117f2e0cb18c9d808551c5_1701984_4_de_0b5908c84745465baf563c3fe6eb59d5.jpg",
+          "https://media.os.fressnapf.com/products-v2/a/e/f/2/aef28eb3a9c74730c8fa784b27e7b002189ff2fa_1701984_5_de_74912ec9254d4c17937082ada4493d42.jpg",
+          "https://media.os.fressnapf.com/products-v2/d/3/9/9/d39988da75c458c47444f71640ed3e558d4e8d86_1701984_6_de_ff1e111f11d344009cfb178f39d7003b.jpg"
+        ],
+        "in_stock": null,
+        "categories": [
+          "Dog",
+          "Dog food",
+          "Supplementary feed"
+        ],
+        "source_url": "https://www.fressnapf.de/p/alphazoo-magenruhe-bachblueten-globuli-fuer-hunde-und-katzen-1701984/"
+      },
+      {
+        "name": "JR Farm Yolk Yellow Maker 100 g",
+        "price": 4.19,
+        "currency": "EUR",
+        "sku": null,
+        "brand": "JR Farm Food & Hay",
+        "description": "A complementary feed for pet birds. Contains 35% marigold blossoms, without artificial colors or additives, and is grain-free.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/e/4/0/b/e40b7529112dc51a033acdaca2fbe513bf0bbc02_38c66c96441fce03d035a3469fcd1698aebe2470.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/8/8/d/588d7b0c28b7570e6fd456479def4e3d56f60e18_77c85a4bf1724ad58b21a35a11340cdcf17b628a.jpg"
+        ],
+        "in_stock": true,
+        "categories": [
+          "Garden & Pond",
+          "Chicken Farm",
+          "Feed & Hay"
+        ],
+        "source_url": "https://www.fressnapf.de/p/jr-farm-dottergelb-maker-100-g-1343844/"
+      },
+      {
+        "name": "AniForte Green Lipped Mussel Powder Full Fat Quality 250 g",
+        "price": null,
+        "currency": null,
+        "sku": "1337238",
+        "brand": "AniForte",
+        "description": "Healthy joints, agility & movement. Full fat quality – not defatted. Green lipped mussel from New Zealand.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/c/4/e/2/c4e2f3e4951d09fa271e205b8f20e9fe14c0ad25_1337238_0_de_75756e91852742bcaba0be0aa92e1c0f.jpg",
+          "https://media.os.fressnapf.com/products-v2/1/8/1/7/181797dff55b20f74566b5ab6963d740cf4bea30_1337238_1_de_8097b367dc304613beb309ffad145312.jpg",
+          "https://media.os.fressnapf.com/products-v2/e/3/b/d/e3bd09dc93e91843dbaab201b1eb0b805352268b_1337238_2_de_3f7e3139152b422e90ae80bb29fe2f46.jpg",
+          "https://media.os.fressnapf.com/products-v2/8/d/a/7/8da756cdf990fbff19b11d2759edaeb96ded7565_1337238_3_de_aa0d6c5d6eed4bf889b79d6c4f2d7f3a.jpg",
+          "https://media.os.fressnapf.com/products-v2/b/e/b/f/bebf1fd3022162f633e35488a33e3f17b2e39551_1337238_4_de_f8c53b91dd81417e947064789cb87b38.jpg",
+          "https://media.os.fressnapf.com/products-v2/9/d/9/1/9d913ff6edaa4d6c12d4a534e43645a48717d3fc_1337238_6_de_c22a5c6636d34507afc97802d3dc4ed0.jpg",
+          "https://media.os.fressnapf.com/products-v2/b/0/9/0/b0907d0ae3ec6ff332719a54275d0ad39ad5ca57_1337238_7_de_edf6fb3f0f1b4a8aaf069c11fcf3fa5a.jpg",
+          "https://media.os.fressnapf.com/products-v2/3/1/2/4/3124a58fc4369d0c4ab3fbfec620be9056184fac_1337238_8_de_ccdaec5dc7a44cd6aac0a02365194231.jpg"
+        ],
+        "in_stock": true,
+        "categories": [
+          "Dog",
+          "Dog Food",
+          "Supplements"
+        ],
+        "source_url": "https://www.fressnapf.de/p/aniforte-gruenlippmuschelpulver-vollfettqualitaet-250-g-1337238/"
+      },
+      {
+        "name": "Wolfsbacher Natur Calm & Relax Treats",
+        "price": null,
+        "currency": null,
+        "sku": "2078196",
+        "brand": "Wolfsbacher Natur",
+        "description": "125 calming treats against anxiety and stress. With valerian & St. John's wort. 100% natural & cold-pressed.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/2/0/6/1/20613c886aa2d6e896b8e8ae00c1b44c0ef7d131_2078196_0_de_64a947e778b54c9caecf334d4bb0dadf.jpg",
+          "https://media.os.fressnapf.com/products-v2/b/5/7/7/b577ceca7a11db522f8ca0b127a390069b8ef58f_2078196_1_de_627d4505d88f45088a1bdad88320a63f.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/e/0/f/5e0f83d9b939dd65a1998357b3f53fc47db806b4_2078196_2_de_18d3fa9760cd4f08b141e2e199e6a351.jpg",
+          "https://media.os.fressnapf.com/products-v2/e/7/7/d/e77d60d71aafe2f80453231e9277e1e34bef7cd3_2078196_3_de_cba09bcad49340e491130db4cbd8fa6e.jpg",
+          "https://media.os.fressnapf.com/products-v2/d/9/6/d/d96dbb6df470dfecf84b6ede60ecefefbb1edecf_2078196_4_de_6eb015c70a424ef4bfc69a79831e1908.jpg",
+          "https://media.os.fressnapf.com/products-v2/0/4/b/6/04b6a7ee76b1e51e37b90686d73f9272af7cbe77_2078196_5_de_c8695d94c9824c61a3001ee7bb379dd0.jpg",
+          "https://media.os.fressnapf.com/products-v2/c/2/7/b/c27b0eb6dad41b55134bce9d8ba0591f8b199799_2078196_6_de_92379153e03344219a8e803308416143.jpg"
+        ],
+        "in_stock": null,
+        "categories": [
+          "Dog",
+          "Dog Food",
+          "Snacks"
+        ],
+        "source_url": "https://www.fressnapf.de/p/wolfsbacher-natur-ruhe--relax-leckerli-4-2078196/"
+      },
+      {
+        "name": "Wildfang ® Wet Dog Food Chicken Pure BARF 6x400 g",
+        "price": null,
+        "currency": null,
+        "sku": "1951764",
+        "brand": "Wildfang",
+        "description": "A taste experience for your four-legged friend: This high-quality complete feed for dogs enables your dog to have a healthy and balanced diet that also tastes delicious. Pure delicacies: The wet food in B.A.R.F. quality has a high meat content of 70% and consists exclusively of high-quality muscle meat and offal, such as heart, liver, lungs and tripe. The well-being of your dog is our top priority, which is why we completely avoid artificial colors and preservatives, as well as grain and added sugar. The CHICKEN provides your dog with all important MINERALS and VITAMINS, is rich in AMINO ACIDS and serves as a healthy ENERGY SOURCE. Delivery includes: Grain-free wet food for dogs in the flavors chicken, lamb or beef, 6x 400 g cans.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/4/4/0/f/440f487cbb55095978c57d1fd90cec458f45ce3f_1951764_0_de_80ce0874cfa44663be9b845b7ad6cb21.jpg",
+          "https://media.os.fressnapf.com/products-v2/3/b/9/d/3b9ddbe659520a551f12b6fd13236afff25a75c9_1951764_1_de_c784bbccb9034f1b96ca0fae7033bdc2.jpg",
+          "https://media.os.fressnapf.com/products-v2/0/3/c/9/03c92f40bcc9e0687f559155534dd5e686d84ebc_1951764_2_de_1d281dd5219e4b71b6557777eaa0fa3b.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/3/c/0/73c0dc1b0fe6abaef1bc149ec552efa4b2970f1e_1951764_3_de_ddb7234e068344648983fef9be497042.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/7/f/d/57fd80dcb58d1b941b948b4652a4181e846f3f66_1951764_4_de_81d9b909101842e781fc95336fcaaf2c.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/a/f/2/7af2494e3ccc90b8dc5f2c353630dcc358bf309f_1951764_5_de_ff707a1e3cb9461fbfbb560336334ca4.jpg",
+          "https://media.os.fressnapf.com/products-v2/1/6/f/8/16f82c6f110c74daf153a246d80c769bc377025c_1951764_6_de_641a581ac21c4a65b45a00070e5c9dbb.jpg",
+          "https://media.os.fressnapf.com/products-v2/9/a/b/3/9ab3ad268e8ffc398947036df4ba32c7d3c30587_1951764_7_de_004be196803641bc80c6df66f872e6aa.jpg",
+          "https://media.os.fressnapf.com/products-v2/0/1/b/f/01bf7aa2a9e63f0518f86c6a1b04ebcb0f508642_1951764_8_de_3aa28a86ac0a4bd6a7c3fa52dcaf051b.jpg"
+        ],
+        "in_stock": null,
+        "categories": [
+          "Dog",
+          "Dog Food",
+          "Wet Food"
+        ],
+        "source_url": "https://www.fressnapf.de/p/wildfang--nassfutter-huhn-pur-barf-6x400-g-1951764/"
+      },
+      {
+        "name": "AniOne Snack Ball 6 cm lavender",
+        "price": 3.99,
+        "currency": "EUR",
+        "sku": "1520926",
+        "brand": "AniOne",
+        "description": "Fillable with snacks, for strong chewers, promotes your dog's intelligence.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/7/e/d/a/7edacbeec2853dc9d8cd722c5598b7883d1d0cd5_1520926_1_AO_H.jpg",
+          "https://media.os.fressnapf.com/products-v2/1/d/3/2/1d3235a5032999751ce86eec5675b93a3eb07fc1_1520926_2_AO_H.jpg"
+        ],
+        "in_stock": true,
+        "categories": [
+          "Cat",
+          "Cat toys",
+          "Play mice & balls"
+        ],
+        "source_url": "https://www.fressnapf.de/p/anione-snack-ball-6-cm-lavender-1520926/"
+      },
+      {
+        "name": "SELECT GOLD Sensitive Dry Dog Food Mini Silkworm Protein 1 kg",
+        "price": null,
+        "currency": null,
+        "sku": "2068115",
+        "brand": "SELECT GOLD",
+        "description": "Selected animal protein source, prebiotic, grain-free recipe.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/6/b/8/b/6b8b865feffcc79c53ba8f96a72b6d3e8a20640a_2068115__800x800px_72dpi_RGB.PNG",
+          "https://media.os.fressnapf.com/products-v2/1/1/d/6/11d67369bac8ad340e186c41d1293f1005395c12_1243295_1_de.jpg",
+          "https://media.os.fressnapf.com/products-v2/6/a/b/b/6abb6915af23c615d0cf74853b0a3bb663e7931c_1096086__de_DE__4_Select_Gold_Dog.jpg",
+          "https://media.os.fressnapf.com/products-v2/e/a/d/6/ead64b69630f1e880b811c2bafe9134b2e70bcd3_1001469002_10_de_Akzeptanzgarantie.jpg"
+        ],
+        "in_stock": null,
+        "categories": [
+          "Dog",
+          "Dog Food",
+          "Dry Food"
+        ],
+        "source_url": "https://www.fressnapf.de/p/select-gold-sensitive-trockenfutter-hund-mini-seidenraupenprotein-1-kg-2068115/"
+      },
+      {
+        "name": "MultiFit Wet Dog Food Pate Poultry 48x150 g",
+        "price": 21.99,
+        "currency": "EUR",
+        "sku": "1954846",
+        "brand": "MultiFit",
+        "description": "Tasty pate, no added sugar, without artificial colorings and preservatives.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/9/3/f/a/93faa6e415949dabcb4f69d9644544a2bcce41cb_1332789_0.png"
+        ],
+        "in_stock": true,
+        "categories": [
+          "Dog",
+          "Dog food",
+          "Wet food"
+        ],
+        "source_url": "https://www.fressnapf.de/p/multifit-nassfutter-hund-pastete-gefluegel-48x150-g-1954846/"
+      },
+      {
+        "name": "Hunter Adjustable Lead Solid Education olive 1.3 cm, 2.5 m",
+        "price": null,
+        "currency": null,
+        "sku": "1326978",
+        "brand": "Hunter",
+        "description": "3-way adjustable, includes leather key ring, hand-braided.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/e/9/9/1/e991fa130d6c6c3d340760cedbee16a626288143_1326978_0_de_896ef891a2424ec48e83b6b99bf0c50d.jpg",
+          "https://media.os.fressnapf.com/products-v2/6/6/6/3/6663db6c929b59aa88b5009612fcab9ccc39c179_1326978_1_de_f0c05b8b73834f48a543deae2b1ff6c1.jpg",
+          "https://media.os.fressnapf.com/products-v2/0/e/2/a/0e2abedf15a43b56725b987e6647a365486e7c4a_1326978_2_de_2b9805a057944755b65be004002fac5d.jpg",
+          "https://media.os.fressnapf.com/products-v2/f/5/c/8/f5c8a0aa74cefdfeab71eb46f1b09bfd382d299a_1326978_3_de_7f34a401df6b478b87aa2495d53f2a21.jpg",
+          "https://media.os.fressnapf.com/products-v2/0/4/d/b/04db47f271cf81e23e705bd6cd063e1e099526e7_1326978_4_de_ff743fa9c88b4bbe82b963872b82d104.jpg",
+          "https://media.os.fressnapf.com/products-v2/8/5/0/2/8502d7933eb96b609ea3000b50241e5e8cdf27ae_1326978_5_de_70e171e4b570464db5d147b8481c5696.jpg",
+          "https://media.os.fressnapf.com/products-v2/a/5/2/7/a5275c4b48687de55d1340fcdc77392edb13b294_1326978_6_de_ab2d5e62cd6e4e70a4dabe1b8b0bb092.jpg",
+          "https://media.os.fressnapf.com/products-v2/1/0/d/8/10d8490a88674e398e80c48f3fd1b2bca84a3780_1326978_7_de_4ae7ae54de604875912eb93a00be950b.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/6/3/9/7639d513e37c1e4807246497b338fb1cca6f4ea0_1326978_8_de_1160daadae8a42cba3d1b550b8e3e49d.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/1/e/e/71eeb2d7d2df4e029c3cbce48bf075a0dd5eef0d_1326978_9_de_86c70b2f4c83433fa1ea822f63b56026.jpg"
+        ],
+        "in_stock": true,
+        "categories": [
+          "Dog",
+          "Walking",
+          "Leashes"
+        ],
+        "source_url": "https://www.fressnapf.de/p/hunter-verstellbare-fuehrleine-solid-education-oliv-13-cm-25-m-1326978/"
+      },
+      {
+        "name": "District 70 Dog Bed CLASSIC dark grey M",
+        "price": null,
+        "currency": null,
+        "sku": "1867003",
+        "brand": "District 70",
+        "description": "Exclusive bed made of durable polyester fabric. Removable zipper cover, machine washable at 30 degrees. Low edge for easy access.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/3/1/0/1/31011f0ce269c4a1b3fb03883bd1bbf6327bf785_1867003_0_de_559fe0b2564a4607ad510e3f0f20704f.jpg",
+          "https://media.os.fressnapf.com/products-v2/b/4/8/6/b4863f982a60ef7fc99198ca006efe373fbc52bf_1867003_1_de_c0a03d29db6b4f3896f675b6afa0929a.jpg",
+          "https://media.os.fressnapf.com/products-v2/1/0/d/c/10dc55da40b28e60be6632c4941dc8ce1fbdbdbd_1867003_2_de_66f1ae7f678e4cef96dcc6e2342fdd84.jpg",
+          "https://media.os.fressnapf.com/products-v2/4/f/d/2/4fd28cabaaadd657a3ccb72cf5a501e0ff226780_1867003_3_de_43b4427bb4e14fbb8f9f9898985a13ff.jpg",
+          "https://media.os.fressnapf.com/products-v2/e/5/a/1/e5a1e42685d6a81729b5fb8247d6640c6874a42b_1867003_4_de_ec9b5021b13542958ef6c480474968dc.jpg",
+          "https://media.os.fressnapf.com/products-v2/8/c/c/e/8cce50762e0ee6f0f9c31d7ff774fc704cf165bb_1867003_5_de_8cebfa2e01e745fb83d2e05baed3f7e0.jpg",
+          "https://media.os.fressnapf.com/products-v2/c/c/d/0/ccd0e2ffc53550704bedeb45e802fdde617534e9_1867003_6_de_a5754df4dbb3495889f938b1b06bcafb.jpg",
+          "https://media.os.fressnapf.com/products-v2/1/8/8/3/18835675bcb31ee43f84a4526bda83bd26e513e4_1867003_7_de_e075da176069494fb3e16c71db1bcefc.jpg"
+        ],
+        "in_stock": true,
+        "categories": [
+          "Dog",
+          "Dog sleeping places",
+          "Dog beds"
+        ],
+        "source_url": "https://www.fressnapf.de/p/district-70-hundebett-classic-dunkelgrau-m-1867003/"
+      }
+    ],
+    "avg_quality_score": 6.8,
+    "cost_usd": 0.01446855
+  },
+  "gpt4o_mini": {
+    "model": "gpt-4o-mini",
+    "elapsed_seconds": 29.55,
+    "total_tokens": 151845,
+    "products_ok": 15,
+    "products_failed": 0,
+    "products": [
+      {
+        "name": "Trixie Wall-Mounted Climbing Ladder",
+        "price": null,
+        "currency": null,
+        "sku": "1368032",
+        "brand": "Trixie Cat Trees",
+        "description": "Expandable climbing landscape for more freedom of movement. Stable construction made of wood and sisal ropes. Perfect for connecting cabinets or other climbing landscape elements.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/4/3/f/7/43f73d5ba1ad5e8d09615991ced4e0b775fb2b7b_1368032_0_de_b366e550f0f541e2834b98f1063370a6.jpg",
+          "https://media.os.fressnapf.com/products-v2/3/2/f/7/32f73d5702749595b4a9ea7e210464b3c13c85ec_1368032_1_de_786b300d8e06411c837d9e0a6cf69d53.jpg",
+          "https://media.os.fressnapf.com/products-v2/f/1/d/d/f1dd34b7906735adffebc1104bce0fc56a2e97ff_1368032_2_de_c2cb2e2e540643a0b463f662cceb4d38.jpg",
+          "https://media.os.fressnapf.com/products-v2/0/6/2/3/0623015b64c4e64fbd80de2abc108465baf8a462_1368032_3_de_6f55f1cb7da74e0d99fcf4d9f18eb86a.jpg"
+        ],
+        "in_stock": null,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/trixie-kletterleiter-zur-wandmontage-1368032/"
+      },
+      {
+        "name": "Max & Molly Multifunctional Leash - Sailor S",
+        "price": null,
+        "currency": null,
+        "sku": "1871010",
+        "brand": "Max & Molly",
+        "description": "Maximum flexibility – through versatile functions and individual adjustment options. Double hold – for more control with strongly pulling dogs. Three brushed rings – for flexible adjustment of the leash length.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/d/7/c/9/d7c98fdda7bea222c378f42fc1375c0abf708fb6_1871010_0_de_369598ec7fc94ccfb6a71343f33da919.jpg",
+          "https://media.os.fressnapf.com/products-v2/e/6/d/f/e6df917747f7d8d4e3554e83c3be676cdbf5e72a_1871010_1_de_40561c5fc32a48e5ac0be7e4dfdc790b.jpg",
+          "https://media.os.fressnapf.com/products-v2/4/6/2/2/4622d50cbc440970b3aedcd035dd06befd545ce1_1871010_2_de_32e0d747d27a4722b9d6f0d704b0d6a6.jpg",
+          "https://media.os.fressnapf.com/products-v2/c/d/f/1/cdf1f0a09df686f339ef40e3b7a444ea016b0a1b_1871010_3_de_fb49ccaa04e34d21a7c889898f795b1c.jpg",
+          "https://media.os.fressnapf.com/products-v2/3/b/c/1/3bc11035d1d7b151279303cb8eab6a98d9a4982b_1871010_4_de_0bca8a1aa711473eab26e5f4244ffc28.jpg"
+        ],
+        "in_stock": null,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/max--molly-multifunktionseine-sailor-s-1871010/"
+      },
+      {
+        "name": "Dog Sport HUNTER ergonomic dog collar Arvika cognac M",
+        "price": null,
+        "currency": null,
+        "sku": "2410824",
+        "brand": "Dog Sport",
+        "description": "Can reduce the risk of damage to soft tissue (larynx, thyroid, muscles). Dampens the impact of sudden jumping on the leash or a leash jerk. Made in Germany.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/8/1/b/6/81b618c0ff0698ed794609ef6100e82e41422fe5_2410824_0_de_0ba76073734a4c9bb5510f658d13626f.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/2/e/1/52e15f2b51fe5a1f575421b0aa55aba81a20905b_2410824_1_de_35a5aac30b7d48c0b6a6a516c1540dd2.png",
+          "https://media.os.fressnapf.com/products-v2/1/d/0/2/1d02d9c384bebb7832001a89166e916d814de767_2410824_2_de_fd64ace1ebe5489191a582549d7c00e1.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/f/7/c/5f7c088bd9225ab6b4c2ef530b38669caa72121a_2410824_3_de_7c82c8e6e3484990ab114748762ee95b.jpg",
+          "https://media.os.fressnapf.com/products-v2/c/4/b/f/c4bf280ec65d3a0100c22719a55159d6d974ef2f_2410824_4_de_fd2d73ce30c048998aa45376e720dd45.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/8/0/7/7807b355767f8db3a480028950752e7ef3bbf63f_2410824_5_de_142e121b5da647afb679e53652bb8e48.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/b/b/d/5bbdc6ebeee825d88b57b6c5971f094e9bf432a5_2410824_6_de_162642e1e2f849eca328999b6f901721.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/1/0/1/71018f61cb4d49bc99d1631feda92cd40d9b2445_2410824_7_de_4067c4168f294d6f9df6ab5bae3498fc.jpg",
+          "https://media.os.fressnapf.com/products-v2/8/d/5/6/8d56857094a2a0b249f6a50d1e5de7574e5f4e57_2410824_8_de_a3c7de21c8444adfbcab79a4ec274ff6.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/6/d/7/76d71589670a44ab00ce7ea4e25fb4e2985907d8_2410824_9_de_3964d66ebf5446869b353b5592a60a66.jpg"
+        ],
+        "in_stock": null,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/dog-sport-hunter-ergonomisches-hundehalsband-arvika-cognac-m-2410824/"
+      },
+      {
+        "name": "Tierlando LILLY fluffy pet & plush blanket light brown XL",
+        "price": null,
+        "currency": null,
+        "sku": "2129512",
+        "brand": "Tierlando",
+        "description": "Soft and washable. Size S: 75x50cm // Size L: 100x75cm // Size XL: 150x100cm. Made of 61% acrylic and 39% polyester with a thread length of 10 mm.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/a/6/e/f/a6ef7e4f6830667252dec00c6d76c5202b138319_2129512_0_de_899a780850da4dd2b48a3f9b5e0f3626.png",
+          "https://media.os.fressnapf.com/products-v2/0/7/5/0/0750c996759f46855a86eff0e73b5dd80081d856_2129512_1_de_4bc925bcdbcc4c45907c9bb1f0bbaf54.png",
+          "https://media.os.fressnapf.com/products-v2/6/7/5/8/6758e6ece21c8be55c5e98aeed6a71eab2221b07_2129512_3_de_4179b1e43f6f4c30a6494b77ec8b66b4.png"
+        ],
+        "in_stock": null,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/tierlando-lilly-flauschige-haustier---plueschdecke-hellbraun-xl-2129512/"
+      },
+      {
+        "name": "DOOG Walkie Belt",
+        "price": 29.99,
+        "currency": "EUR",
+        "sku": "2033128",
+        "brand": "DOOG",
+        "description": "The original and still the best dog hip bag. The DOOG Walkie Belt is designed to keep your hands free while walking your dog. The DOOG Walkie Belt is also a great accessory for the dog park and the beach, as you can store all your essentials for the outing with your dog in compartments. With our handy dog waste bag holder, you always have dog waste bags on hand, and you can even attach a small to medium dog for hands-free walking. Belt length: extendable from 70 cm (women's size 4) to 130 cm (women's size 20). Weight: 258 g Available in colors: Navy/Yellow, Black, Camouflage, Red, Gray/Pink, Navy/Red, Navy/Dolka Pot, and Pink/Tear Drops. Features: - 2 strong carabiners (one on each side) for attaching a dog (up to 13 kg). - Large front pocket for e.g. phones (pocket size 16 cm x 9 cm). - 2nd compartment on the back for treats. - 20 scented dog waste bags in the right side pocket, delivered in a handy tissue pack so that the next bag can be easily replaced. - Ball holder with Velcro. - 3rd pocket for coins or house keys. Waist circumference: adjustable from 70 to 130 cm.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/4/0/f/3/40f30b744a143c7473a6ad5c61d513c35bd6eab5_2033128_0_de_ae1a7230ea9b4d94a00e1f100d13c32b.jpg",
+          "https://media.os.fressnapf.com/products-v2/8/4/e/6/84e6924a253e05a81ae8798666cf4563cd0e752a_2033128_1_de_5e66f297c6d44a7d8b23de75af64582b.jpg"
+        ],
+        "in_stock": true,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/doog-walkie-belt-2033128/"
+      },
+      {
+        "name": "ALPHAZOO Stomach Calm Bach Flower Remedies, Globules for Dogs and Cats",
+        "price": null,
+        "currency": null,
+        "sku": "1701984",
+        "brand": "ALPHAZOO Supplementary Food & Breeding",
+        "description": "Vital globules for dogs and cats. Natural & plant-based. Tradition according to Dr. Bach.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/4/7/a/7/47a786d308e54b0cbc0dae4f7bbc0eb01c5957e4_1701984_0_de_5176a7c2b94e4738b9e8dfd9bee91a85.png",
+          "https://media.os.fressnapf.com/products-v2/e/d/e/a/edeaaa5701f5dce6626a302365fd5463ea355b26_1701984_1_de_bf440a98e4e64ff096d6af8ae53d9859.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/7/a/3/57a325b1f9bcc5e3c13e344eef8f3718bc4f64ae_1701984_2_de_44b31b4715f34b44b949db59bb731d1c.jpg",
+          "https://media.os.fressnapf.com/products-v2/4/5/c/1/45c1eecc317b1601af4e0de41565498a6f683b31_1701984_3_de_9b948202120544b5bc93bc272425d764.jpg",
+          "https://media.os.fressnapf.com/products-v2/9/e/7/c/9e7cf1f83e2496de7a117f2e0cb18c9d808551c5_1701984_4_de_0b5908c84745465baf563c3fe6eb59d5.jpg",
+          "https://media.os.fressnapf.com/products-v2/a/e/f/2/aef28eb3a9c74730c8fa784b27e7b002189ff2fa_1701984_5_de_74912ec9254d4c17937082ada4493d42.jpg",
+          "https://media.os.fressnapf.com/products-v2/d/3/9/9/d39988da75c458c47444f71640ed3e558d4e8d86_1701984_6_de_ff1e111f11d344009cfb178f39d7003b.jpg"
+        ],
+        "in_stock": null,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/alphazoo-magenruhe-bachblueten-globuli-fuer-hunde-und-katzen-1701984/"
+      },
+      {
+        "name": "JR Farm Dottergelb-Maker 100 g",
+        "price": 4.19,
+        "currency": "EUR",
+        "sku": null,
+        "brand": "JR Farm Futter & Heu",
+        "description": "A mixture of herbs for pets, containing 35% marigold flowers, free from artificial colors and additives, and grain-free.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/e/4/0/b/e40b7529112dc51a033acdaca2fbe513bf0bbc02_38c66c96441fce03d035a3469fcd1698aebe2470.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/8/8/d/588d7b0c28b7570e6fd456479def4e3d56f60e18_77c85a4bf1724ad58b21a35a11340cdcf17b628a.jpg"
+        ],
+        "in_stock": true,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/jr-farm-dottergelb-maker-100-g-1343844/"
+      },
+      {
+        "name": "AniForte Green Lipped Mussel Powder Full Fat Quality 250 g",
+        "price": null,
+        "currency": null,
+        "sku": "1337238",
+        "brand": "AniForte",
+        "description": "Natural joint powder for pets that promotes healthy joints, mobility, and cartilage regeneration.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/c/4/e/2/c4e2f3e4951d09fa271e205b8f20e9fe14c0ad25_1337238_0_de_75756e91852742bcaba0be0aa92e1c0f.jpg",
+          "https://media.os.fressnapf.com/products-v2/1/8/1/7/181797dff55b20f74566b5ab6963d740cf4bea30_1337238_1_de_8097b367dc304613beb309ffad145312.jpg",
+          "https://media.os.fressnapf.com/products-v2/e/3/b/d/e3bd09dc93e91843dbaab201b1eb0b805352268b_1337238_2_de_3f7e3139152b422e90ae80bb29fe2f46.jpg",
+          "https://media.os.fressnapf.com/products-v2/8/d/a/7/8da756cdf990fbff19b11d2759edaeb96ded7565_1337238_3_de_aa0d6c5d6eed4bf889b79d6c4f2d7f3a.jpg",
+          "https://media.os.fressnapf.com/products-v2/b/e/b/f/bebf1fd3022162f633e35488a33e3f17b2e39551_1337238_4_de_f8c53b91dd81417e947064789cb87b38.jpg",
+          "https://media.os.fressnapf.com/products-v2/9/d/9/1/9d913ff6edaa4d6c12d4a534e43645a48717d3fc_1337238_6_de_c22a5c6636d34507afc97802d3dc4ed0.jpg",
+          "https://media.os.fressnapf.com/products-v2/b/0/9/0/b0907d0ae3ec6ff332719a54275d0ad39ad5ca57_1337238_7_de_edf6fb3f0f1b4a8aaf069c11fcf3fa5a.jpg",
+          "https://media.os.fressnapf.com/products-v2/3/1/2/4/3124a58fc4369d0c4ab3fbfec620be9056184fac_1337238_8_de_ccdaec5dc7a44cd6aac0a02365194231.jpg"
+        ],
+        "in_stock": null,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/aniforte-gruenlippmuschelpulver-vollfettqualitaet-250-g-1337238/"
+      },
+      {
+        "name": "Wolfsbacher Natur Calm & Relax Treats 4",
+        "price": null,
+        "currency": null,
+        "sku": "2078196",
+        "brand": "Wolfsbacher Natur",
+        "description": "125 calming treats against anxiety & stress with valerian & St. John's wort, 100% natural & cold pressed.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/2/0/6/1/20613c886aa2d6e896b8e8ae00c1b44c0ef7d131_2078196_0_de_64a947e778b54c9caecf334d4bb0dadf.jpg",
+          "https://media.os.fressnapf.com/products-v2/b/5/7/7/b577ceca7a11db522f8ca0b127a390069b8ef58f_2078196_1_de_627d4505d88f45088a1bdad88320a63f.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/e/0/f/5e0f83d9b939dd65a1998357b3f53fc47db806b4_2078196_2_de_18d3fa9760cd4f08b141e2e199e6a351.jpg",
+          "https://media.os.fressnapf.com/products-v2/e/7/7/d/e77d60d71aafe2f80453231e9277e1e34bef7cd3_2078196_3_de_cba09bcad49340e491130db4cbd8fa6e.jpg",
+          "https://media.os.fressnapf.com/products-v2/d/9/6/d/d96dbb6df470dfecf84b6ede60ecefefbb1edecf_2078196_4_de_6eb015c70a424ef4bfc69a79831e1908.jpg",
+          "https://media.os.fressnapf.com/products-v2/0/4/b/6/04b6a7ee76b1e51e37b90686d73f9272af7cbe77_2078196_5_de_c8695d94c9824c61a3001ee7bb379dd0.jpg",
+          "https://media.os.fressnapf.com/products-v2/c/2/7/b/c27b0eb6dad41b55134bce9d8ba0591f8b199799_2078196_6_de_92379153e03344219a8e803308416143.jpg"
+        ],
+        "in_stock": null,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/wolfsbacher-natur-ruhe--relax-leckerli-4-2078196/"
+      },
+      {
+        "name": "Wildfang ® Wet Food Chicken Pure BARF 6x400 g",
+        "price": null,
+        "currency": null,
+        "sku": "1951764",
+        "brand": "Wildfang",
+        "description": "A taste experience for your four-legged friend: The high-quality complete food for dogs allows your dog a healthy and balanced diet, which also tastes delicious. Pure delicacies: The wet food in B.A.R.F. quality has a high meat content of 70% and consists exclusively of high-quality muscle meat and offal, such as heart, liver, lung, and tripe. The well-being of your dog is our top priority, which is why we completely avoid artificial colors and preservatives, as well as grains and sugar additives. The chicken provides your dog with all the important minerals and vitamins, is rich in amino acids, and serves as a healthy source of energy. Delivery includes: Grain-free wet food for dogs in the flavors chicken, lamb, or beef 400 g can.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/4/4/0/f/440f487cbb55095978c57d1fd90cec458f45ce3f_1951764_0_de_80ce0874cfa44663be9b845b7ad6cb21.jpg",
+          "https://media.os.fressnapf.com/products-v2/3/b/9/d/3b9ddbe659520a551f12b6fd13236afff25a75c9_1951764_1_de_c784bbccb9034f1b96ca0fae7033bdc2.jpg",
+          "https://media.os.fressnapf.com/products-v2/0/3/c/9/03c92f40bcc9e0687f559155534dd5e686d84ebc_1951764_2_de_1d281dd5219e4b71b6557777eaa0fa3b.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/3/c/0/73c0dc1b0fe6abaef1bc149ec552efa4b2970f1e_1951764_3_de_ddb7234e068344648983fef9be497042.jpg",
+          "https://media.os.fressnapf.com/products-v2/5/7/f/d/57fd80dcb58d1b941b948b4652a4181e846f3f66_1951764_4_de_81d9b909101842e781fc95336fcaaf2c.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/a/f/2/7af2494e3ccc90b8dc5f2c353630dcc358bf309f_1951764_5_de_ff707a1e3cb9461fbfbb560336334ca4.jpg",
+          "https://media.os.fressnapf.com/products-v2/1/6/f/8/16f82c6f110c74daf153a246d80c769bc377025c_1951764_6_de_641a581ac21c4a65b45a00070e5c9dbb.jpg",
+          "https://media.os.fressnapf.com/products-v2/9/a/b/3/9ab3ad268e8ffc398947036df4ba32c7d3c30587_1951764_7_de_004be196803641bc80c6df66f872e6aa.jpg",
+          "https://media.os.fressnapf.com/products-v2/0/1/b/f/01bf7aa2a9e63f0518f86c6a1b04ebcb0f508642_1951764_8_de_3aa28a86ac0a4bd6a7c3fa52dcaf051b.jpg"
+        ],
+        "in_stock": null,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/wildfang--nassfutter-huhn-pur-barf-6x400-g-1951764/"
+      },
+      {
+        "name": "AniOne Snack Ball 6 cm lavender",
+        "price": 3.99,
+        "currency": "EUR",
+        "sku": "1520926",
+        "brand": "AniOne",
+        "description": "A structured lavender pet toy ball with a hole showing a brown treat inside.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/7/e/d/a/7edacbeec2853dc9d8cd722c5598b7883d1d0cd5_1520926_1_AO_H.jpg",
+          "https://media.os.fressnapf.com/products-v2/1/d/3/2/1d3235a5032999751ce86eec5675b93a3eb07fc1_1520926_2_AO_H.jpg"
+        ],
+        "in_stock": true,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/anione-snack-ball-6-cm-lavender-1520926/"
+      },
+      {
+        "name": "SELECT GOLD Sensitive Dry Dog Food Mini Silkworm Protein 1 kg",
+        "price": null,
+        "currency": null,
+        "sku": null,
+        "brand": "SELECT GOLD Dog Dry Food",
+        "description": null,
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/6/b/8/b/6b8b865feffcc79c53ba8f96a72b6d3e8a20640a_2068115__800x800px_72dpi_RGB.PNG",
+          "https://media.os.fressnapf.com/products-v2/1/1/d/6/11d67369bac8ad340e186c41d1293f1005395c12_1243295_1_de.jpg",
+          "https://media.os.fressnapf.com/products-v2/6/a/b/b/6abb6915af23c615d0cf74853b0a3bb663e7931c_1096086__de_DE__4_Select_Gold_Dog.jpg",
+          "https://media.os.fressnapf.com/products-v2/e/a/d/6/ead64b69630f1e880b811c2bafe9134b2e70bcd3_1001469002_10_de_Akzeptanzgarantie.jpg"
+        ],
+        "in_stock": null,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/select-gold-sensitive-trockenfutter-hund-mini-seidenraupenprotein-1-kg-2068115/"
+      },
+      {
+        "name": "MultiFit Dog Wet Food Pâté Poultry 48x150 g",
+        "price": 21.99,
+        "currency": "EUR",
+        "sku": "1954846",
+        "brand": "MultiFit Dog Wet Food",
+        "description": "Delicious pâté. No added sugar. No artificial colors and preservatives.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/9/3/f/a/93faa6e415949dabcb4f69d9644544a2bcce41cb_1332789_0.png"
+        ],
+        "in_stock": true,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/multifit-nassfutter-hund-pastete-gefluegel-48x150-g-1954846/"
+      },
+      {
+        "name": "Hunter Adjustable Leash Solid Education Olive 1.3 cm, 2.5 m",
+        "price": null,
+        "currency": null,
+        "sku": "1326978",
+        "brand": "Hunter",
+        "description": "3-fold adjustable possibility, with leather keychain, hand-braided",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/e/9/9/1/e991fa130d6c6c3d340760cedbee16a626288143_1326978_0_de_896ef891a2424ec48e83b6b99bf0c50d.jpg",
+          "https://media.os.fressnapf.com/products-v2/6/6/6/3/6663db6c929b59aa88b5009612fcab9ccc39c179_1326978_1_de_f0c05b8b73834f48a543deae2b1ff6c1.jpg",
+          "https://media.os.fressnapf.com/products-v2/0/e/2/a/0e2abedf15a43b56725b987e6647a365486e7c4a_1326978_2_de_2b9805a057944755b65be004002fac5d.jpg",
+          "https://media.os.fressnapf.com/products-v2/f/5/c/8/f5c8a0aa74cefdfeab71eb46f1b09bfd382d299a_1326978_3_de_7f34a401df6b478b87aa2495d53f2a21.jpg",
+          "https://media.os.fressnapf.com/products-v2/0/4/d/b/04db47f271cf81e23e705bd6cd063e1e099526e7_1326978_4_de_ff743fa9c88b4bbe82b963872b82d104.jpg",
+          "https://media.os.fressnapf.com/products-v2/8/5/0/2/8502d7933eb96b609ea3000b50241e5e8cdf27ae_1326978_5_de_70e171e4b570464db5d147b8481c5696.jpg",
+          "https://media.os.fressnapf.com/products-v2/a/5/2/7/a5275c4b48687de55d1340fcdc77392edb13b294_1326978_6_de_ab2d5e62cd6e4e70a4dabe1b8b0bb092.jpg",
+          "https://media.os.fressnapf.com/products-v2/1/0/d/8/10d8490a88674e398e80c48f3fd1b2bca84a3780_1326978_7_de_4ae7ae54de604875912eb93a00be950b.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/6/3/9/7639d513e37c1e4807246497b338fb1cca6f4ea0_1326978_8_de_1160daadae8a42cba3d1b550b8e3e49d.jpg",
+          "https://media.os.fressnapf.com/products-v2/7/1/e/e/71eeb2d7d2df4e029c3cbce48bf075a0dd5eef0d_1326978_9_de_86c70b2f4c83433fa1ea822f63b56026.jpg"
+        ],
+        "in_stock": null,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/hunter-verstellbare-fuehrleine-solid-education-oliv-13-cm-25-m-1326978/"
+      },
+      {
+        "name": "District 70 Dog Bed CLASSIC Dark Grey M",
+        "price": null,
+        "currency": null,
+        "sku": "1867003",
+        "brand": "District 70",
+        "description": "Exclusive bed made of durable polyester fabric. Removable zipper cover, machine washable at 30 degrees. Low edge for easy access.",
+        "images": [
+          "https://media.os.fressnapf.com/products-v2/3/1/0/1/31011f0ce269c4a1b3fb03883bd1bbf6327bf785_1867003_0_de_559fe0b2564a4607ad510e3f0f20704f.jpg",
+          "https://media.os.fressnapf.com/products-v2/b/4/8/6/b4863f982a60ef7fc99198ca006efe373fbc52bf_1867003_1_de_c0a03d29db6b4f3896f675b6afa0929a.jpg",
+          "https://media.os.fressnapf.com/products-v2/1/0/d/c/10dc55da40b28e60be6632c4941dc8ce1fbdbdbd_1867003_2_de_66f1ae7f678e4cef96dcc6e2342fdd84.jpg",
+          "https://media.os.fressnapf.com/products-v2/4/f/d/2/4fd28cabaaadd657a3ccb72cf5a501e0ff226780_1867003_3_de_43b4427bb4e14fbb8f9f9898985a13ff.jpg",
+          "https://media.os.fressnapf.com/products-v2/e/5/a/1/e5a1e42685d6a81729b5fb8247d6640c6874a42b_1867003_4_de_ec9b5021b13542958ef6c480474968dc.jpg",
+          "https://media.os.fressnapf.com/products-v2/8/c/c/e/8cce50762e0ee6f0f9c31d7ff774fc704cf165bb_1867003_5_de_8cebfa2e01e745fb83d2e05baed3f7e0.jpg",
+          "https://media.os.fressnapf.com/products-v2/c/c/d/0/ccd0e2ffc53550704bedeb45e802fdde617534e9_1867003_6_de_a5754df4dbb3495889f938b1b06bcafb.jpg",
+          "https://media.os.fressnapf.com/products-v2/1/8/8/3/18835675bcb31ee43f84a4526bda83bd26e513e4_1867003_7_de_e075da176069494fb3e16c71db1bcefc.jpg"
+        ],
+        "in_stock": null,
+        "categories": [],
+        "source_url": "https://www.fressnapf.de/p/district-70-hundebett-classic-dunkelgrau-m-1867003/"
+      }
+    ],
+    "avg_quality_score": 5.6,
+    "cost_usd": 0.011388375000000001,
+    "cost_batch_usd": 0.0056941875000000005
+  }
+}

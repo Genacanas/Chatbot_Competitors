@@ -1,0 +1,63 @@
+{
+    "mode": "A_no_filter",
+    "domain": "fressnapf.de",
+    "config": {
+        "limit": 50,
+        "browser_workers": 3,
+        "html_max_chars": 25000
+    },
+    "sitemap_stats": {
+        "total_urls_discovered": 37085,
+        "urls_after_filter": 34984,
+        "pattern_derived": null,
+        "pattern_cost_usd": 0.0
+    },
+    "extraction_stats": {
+        "urls_attempted": "unknown",
+        "urls_successful": 50,
+        "total_llm_tokens": 622286,
+        "total_llm_cost_usd": 0.046671449999999996,
+        "execution_time_seconds": 153.82928681373596
+    },
+    "products_preview": [
+        {
+            "name": "Trixie Kletterleiter zur Wandmontage",
+            "price": null,
+            "currency": null,
+            "sku": "1368032",
+            "brand": "Trixie",
+            "description": "Erweiterbare Kletterlandschaft für mehr Bewegungsfreiraum. Stabile Konstruktion aus Holz und Sisal-Seilen. Perfekt geeignet, um Schränke oder andere Kletterlandschaft-Elemente miteinander zu verbinden.",
+            "images": [
+                "https://media.os.fressnapf.com/products-v2/4/3/f/7/43f73d5ba1ad5e8d09615991ced4e0b775fb2b7b_1368032_0_de_b366e550f0f541e2834b98f1063370a6.jpg",
+                "https://media.os.fressnapf.com/products-v2/3/2/f/7/32f73d5702749595b4a9ea7e210464b3c13c85ec_1368032_1_de_786b300d8e06411c837d9e0a6cf69d53.jpg",
+                "https://media.os.fressnapf.com/products-v2/f/1/d/d/f1dd34b7906735adffebc1104bce0fc56a2e97ff_1368032_2_de_c2cb2e2e540643a0b463f662cceb4d38.jpg",
+                "https://media.os.fressnapf.com/products-v2/0/6/2/3/0623015b64c4e64fbd80de2abc108465baf8a462_1368032_3_de_6f55f1cb7da74e0d99fcf4d9f18eb86a.jpg"
+            ],
+            "in_stock": null,
+            "categories": [
+                "Katze",
+                "Kratzmöbel",
+                "Kratzbäume"
+            ],
+            "source_url": "https://www.fressnapf.de/p/trixie-kletterleiter-zur-wandmontage-1368032/"
+        },
+        {
+            "name": "Max & Molly Multifunktionseine-Sailor S",
+            "price": null,
+            "currency": null,
+            "sku": "1871010",
+            "brand": "Max & Molly",
+            "description": "Maximale Flexibilität – durch vielseitige Funktionen und individuelle Einstellungsmöglichkeiten. Doppelter Halt – für mehr Kontrolle bei stark ziehenden Hunden. Drei gebürstete Ringe – zur flexiblen Anpassung der Leinenlänge.",
+            "images": [
+                "https://media.os.fressnapf.com/products-v2/d/7/c/9/d7c98fdda7bea222c378f42fc1375c0abf708fb6_1871010_0_de_369598ec7fc94ccfb6a71343f33da919.jpg",
+                "https://media.os.fressnapf.com/products-v2/e/6/d/f/e6df917747f7d8d4e3554e83c3be676cdbf5e72a_1871010_1_de_40561c5fc32a48e5ac0be7e4dfdc790b.jpg",
+                "https://media.os.fressnapf.com/products-v2/4/6/2/2/4622d50cbc440970b3aedcd035dd06befd545ce1_1871010_2_de_32e0d747d27a4722b9d6f0d704b0d6a6.jpg",
+                "https://media.os.fressnapf.com/products-v2/c/d/f/1/cdf1f0a09df686f339ef40e3b7a444ea016b0a1b_1871010_3_de_fb49ccaa04e34d21a7c889898f795b1c.jpg",
+                "https://media.os.fressnapf.com/products-v2/3/b/c/1/3bc11035d1d7b151279303cb8eab6a98d9a4982b_1871010_4_de_0bca8a1aa711473eab26e5f4244ffc28.jpg"
+            ],
+            "in_stock": null,
+            "categories": [],
+            "source_url": "https://www.fressnapf.de/p/max--molly-multifunktionseine-sailor-s-1871010/"
+        }
+    ]
+}
