@@ -29,6 +29,8 @@ class NeonRepository:
                 categories = p.get("categories", [])
                 images = p.get("images", [])
                 embedding = p.get("embedding")
+                if embedding and isinstance(embedding, list):
+                    embedding = str(embedding)
                 
                 await conn.execute("""
                     INSERT INTO products (
@@ -177,7 +179,7 @@ class NeonRepository:
             
             return [dict(r) for r in rows]
 
-    async def search_similar_global(self, embedding: List[float], limit: int = 10, min_price: float = None, max_price: float = None, brand: str = None, store: str = None) -> List[Dict]:
+    async def search_similar_global(self, query_text: str, embedding: List[float], limit: int = 10, min_price: float = None, max_price: float = None, brand: str = None, store: str = None, exact_keyword: str = None) -> List[Dict]:
         await self._init_pool()
         
         conditions = ["1=1"]
@@ -204,19 +206,92 @@ class NeonRepository:
             args.append(store)
             arg_idx += 1
             
+        if exact_keyword:
+            conditions.append(f"(name ILIKE ${arg_idx} OR sku ILIKE ${arg_idx} OR description ILIKE ${arg_idx})")
+            args.append(f"%{exact_keyword}%")
+            arg_idx += 1
+            
         where_clause = " AND ".join(conditions)
         
-        query = f"""
-            SELECT name, brand, source_url, price, site_domain, (1 - (embedding <=> $1::vector)) as similarity
+        vector_query = f"""
+            SELECT name, brand, sku, description, source_url, price, site_domain, (1 - (embedding <=> $1::vector)) as similarity
             FROM products
             WHERE {where_clause}
             ORDER BY embedding <=> $1::vector ASC
             LIMIT $2
         """
         
+        # 2. Exact Search Query based on query_text phrases
+        phrases = [p.strip() for p in query_text.split(",") if len(p.strip()) > 3]
+        
+        exact_results = []
+        if phrases:
+            exact_conditions = ["1=1"]
+            exact_args = [limit]
+            e_arg_idx = 2
+            
+            if min_price is not None:
+                exact_conditions.append(f"price >= ${e_arg_idx}")
+                exact_args.append(min_price)
+                e_arg_idx += 1
+                
+            if max_price is not None:
+                exact_conditions.append(f"price <= ${e_arg_idx}")
+                exact_args.append(max_price)
+                e_arg_idx += 1
+                
+            if brand:
+                exact_conditions.append(f"brand ILIKE ${e_arg_idx}")
+                exact_args.append(f"%{brand}%")
+                e_arg_idx += 1
+                
+            if store:
+                exact_conditions.append(f"site_domain = ${e_arg_idx}")
+                exact_args.append(store)
+                e_arg_idx += 1
+                
+            phrase_conds = []
+            for p in phrases:
+                phrase_conds.append(f"(name ILIKE ${e_arg_idx} OR brand ILIKE ${e_arg_idx} OR sku ILIKE ${e_arg_idx} OR description ILIKE ${e_arg_idx})")
+                exact_args.append(f"%{p}%")
+                e_arg_idx += 1
+            
+            exact_conditions.append("(" + " OR ".join(phrase_conds) + ")")
+            exact_where = " AND ".join(exact_conditions)
+            
+            exact_sql = f"""
+                SELECT name, brand, sku, description, source_url, price, site_domain, 1.0 as similarity
+                FROM products
+                WHERE {exact_where}
+                LIMIT $1
+            """
+            
+            async with self.pool.acquire() as conn:
+                try:
+                    exact_rows = await conn.fetch(exact_sql, *exact_args)
+                    exact_results = [dict(r) for r in exact_rows]
+                except Exception as e:
+                    print(f"[NeonRepo] Error in exact search: {e}")
+        
         async with self.pool.acquire() as conn:
-            rows = await conn.fetch(query, *args)
-            return [dict(r) for r in rows]
+            vector_rows = await conn.fetch(vector_query, *args)
+            vector_results = [dict(r) for r in vector_rows]
+            
+        # Merge results, removing duplicates based on source_url
+        seen_urls = set()
+        merged_results = []
+        
+        for r in exact_results:
+            if r['source_url'] not in seen_urls:
+                seen_urls.add(r['source_url'])
+                merged_results.append(r)
+                
+        for r in vector_results:
+            if r['source_url'] not in seen_urls:
+                seen_urls.add(r['source_url'])
+                merged_results.append(r)
+                
+        return merged_results[:limit]
 
     async def execute_readonly_sql(self, query: str) -> List[Dict]:
         """Ejecuta una consulta SQL de solo lectura de forma segura."""

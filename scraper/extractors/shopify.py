@@ -50,18 +50,22 @@ class ShopifyExtractor(BaseExtractor):
                         # Convertir modelo crudo Shopify a dict crudo normalizable
                         # Tomar el precio de la primera variante como default
                         price = 0.0
+                        skus = []
                         if sp.get("variants") and len(sp["variants"]) > 0:
                             price_str = sp["variants"][0].get("price", "0.0")
                             try:
                                 price = float(price_str)
                             except ValueError:
                                 price = 0.0
+                            
+                            skus = [str(v.get("sku")) for v in sp["variants"] if v.get("sku")]
                         
                         images = [img.get("src") for img in sp.get("images", []) if img.get("src")]
                         
                         raw_dict = {
                             "source_url": f"{self.fingerprint.base_url}/products/{sp.get('handle')}",
                             "name": sp.get("title", ""),
+                            "sku": ", ".join(skus) if skus else None,
                             "description": sp.get("body_html", ""),
                             "price": price,
                             "currency": "EUR", # Shopify API no siempre da la moneda en endpoint /products.json
@@ -108,62 +112,73 @@ class ShopifyExtractor(BaseExtractor):
 
         # Armar el batch
         batch_size = 20
-        translated_products = []
         
-        print(f"[ShopifyExtractor] Traduciendo {len(products)} productos al inglés...")
+        print(f"[ShopifyExtractor] Traduciendo {len(products)} productos al inglés en lotes concurrentes...")
         
-        for i in range(0, len(products), batch_size):
-            chunk = products[i:i+batch_size]
-            
-            # Payload mínimo
-            payload = []
-            for idx, p in enumerate(chunk):
-                payload.append({
-                    "id": idx,
-                    "name": p["name"],
-                    "brand": p["brand"],
-                    "description": clean_desc(p["description"]),
-                    "tags": p["tags"]
-                })
-                
-            prompt = f"""You are a translator. Translate the following JSON list of products to English.
+        chunks = [products[i:i+batch_size] for i in range(0, len(products), batch_size)]
+        
+        # Semáforo para no golpear la API demasiado rápido (ej. 5 peticiones simultáneas)
+        sem = asyncio.Semaphore(5)
+        
+        async def process_chunk(chunk_idx, chunk):
+            async with sem:
+                # Payload mínimo
+                payload = []
+                for idx, p in enumerate(chunk):
+                    payload.append({
+                        "id": idx,
+                        "name": p["name"],
+                        "brand": p["brand"],
+                        "description": clean_desc(p["description"]),
+                        "tags": p["tags"]
+                    })
+                    
+                prompt = f"""You are a translator. Translate the following JSON list of products to English.
 Only translate 'name', 'brand', 'description', and 'tags'. Keep the structure exactly the same.
 Return ONLY valid JSON array.
 
 {json.dumps(payload, ensure_ascii=False)}"""
 
-            try:
-                response = await client.chat.completions.create(
-                    model="gpt-4o-mini",
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=0.0
-                )
+                try:
+                    response = await client.chat.completions.create(
+                        model="gpt-4o-mini",
+                        messages=[{"role": "user", "content": prompt}],
+                        temperature=0.0
+                    )
+                    
+                    if hasattr(response, 'usage') and response.usage:
+                        if not hasattr(self, 'total_tokens_used'):
+                            self.total_tokens_used = 0
+                        self.total_tokens_used += response.usage.total_tokens
+                    
+                    res_text = response.choices[0].message.content.strip()
+                    if res_text.startswith("```json"): res_text = res_text[7:]
+                    if res_text.startswith("```"): res_text = res_text[3:]
+                    if res_text.endswith("```"): res_text = res_text[:-3]
+                    
+                    translated_chunk = json.loads(res_text.strip())
+                    
+                    # Merge back
+                    for t_item in translated_chunk:
+                        idx = t_item.get("id")
+                        if idx is not None and 0 <= idx < len(chunk):
+                            orig = chunk[idx]
+                            orig["name"] = t_item.get("name", orig["name"])
+                            orig["brand"] = t_item.get("brand", orig["brand"])
+                            orig["description"] = t_item.get("description", orig["description"])
+                            orig["tags"] = t_item.get("tags", orig["tags"])
+                            
+                except Exception as e:
+                    print(f"[ShopifyExtractor] Error traduciendo batch {chunk_idx}: {e}")
                 
-                if hasattr(response, 'usage') and response.usage:
-                    if not hasattr(self, 'total_tokens_used'):
-                        self.total_tokens_used = 0
-                    self.total_tokens_used += response.usage.total_tokens
-                
-                res_text = response.choices[0].message.content.strip()
-                if res_text.startswith("```json"): res_text = res_text[7:]
-                if res_text.startswith("```"): res_text = res_text[3:]
-                if res_text.endswith("```"): res_text = res_text[:-3]
-                
-                translated_chunk = json.loads(res_text.strip())
-                
-                # Merge back
-                for t_item in translated_chunk:
-                    idx = t_item.get("id")
-                    if idx is not None and 0 <= idx < len(chunk):
-                        orig = chunk[idx]
-                        orig["name"] = t_item.get("name", orig["name"])
-                        orig["brand"] = t_item.get("brand", orig["brand"])
-                        orig["description"] = t_item.get("description", orig["description"])
-                        orig["tags"] = t_item.get("tags", orig["tags"])
-                        
-            except Exception as e:
-                print(f"[ShopifyExtractor] Error traduciendo batch {i}: {e}")
-                
-            translated_products.extend(chunk)
+                print(f"[ShopifyExtractor] Batch {chunk_idx} finalizado.")
+                return chunk
+
+        # Ejecutar todos los chunks concurrentemente
+        tasks = [process_chunk(i, c) for i, c in enumerate(chunks)]
+        results = await asyncio.gather(*tasks)
+        
+        # Aplanar lista de listas
+        translated_products = [p for chunk in results for p in chunk]
             
         return translated_products

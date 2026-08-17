@@ -36,6 +36,9 @@ with st.sidebar:
     else:
         st.write("👤 Local Mode")
         
+    st.markdown("---")
+    selected_model = st.selectbox("Brain (Model)", ["gpt-4o-mini", "gpt-4o"], index=1)
+    
     if st.button("Clear History"):
         st.session_state.messages = [{"role": "assistant", "content": "Hello! Tell me what product you're looking for or which one you want to compare prices with competitors."}]
         st.rerun()
@@ -53,6 +56,11 @@ for message in st.session_state.messages:
                     st.markdown(f'<img src="{url}" width="200" style="border-radius: 8px;">', unsafe_allow_html=True)
         else:
             st.markdown(message["content"])
+            
+        if "metadata" in message:
+            meta = message["metadata"]
+            u = meta["tokens"]
+            st.caption(f"⚙️ **Model:** {meta['model']} | **Tokens:** {u['total_tokens']} (In: {u['prompt_tokens']} | Out: {u['completion_tokens']}) | **Cost:** ${meta['cost']:.6f} USD")
 
 # Input del usuario
 prompt_obj = st.chat_input("E.g. Royal Canin Mini Adult 8kg food...", accept_file=True, file_type=["png", "jpg", "jpeg"])
@@ -87,19 +95,27 @@ if prompt_obj:
                 historial_a_enviar = [m for m in st.session_state.messages if m["role"] in ["user", "assistant"]]
                 
                 # Usar el modo stream=True del agente
-                stream_generator = st.session_state.agent.process_chat(historial_a_enviar, stream=True)
+                stream_generator = st.session_state.agent.process_chat(historial_a_enviar, stream=True, model=selected_model)
                 
                 # st.write_stream consume el generador de OpenAI o nuestro generador custom
                 respuesta = st.write_stream(stream_generator)
                 
-                st.session_state.messages.append({"role": "assistant", "content": respuesta})
+                msg_data = {"role": "assistant", "content": respuesta}
                 
-                # Mostrar métricas de tokens y costo si están disponibles
+                # Guardar métricas de tokens y costo si están disponibles en el historial
                 if hasattr(st.session_state.agent, "last_usage") and st.session_state.agent.last_usage:
                     u = st.session_state.agent.last_usage
                     c = st.session_state.agent.last_cost
                     if u:
-                        st.caption(f"⚙️ **Tokens:** {u['total_tokens']} (In: {u['prompt_tokens']} | Out: {u['completion_tokens']}) | **Cost:** ${c:.6f} USD")
+                        model_name = getattr(st.session_state.agent, "last_model_used", "Unknown")
+                        msg_data["metadata"] = {
+                            "model": model_name,
+                            "tokens": u,
+                            "cost": c
+                        }
+                        st.caption(f"⚙️ **Model:** {model_name} | **Tokens:** {u['total_tokens']} (In: {u['prompt_tokens']} | Out: {u['completion_tokens']}) | **Cost:** ${c:.6f} USD")
+                        
+                st.session_state.messages.append(msg_data)
                 
             except Exception as e:
                 st.error(f"Internal Error: {e}")

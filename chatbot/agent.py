@@ -31,7 +31,11 @@ class ChatbotAgent:
                 "2. If the user asks to find specific products, compare prices, or find 'the cheapest' or 'the best' items (e.g. 'Find Royal Canin 2kg', 'What are the top 3 cheapest dog beds?'), ALWAYS use the `search_similar_products` tool. NEVER use SQL for product discovery, because categories and names are in multiple languages and SQL exact matching will fail.\n"
                 "\nCRITICAL RULES FOR SEARCHING PRODUCTS:\n"
                 "- When calling `search_similar_products`, you MUST provide a highly expanded `query`. Include synonyms, related terms, and translations (German and French) to ensure the vector semantic search captures the full meaning. Example: instead of 'dog bed', use 'dog bed, orthopedic cushion, sleeping mat, Hundebett, lit pour chien'.\n"
-                "- After receiving the results from `search_similar_products`, ANALYZE the products returned. The semantic search might return irrelevant products (like toys instead of beds) if the similarity is low. If the products returned do NOT match what the user requested, DO NOT show them. Instead, politely tell the user that we couldn't find exact matches in our catalog.\n"
+                "- After receiving the results from `search_similar_products`, YOU MUST ACT AS A SMART RE-RANKER AND FILTER. Read the `description`, `sku`, and `name` of each returned product VERY CAREFULLY.\n"
+                "- The database search is fuzzy (vector-based). It WILL return products that are only tangentially related if it can't find an exact match.\n"
+                "- Your job is to DISCARD any products that clearly do NOT match the user's intent (e.g., if they want a dog bed, and the result is a cat bed, discard it. If they want 10kg, and the result is 2kg, discard it).\n"
+                "- However, be smart about names: 'Dog Collar Signature' is the same as 'Signature Dog Collar' or 'Doco Dog Collar Signature'. Do not discard valid products just because the word order or brand prefix is different.\n"
+                "- Only show the user the products that are valid matches. If none of the returned products match, politely tell the user that we couldn't find matches in our catalog.\n"
                 "\nAlways reply in English unless the user explicitly requests another language. When returning products, use Markdown links for source_url."
             )
         }
@@ -61,6 +65,10 @@ class ChatbotAgent:
                                 "type": "string",
                                 "description": "Brand name filter (optional)"
                             },
+                            "exact_keyword": {
+                                "type": "string",
+                                "description": "Use this ONLY if the user is looking for a VERY specific product, code (SKU), or specific word (e.g. 'DCO002XS04', 'Signature'). This will force the database to only return products containing this exact string in their name, sku, or description. Use with caution as it restricts semantic search."
+                            },
                             "store": {
                                 "type": "string",
                                 "description": "Competitor store domain filter, e.g., 'fressnapf.de' (optional)"
@@ -89,7 +97,7 @@ class ChatbotAgent:
             }
         ]
 
-    async def _buscar_async(self, query: str, min_price: float = None, max_price: float = None, brand: str = None, store: str = None) -> str:
+    async def _buscar_async(self, query: str, min_price: float = None, max_price: float = None, brand: str = None, store: str = None, exact_keyword: str = None) -> str:
         """Internal async function to interact with DB."""
         repo = NeonRepository()
         embed_gen = EmbeddingGenerator()
@@ -103,14 +111,16 @@ class ChatbotAgent:
                 return json.dumps({"error": "Could not generate embedding for the query."})
                 
             safe_brand = brand.encode("ascii", "replace").decode("ascii") if brand else None
-            print(f"[Agent] Searching in NeonDB with filters (min_price={min_price}, max_price={max_price}, brand={safe_brand}, store={store})...")
+            print(f"[Agent] Searching in NeonDB with filters (min_price={min_price}, max_price={max_price}, brand={safe_brand}, store={store}, exact_keyword={exact_keyword})...")
             resultados = await repo.search_similar_global(
+                query_text=query,
                 embedding=vector, 
-                limit=8,
+                limit=15,
                 min_price=min_price,
                 max_price=max_price,
                 brand=brand,
-                store=store
+                store=store,
+                exact_keyword=exact_keyword
             )
             
             cleaned_results = []
@@ -118,6 +128,8 @@ class ChatbotAgent:
                 cleaned_results.append({
                     "name": r.get("name"),
                     "brand": r.get("brand"),
+                    "sku": r.get("sku"),
+                    "description": str(r.get("description", ""))[:600] + "..." if r.get("description") else "",
                     "price": float(r.get("price")) if r.get("price") else None,
                     "store_domain": r.get("site_domain"),
                     "url": r.get("source_url"),
@@ -128,12 +140,12 @@ class ChatbotAgent:
         finally:
             await repo.close()
 
-    def search_similar_products(self, query: str, min_price: float = None, max_price: float = None, brand: str = None, store: str = None) -> str:
+    def search_similar_products(self, query: str, min_price: float = None, max_price: float = None, brand: str = None, store: str = None, exact_keyword: str = None) -> str:
         """Sync wrapper to be called by the tool."""
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
         try:
-            return loop.run_until_complete(self._buscar_async(query, min_price, max_price, brand, store))
+            return loop.run_until_complete(self._buscar_async(query, min_price, max_price, brand, store, exact_keyword))
         finally:
             loop.close()
 
@@ -170,12 +182,13 @@ class ChatbotAgent:
         finally:
             loop.close()
 
-    def process_chat(self, messages: List[Dict[str, Any]], stream: bool = False):
+    def process_chat(self, messages: List[Dict[str, Any]], stream: bool = False, model: str = "gpt-4o"):
         full_messages = [self.system_prompt] + messages
+        self.last_model_used = model
         
-        print("[Agent] Querying OpenAI (gpt-4o-mini)...")
+        print(f"[Agent] Querying OpenAI ({model})...")
         response = self.client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=model,
             messages=full_messages,
             tools=self.tools,
             tool_choice="auto",
@@ -198,8 +211,9 @@ class ChatbotAgent:
                     max_price = args.get("max_price")
                     brand = args.get("brand")
                     store = args.get("store")
+                    exact_keyword = args.get("exact_keyword")
                     
-                    function_result = self.search_similar_products(query, min_price, max_price, brand, store)
+                    function_result = self.search_similar_products(query, min_price, max_price, brand, store, exact_keyword)
                     
                     full_messages.append({
                         "tool_call_id": tool_call.id,
@@ -226,7 +240,7 @@ class ChatbotAgent:
                     self.last_usage = None
                     self.last_cost = 0.0
                     stream_obj = self.client.chat.completions.create(
-                        model="gpt-4o-mini",
+                        model=model,
                         messages=full_messages,
                         stream=True,
                         stream_options={"include_usage": True}
@@ -238,14 +252,18 @@ class ChatbotAgent:
                                 "completion_tokens": chunk.usage.completion_tokens,
                                 "total_tokens": chunk.usage.total_tokens
                             }
-                            # pricing for gpt-4o-mini is $0.150 / 1M input tokens and $0.600 / 1M output tokens
-                            self.last_cost = (chunk.usage.prompt_tokens * 0.150 / 1000000) + (chunk.usage.completion_tokens * 0.600 / 1000000)
+                            # Calculate cost based on model
+                            if model == "gpt-4o-mini":
+                                self.last_cost = (chunk.usage.prompt_tokens * 0.150 / 1000000) + (chunk.usage.completion_tokens * 0.600 / 1000000)
+                            else:
+                                # gpt-4o pricing: $5.00 / 1M input, $15.00 / 1M output
+                                self.last_cost = (chunk.usage.prompt_tokens * 5.00 / 1000000) + (chunk.usage.completion_tokens * 15.00 / 1000000)
                         if chunk.choices and chunk.choices[0].delta.content:
                             yield chunk.choices[0].delta.content
                 return stream_wrapper()
             else:
                 resp = self.client.chat.completions.create(
-                    model="gpt-4o-mini",
+                    model=model,
                     messages=full_messages,
                     stream=False
                 )
