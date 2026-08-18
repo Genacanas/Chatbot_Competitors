@@ -43,79 +43,160 @@ with st.sidebar:
         st.session_state.messages = [{"role": "assistant", "content": "Hello! Tell me what product you're looking for or which one you want to compare prices with competitors."}]
         st.rerun()
 
-# Mostrar historial de mensajes
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        if isinstance(message["content"], list):
-            for item in message["content"]:
-                if item["type"] == "text":
-                    st.markdown(item["text"])
-                elif item["type"] == "image_url":
-                    # Extraer base64 y mostrar imagen
-                    url = item["image_url"]["url"]
-                    st.markdown(f'<img src="{url}" width="200" style="border-radius: 8px;">', unsafe_allow_html=True)
-        else:
-            st.markdown(message["content"])
-            
-        if "metadata" in message:
-            meta = message["metadata"]
-            u = meta["tokens"]
-            st.caption(f"⚙️ **Model:** {meta['model']} | **Tokens:** {u['total_tokens']} (In: {u['prompt_tokens']} | Out: {u['completion_tokens']}) | **Cost:** ${meta['cost']:.6f} USD")
+tab1, tab2 = st.tabs(["💬 AI Advisor", "📊 Database Explorer"])
 
-# Input del usuario
-prompt_obj = st.chat_input("E.g. Royal Canin Mini Adult 8kg food...", accept_file=True, file_type=["png", "jpg", "jpeg"])
-if prompt_obj:
-    text_prompt = prompt_obj.text if prompt_obj.text else "Find products similar to this image"
+with tab1:
+    # Mostrar historial de mensajes
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            if isinstance(message["content"], list):
+                for item in message["content"]:
+                    if item["type"] == "text":
+                        st.markdown(item["text"])
+                    elif item["type"] == "image_url":
+                        # Extraer base64 y mostrar imagen
+                        url = item["image_url"]["url"]
+                        st.markdown(f'<img src="{url}" width="200" style="border-radius: 8px;">', unsafe_allow_html=True)
+            else:
+                st.markdown(message["content"])
+                
+            if "metadata" in message:
+                meta = message["metadata"]
+                u = meta["tokens"]
+                st.caption(f"⚙️ **Model:** {meta['model']} | **Tokens:** {u['total_tokens']} (In: {u['prompt_tokens']} | Out: {u['completion_tokens']}) | **Cost:** ${meta['cost']:.6f} USD")
+
+    # Input del usuario
+    prompt_obj = st.chat_input("E.g. Royal Canin Mini Adult 8kg food...", accept_file=True, file_type=["png", "jpg", "jpeg"])
+    if prompt_obj:
+        text_prompt = prompt_obj.text if prompt_obj.text else "Find products similar to this image"
+        
+        if prompt_obj.files:
+            uploaded_img = prompt_obj.files[0]
+            import base64
+            bytes_data = uploaded_img.getvalue()
+            base64_img = base64.b64encode(bytes_data).decode("utf-8")
+            img_type = uploaded_img.type
+            
+            user_content = [
+                {"type": "text", "text": text_prompt},
+                {"type": "image_url", "image_url": {"url": f"data:{img_type};base64,{base64_img}"}}
+            ]
+            
+            st.session_state.messages.append({"role": "user", "content": user_content})
+            with st.chat_message("user"):
+                st.markdown(text_prompt)
+                st.markdown(f'<img src="data:{img_type};base64,{base64_img}" width="200" style="border-radius: 8px;">', unsafe_allow_html=True)
+        else:
+            st.session_state.messages.append({"role": "user", "content": text_prompt})
+            with st.chat_message("user"):
+                st.markdown(text_prompt)
+            
+        # Llamar al agente
+        with st.chat_message("assistant"):
+            with st.spinner("Searching database and analyzing competitors..."):
+                try:
+                    historial_a_enviar = [m for m in st.session_state.messages if m["role"] in ["user", "assistant"]]
+                    
+                    # Usar el modo stream=True del agente
+                    stream_generator = st.session_state.agent.process_chat(historial_a_enviar, stream=True, model=selected_model)
+                    
+                    # st.write_stream consume el generador de OpenAI o nuestro generador custom
+                    respuesta = st.write_stream(stream_generator)
+                    
+                    msg_data = {"role": "assistant", "content": respuesta}
+                    
+                    # Guardar métricas de tokens y costo si están disponibles en el historial
+                    if hasattr(st.session_state.agent, "last_usage") and st.session_state.agent.last_usage:
+                        u = st.session_state.agent.last_usage
+                        c = st.session_state.agent.last_cost
+                        if u:
+                            model_name = getattr(st.session_state.agent, "last_model_used", "Unknown")
+                            msg_data["metadata"] = {
+                                "model": model_name,
+                                "tokens": u,
+                                "cost": c
+                            }
+                            st.caption(f"⚙️ **Model:** {model_name} | **Tokens:** {u['total_tokens']} (In: {u['prompt_tokens']} | Out: {u['completion_tokens']}) | **Cost:** ${c:.6f} USD")
+                            
+                    st.session_state.messages.append(msg_data)
+                    
+                except Exception as e:
+                    st.error(f"Internal Error: {e}")
+
+with tab2:
+    st.header("🗄️ Database Explorer")
+    st.markdown("Browse scraped competitor websites and audit the extracted parameters.")
     
-    if prompt_obj.files:
-        uploaded_img = prompt_obj.files[0]
-        import base64
-        bytes_data = uploaded_img.getvalue()
-        base64_img = base64.b64encode(bytes_data).decode("utf-8")
-        img_type = uploaded_img.type
+    # We load data inside an async function since Streamlit is sync but our repo is async
+    from scraper.repositories.neon_repo import NeonRepository
+    
+    @st.cache_data(ttl=60)
+    def fetch_domains():
+        repo = NeonRepository()
+        return asyncio.run(repo.get_scraped_domains())
         
-        user_content = [
-            {"type": "text", "text": text_prompt},
-            {"type": "image_url", "image_url": {"url": f"data:{img_type};base64,{base64_img}"}}
-        ]
+    @st.cache_data(ttl=60)
+    def fetch_stats(domain):
+        repo = NeonRepository()
+        return asyncio.run(repo.get_domain_stats(domain))
         
-        st.session_state.messages.append({"role": "user", "content": user_content})
-        with st.chat_message("user"):
-            st.markdown(text_prompt)
-            st.markdown(f'<img src="data:{img_type};base64,{base64_img}" width="200" style="border-radius: 8px;">', unsafe_allow_html=True)
-    else:
-        st.session_state.messages.append({"role": "user", "content": text_prompt})
-        with st.chat_message("user"):
-            st.markdown(text_prompt)
+    def fetch_products(domain, limit, offset):
+        repo = NeonRepository()
+        return asyncio.run(repo.get_products_paginated(domain, limit, offset))
         
-    # Llamar al agente
-    with st.chat_message("assistant"):
-        with st.spinner("Searching database and analyzing competitors..."):
-            try:
-                historial_a_enviar = [m for m in st.session_state.messages if m["role"] in ["user", "assistant"]]
+    try:
+        domains = fetch_domains()
+        if not domains:
+            st.info("No data in the database yet. Scrape some websites first!")
+        else:
+            selected_domain = st.selectbox("Select Competitor Website", domains)
+            
+            if selected_domain:
+                stats = fetch_stats(selected_domain)
                 
-                # Usar el modo stream=True del agente
-                stream_generator = st.session_state.agent.process_chat(historial_a_enviar, stream=True, model=selected_model)
+                col1, col2 = st.columns(2)
+                col1.metric("Total Products Scraped", stats["total_products"])
+                if stats["last_scraped"]:
+                    col2.metric("Last Scraped At", stats["last_scraped"].strftime("%Y-%m-%d %H:%M"))
+                    
+                st.markdown("### Scraped Catalog")
                 
-                # st.write_stream consume el generador de OpenAI o nuestro generador custom
-                respuesta = st.write_stream(stream_generator)
+                # Simple pagination state
+                if "page" not in st.session_state:
+                    st.session_state.page = 0
                 
-                msg_data = {"role": "assistant", "content": respuesta}
+                page_size = 50
+                products = fetch_products(selected_domain, limit=page_size, offset=st.session_state.page * page_size)
                 
-                # Guardar métricas de tokens y costo si están disponibles en el historial
-                if hasattr(st.session_state.agent, "last_usage") and st.session_state.agent.last_usage:
-                    u = st.session_state.agent.last_usage
-                    c = st.session_state.agent.last_cost
-                    if u:
-                        model_name = getattr(st.session_state.agent, "last_model_used", "Unknown")
-                        msg_data["metadata"] = {
-                            "model": model_name,
-                            "tokens": u,
-                            "cost": c
-                        }
-                        st.caption(f"⚙️ **Model:** {model_name} | **Tokens:** {u['total_tokens']} (In: {u['prompt_tokens']} | Out: {u['completion_tokens']}) | **Cost:** ${c:.6f} USD")
-                        
-                st.session_state.messages.append(msg_data)
-                
-            except Exception as e:
-                st.error(f"Internal Error: {e}")
+                import pandas as pd
+                if products:
+                    df = pd.DataFrame(products)
+                    # Show a simplified table
+                    st.dataframe(df[["name", "brand", "price", "currency", "sku"]], use_container_width=True)
+                    
+                    st.markdown("### Parameter Audit")
+                    st.markdown("Select a product below to inspect the full raw parameters we saved:")
+                    
+                    product_names = [p["name"] for p in products]
+                    selected_prod_name = st.selectbox("Select product to audit", product_names)
+                    
+                    if selected_prod_name:
+                        prod = next((p for p in products if p["name"] == selected_prod_name), None)
+                        if prod:
+                            with st.expander(f"Raw Data for: {prod['name']}", expanded=True):
+                                st.json(prod)
+                                
+                    # Pagination controls
+                    col1, col2, col3 = st.columns([1, 2, 1])
+                    with col1:
+                        if st.button("⬅️ Previous") and st.session_state.page > 0:
+                            st.session_state.page -= 1
+                            st.rerun()
+                    with col2:
+                        st.write(f"Page {st.session_state.page + 1}")
+                    with col3:
+                        if st.button("Next ➡️") and len(products) == page_size:
+                            st.session_state.page += 1
+                            st.rerun()
+    except Exception as e:
+        st.error(f"Error loading database: {e}")

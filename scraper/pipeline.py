@@ -68,7 +68,12 @@ class ScraperPipeline:
                     pattern = await analyzer.derive_pattern(domain, raw_urls)
                     if pattern:
                         urls_to_queue = analyzer.filter_urls(raw_urls, pattern)
-                        await repo.update_job_pattern(job_id, pattern, "llm")
+                        if not urls_to_queue:
+                            print("[Pipeline] El patrón LLM filtró todo. Fallback a heurística estándar.")
+                            urls_to_queue = [u for u in raw_urls if SitemapCrawler._is_product_url_heuristic(u)]
+                            await repo.update_job_pattern(job_id, "HEURISTIC (LLM Fallback)", "heuristic")
+                        else:
+                            await repo.update_job_pattern(job_id, pattern, "llm")
                     else:
                         print("[Pipeline] Fallback a heurística estándar.")
                         urls_to_queue = [u for u in raw_urls if SitemapCrawler._is_product_url_heuristic(u)]

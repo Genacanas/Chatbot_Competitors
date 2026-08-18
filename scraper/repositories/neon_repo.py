@@ -29,8 +29,6 @@ class NeonRepository:
                 categories = p.get("categories", [])
                 images = p.get("images", [])
                 embedding = p.get("embedding")
-                if embedding and isinstance(embedding, list):
-                    embedding = str(embedding)
                 
                 await conn.execute("""
                     INSERT INTO products (
@@ -53,7 +51,32 @@ class NeonRepository:
                 
         print(f"[NeonRepository] Guardados/Actualizados {len(products)} productos para {domain}.")
 
-    async def get_resumable_job(self, domain: str) -> Dict | None:
+    async def get_scraped_domains(self) -> list:
+        await self._init_pool()
+        async with self.pool.acquire() as conn:
+            rows = await conn.fetch("SELECT DISTINCT site_domain FROM products ORDER BY site_domain")
+            return [r['site_domain'] for r in rows]
+            
+    async def get_domain_stats(self, domain: str) -> dict:
+        await self._init_pool()
+        async with self.pool.acquire() as conn:
+            count = await conn.fetchval("SELECT COUNT(*) FROM products WHERE site_domain = $1", domain)
+            last_scraped = await conn.fetchval("SELECT MAX(scraped_at) FROM products WHERE site_domain = $1", domain)
+            return {"total_products": count, "last_scraped": last_scraped}
+            
+    async def get_products_paginated(self, domain: str, limit: int = 50, offset: int = 0) -> list:
+        await self._init_pool()
+        async with self.pool.acquire() as conn:
+            rows = await conn.fetch("""
+                SELECT id, name, brand, sku, price, original_price, currency, source_url, description, categories, images, scraped_at
+                FROM products 
+                WHERE site_domain = $1 
+                ORDER BY scraped_at DESC
+                LIMIT $2 OFFSET $3
+            """, domain, limit, offset)
+            return [dict(r) for r in rows]
+
+    async def get_resumable_job(self, domain: str) -> dict | None:
         await self._init_pool()
         async with self.pool.acquire() as conn:
             row = await conn.fetchrow("""

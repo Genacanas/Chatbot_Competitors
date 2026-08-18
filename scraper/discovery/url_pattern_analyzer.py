@@ -5,13 +5,10 @@ from openai import AsyncOpenAI
 
 class UrlPatternAnalyzer:
     def __init__(self):
-        api_key = os.getenv("KIE_API_KEY")
+        api_key = os.getenv("OPENAI_API_KEY")
         if api_key:
-            self.client = AsyncOpenAI(
-                api_key=api_key,
-                base_url="https://api.kie.ai/gemini-2.5-flash/v1",
-            )
-            self.model = "gemini-2.5-flash"
+            self.client = AsyncOpenAI(api_key=api_key)
+            self.model = "gpt-4o"
         else:
             self.client = None
             
